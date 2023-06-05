@@ -30,7 +30,7 @@ toc:
           label: Confidential computing on IBM LinuxONE/zSystems
           topics:
           - topic: s390x/hyper-protect-overview.md
-            navtitle: Hyper Protect on s390x architecture<staging>
+            navtitle: Hyper Protect on s390x architecture
 
   - navgroup: 
       id: tutorial
