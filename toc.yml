@@ -1,0 +1,63 @@
+toc:
+  properties:
+    subcollection: confidential-computing
+    category: solution_docs
+    industry: Technology
+    compliance: SOC
+    audience: solution
+    content-type: solution
+    href: /docs/confidential-computing?topic=confidential-computing-about
+    product-page: https://www.ibm.com/cloud/confidential-computing
+    path: confidential-computing
+    description: Confidential computing protects applications and data while in use by keeping them encrypted all the time, even in memory, and only decrypting inside the processor.
+
+  entries:
+  - navgroup:
+      id: overview
+      topics:
+      - about.md
+      - topicgroup: 
+          label: Best practices and requirements
+          topics:
+          - best-practices/best-practices-vs.md
+      - release-notes.md
+
+  - navgroup:
+      id: architecture
+      topics:
+      - reference-architecture-overview.md
+      - topicgroup: 
+          label: Confidential computing on IBM LinuxONE/zSystems
+          topics:
+          - topic: s390x/hyper-protect-overview.md
+            navtitle: Hyper Protect on s390x architecture<staging>
+
+  - navgroup: 
+      id: tutorial
+      topics: 
+      - topicgroup:
+          label: Protecting and isolating the application and memory
+          topics: 
+          - topicgroup: 
+              label: Deploying an application on Hyper Protect Virtual Server for VPC
+              topics:
+              - s390x/tutorials/paynow-on-hpvs-tutorial.md
+
+  - navgroup:
+      id: howto
+      topics:
+      - topicgroup:
+          label: General deployment and configuration information
+          topics: 
+          - shared/shared-deployment-overview.md
+
+  - navgroup:
+      id: reference
+      topics: 
+      - adopting-cc.md
+
+  - navgroup:
+      id: help
+      topics: 
+      - faqs.md
+      - sitemap.md

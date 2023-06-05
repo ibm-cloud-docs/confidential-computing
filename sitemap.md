@@ -19,3 +19,5 @@ subcollection: framework-financial-services
 Find what you are looking for in the topics that are available for Confidential Computing on IBM Cloud.
 {: shortdesc}
 
+
+
