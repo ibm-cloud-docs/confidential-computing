@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-06-05"
+lastupdated: "2023-06-06"
 
 keywords: 
 
@@ -24,6 +24,6 @@ The reference architecture overview provides the supported architectures that ca
 |--------------- | --------------- |
 | s390x  | Descriptions and links |
 | Intel TDX | Descriptions and links |
-
+{: caption="Table 1. Reference architectures for the Confidential Computing" caption-side="top"}
 
 

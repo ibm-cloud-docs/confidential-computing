@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-06-05"
+lastupdated: "2023-06-06"
 
 keywords: 
 
@@ -16,6 +16,7 @@ subcollection: framework-financial-services
 
 # FAQs for Confidential Computing
 {: #faqs-cc}
+
 
 
 Answers to common questions about Confidential Computing on IBM Cloud.
