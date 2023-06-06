@@ -20,7 +20,8 @@ toc:
       - topicgroup: 
           label: Best practices and requirements
           topics:
-          - best-practices/best-practices-vs.md
+          - best-practices/best-practices-vsi.md
+          - best-practices/best-practices-container.md
       - release-notes.md
 
   - navgroup:
@@ -39,10 +40,8 @@ toc:
       - topicgroup:
           label: Protecting and isolating the application and memory
           topics: 
-          - topicgroup: 
-              label: Deploying an application on Hyper Protect Virtual Server for VPC
-              topics:
-              - s390x/tutorials/paynow-on-hpvs-tutorial.md
+          - topic: s390x/tutorials/paynow-on-hpvs-tutorial.md
+            navtitle: Deploying your multi-container application for confidential computing
 
   - navgroup:
       id: howto

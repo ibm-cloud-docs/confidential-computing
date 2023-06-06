@@ -37,6 +37,8 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Best practices and requirements for virtual servers](/docs/confidential-computing?topic=confidential-computing-best-practices#best-practices)
 
+[Best practices and requirements for containers](/docs/confidential-computing?topic=confidential-computing-best-practices#best-practices)
+
 
 ## Release notes
 {: #sitemap_release_notes}
@@ -65,12 +67,7 @@ Find what you are looking for in the topics that are available for Confidential 
 {: #sitemap_protecting_and_isolating_the_application_and_memory}
 
 
-
-### Deploying an application on Hyper Protect Virtual Server for VPC
-{: #sitemap_deploying_an_application_on_hyper_protect_virtual_server_for_vpc}
-
-
-[Deplying a monolithic application for Confidential Computing](/docs/confidential-computing?topic=confidential-computing-paynow-on-hpvs#paynow-on-hpvs)
+[Deploying your multi-container application for confidential computing](/docs/confidential-computing?topic=confidential-computing-paynow-on-hpvs#paynow-on-hpvs)
 
 
 ## General deployment and configuration information
