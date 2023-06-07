@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-06-06"
+lastupdated: "2023-06-07"
 
 keywords: 
 
@@ -12,7 +12,7 @@ subcollection: confidential-computing
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Best practices and requirements for virtual servers
+# Best practices and requirements for confidential virtual servers
 {: #best-practices}
 
 

@@ -35,9 +35,7 @@ Find what you are looking for in the topics that are available for Confidential 
 {: #sitemap_best_practices_and_requirements}
 
 
-[Best practices and requirements for virtual servers](/docs/confidential-computing?topic=confidential-computing-best-practices#best-practices)
-
-[Best practices and requirements for containers](/docs/confidential-computing?topic=confidential-computing-best-practices#best-practices)
+[Best practices and requirements for confidential virtual servers](/docs/confidential-computing?topic=confidential-computing-best-practices#best-practices)
 
 
 ## Release notes

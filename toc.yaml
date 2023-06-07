@@ -21,9 +21,7 @@ toc:
           label: Best practices and requirements
           topics:
           - topic: best-practices/best-practices-vsi.md
-          - navtitle: Best practices and requirements for virtual servers
-          - topic: best-practices/best-practices-container.md
-          - navtitle: Best practices and requirements for containers
+          - topic: best-practices/best-practices-containers.md
       - release-notes.md
 
   - navgroup:

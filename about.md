@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-06-06"
+lastupdated: "2023-06-07"
 
 keywords: 
 
@@ -23,7 +23,7 @@ Confidential computing (CC) protects applications and data while in use by keepi
 
 ![Secure Exuection for Linux](images/secure-execution.png){: caption="Figure 1. Secure Execution for Linux" caption-side="bottom"}
 
-At its core, a Secure Execution provides a KVM-based virtual machine that is fully isolated and protected from the hypervisor with encryption keys that only the IBM s390x architecture-based hardware and firmware have access to.
+At its core, a Secure Execution provides a KVM-based virtual machine, also known as Hyper Protect Container Runtime, that is fully isolated and protected from the hypervisor with encryption keys that only the IBM s390x architecture-based hardware and firmware have access to.
 
 In practice, an encrypted Linux image is created using the host public key and a customer-specific key. Since the encryption keys are stored on the IBM s390x architecture-based hardware and firmware, the encrypted image can only be executed in a virtual machine on the host(s) it has been prepared for, and the image can't be decrypted or tampered with outside of the designated host(s). In addition, your unencrypted virtual machine memory cannot be accessed by the host operating system either.
 
