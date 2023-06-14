@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-06-07"
+lastupdated: "2023-06-14"
 
 keywords: 
 
@@ -27,7 +27,7 @@ At its core, a Secure Execution provides a KVM-based virtual machine, also known
 
 In practice, an encrypted Linux image is created using the host public key and a customer-specific key. Since the encryption keys are stored on the IBM s390x architecture-based hardware and firmware, the encrypted image can only be executed in a virtual machine on the host(s) it has been prepared for, and the image can't be decrypted or tampered with outside of the designated host(s). In addition, your unencrypted virtual machine memory cannot be accessed by the host operating system either.
 
-Applications are then run inside of that virtual machine, allowing the owner of the application to focus on just disk and network data encryption, both of which can be easily handled in userland.
+Cloud native applications are then run inside of that virtual machine, allowing the owner of the application to focus on just disk and network data encryption, both of which can be easily handled in userland.
 
 
  

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-06-07"
+lastupdated: "2023-06-14"
 
 keywords: 
 
@@ -65,7 +65,7 @@ Find what you are looking for in the topics that are available for Confidential 
 {: #sitemap_protecting_and_isolating_the_application_and_memory}
 
 
-[Deploying your multi-container application for confidential computing](/docs/confidential-computing?topic=confidential-computing-paynow-on-hpvs#paynow-on-hpvs)
+[Deploying a single container with docker-compose for confidential computing](/docs/confidential-computing?topic=confidential-computing-paynow-on-hpvs#paynow-on-hpvs)
 
 
 ## General deployment and configuration information

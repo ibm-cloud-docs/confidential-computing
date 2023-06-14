@@ -12,9 +12,9 @@ subcollection: confidential-computing
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Deplying a single container with docker-compose for Confidential Computing
+# Deplying multiple containers as a pod for Confidential Computing
 {: #paynow-on-hpvs}
 
-Use `docker-compose.yml` file and deploy the app into the HPVS instance on IBM Cloud.
+Deploying your multi-container apps as a pod to HPVS for confidential computing.
 
 
