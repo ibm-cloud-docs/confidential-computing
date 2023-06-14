@@ -60,6 +60,10 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Hyper Protect on s390x architecture](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
 
+[Hyper Protect Container Runtime for virtual servers](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
+
+[Hyper Protect containers for Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
+
 
 ## Protecting and isolating the application and memory
 {: #sitemap_protecting_and_isolating_the_application_and_memory}
