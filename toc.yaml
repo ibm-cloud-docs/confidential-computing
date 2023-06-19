@@ -20,7 +20,7 @@ toc:
           label: Best practices and requirements
           topics:
           - topic: best-practices/best-practices-vsi.md
-          - topic: best-practices/best-practices-containers.md
+          - topic: best-practices/best-practices-container.md
       - release-notes.md
   - navgroup:
       id: architecture
@@ -33,8 +33,8 @@ toc:
             navtitle: Hyper Protect on s390x architecture
           - topic: s390x/hyper-protect-runtime.md
             navtitle: Hyper Protect Container Runtime for virtual servers
-          - topic: s390x/hyper-protect-container.md
-            navtitle: Hyper Protect containers for Kubernetes
+          - topic: s390x/hyper-protect-addon.md
+            navtitle: Hyper Protect Managed add-on for Kubernetes 
   - navgroup: 
       id: tutorial
       topics: 

@@ -43,6 +43,8 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Best practices and requirements for confidential virtual servers](/docs/confidential-computing?topic=confidential-computing-best-practices#best-practices)
 
+[Best practices and requirements for confidential containers](/docs/confidential-computing?topic=confidential-computing-best-practices#best-practices)
+
 
 ## Release notes
 {: #sitemap_release_notes}
@@ -69,6 +71,8 @@ Find what you are looking for in the topics that are available for Confidential 
 * [About Secure Execution for Linux](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#about-secure-execution-for-linux)
 
 [Hyper Protect Container Runtime for virtual servers](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
+
+[Hyper Protect Managed add-on for Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
 
 
 ## Protecting and isolating the application and memory
