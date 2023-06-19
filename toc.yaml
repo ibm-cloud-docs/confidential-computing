@@ -27,7 +27,7 @@ toc:
       topics:
       - reference-architecture-overview.md
       - topicgroup: 
-          label: Confidential computing on IBM LinuxONE/zSystems
+          label: Confidential computing on IBM z or LinuxONE
           topics:
           - topic: s390x/hyper-protect-overview.md
             navtitle: Hyper Protect on s390x architecture

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-06-14"
+lastupdated: "2023-06-19"
 
 keywords: 
 
@@ -30,6 +30,12 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Getting started with Confidential Computing](/docs/confidential-computing?topic=confidential-computing-about#about)
 
+* [IBM's confidential computing strategy](/docs/confidential-computing?topic=confidential-computing-about#ibms-confidential-computing-strategy)
+
+* [Personas in the confidential computing](/docs/confidential-computing?topic=confidential-computing-about#personas-in-the-confidential-computing)
+
+* [](/docs/confidential-computing?topic=confidential-computing-about#)
+
 
 ## Best practices and requirements
 {: #sitemap_best_practices_and_requirements}
@@ -54,11 +60,13 @@ Find what you are looking for in the topics that are available for Confidential 
 [Reference architecture overview](/docs/confidential-computing?topic=confidential-computing-reference-architecture-overview#reference-architecture-overview)
 
 
-## Confidential computing on IBM LinuxONE/zSystems
-{: #sitemap_confidential_computing_on_ibm_linuxonezsystems}
+## Confidential computing on IBM z or LinuxONE
+{: #sitemap_confidential_computing_on_ibm_z_or_linuxone}
 
 
 [Hyper Protect on s390x architecture](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
+
+* [About Secure Execution for Linux](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#about-secure-execution-for-linux)
 
 [Hyper Protect Container Runtime for virtual servers](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
 
