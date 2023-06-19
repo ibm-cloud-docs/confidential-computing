@@ -33,7 +33,7 @@ toc:
             navtitle: Hyper Protect on s390x architecture
           - topic: s390x/hyper-protect-runtime.md
             navtitle: Hyper Protect Container Runtime for virtual servers
-          - topic: s390x/hyper-protect-containers.md
+          - topic: s390x/hyper-protect-container.md
             navtitle: Hyper Protect containers for Kubernetes
   - navgroup: 
       id: tutorial

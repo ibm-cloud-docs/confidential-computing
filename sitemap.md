@@ -70,14 +70,14 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Hyper Protect Container Runtime for virtual servers](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
 
-[Hyper Protect containers for Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
-
 
 ## Protecting and isolating the application and memory
 {: #sitemap_protecting_and_isolating_the_application_and_memory}
 
 
 [Deploying a single container with docker-compose for confidential computing](/docs/confidential-computing?topic=confidential-computing-paynow-on-hpvs#paynow-on-hpvs)
+
+[Deploying multiple containers as a pod for confidential computing](/docs/confidential-computing?topic=confidential-computing-paynow-on-hpvs#paynow-on-hpvs)
 
 
 ## General deployment and configuration information
