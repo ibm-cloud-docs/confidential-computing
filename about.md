@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-06-19"
+lastupdated: "2023-06-20"
 
 keywords: 
 
@@ -59,7 +59,8 @@ When considering personas, we start with the view that the responsibility for de
   This may be the same persona as the Container Image Provider, but the workload may also combine container images from different sources. The workload provider persona defines the container(s) and environment requirements for the solution to be deployed. There is no trust given to allow any other persona to change the container images being used to provide the workload or to redefine the environment requirements specified by the workload provider.
 
 - **Workload Deployer Persona**
-  This persona is responsible for deploying the workload using the (cloud) infrastructure available. The Workload Provider provides the encrypted workload contract section and identifies and communicates to the Workload Deployer the environment required to provide the workload to an end user. This allows the Workload Deployer to supplement the definition provided by the workload provider with instance/environment specific information (logging, storage etc). The workload deployer is responsible for the service availability. They
+  This persona is responsible for deploying the workload using the (cloud) infrastructure available. The Workload Provider provides the encrypted workload contract section and identifies and communicates to the Workload Deployer the environment required to provide the workload to an end user. This allows the Workload Deployer to supplement the definition provided by the workload provider with instance/environment specific information (logging, storage etc). 
+  The workload deployer is responsible for the service availability. They
     * can control the networking, compute and storage resources made available to instance - can influence network traffic in and out of a provided workload
     * cannot change the workload to be deployed
     * cannot change the Workload Provider’ environment expectations.
