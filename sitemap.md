@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-06-19"
+lastupdated: "2023-06-20"
 
 keywords: 
 
@@ -33,8 +33,6 @@ Find what you are looking for in the topics that are available for Confidential 
 * [IBM's confidential computing strategy](/docs/confidential-computing?topic=confidential-computing-about#ibms-confidential-computing-strategy)
 
 * [Personas in the confidential computing](/docs/confidential-computing?topic=confidential-computing-about#personas-in-the-confidential-computing)
-
-* [](/docs/confidential-computing?topic=confidential-computing-about#)
 
 
 ## Best practices and requirements
