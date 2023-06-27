@@ -79,7 +79,7 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Deploying a single container with docker-compose for Confidential Computing](/docs/confidential-computing?topic=confidential-computing-paynow-on-hpvs#paynow-on-hpvs)
 
-[Deplying multiple containers as a pod for Confidential Computing](/docs/confidential-computing?topic=confidential-computing-paynow-on-hpvs#paynow-on-hpvs)
+[Deplying multiple containers as a pod for Confidential Computing](/docs/confidential-computing?topic=confidential-computing-pod-on-hpvs#pod-on-hpvs)
 
 
 ## General deployment and configuration information
