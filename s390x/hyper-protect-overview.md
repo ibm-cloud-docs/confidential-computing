@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-06-19"
+lastupdated: "2023-06-27"
 
 keywords: 
 
@@ -16,7 +16,7 @@ subcollection: confidential-computing
 {: #hyper-protect-s390x}
 
 
-The IBM Hyper Protect Platform in its first generation leverages the [Secure Service Container technology](){: external}. This technology already maintains the confidentiality and integrity of hosted client data. It provides the support for enterprise DevSecOps solutions like the IBM Hyper Protect Secure Build or the simplified approach to industry and regulatory challenges, which technical assurance provides.
+The IBM Hyper Protect Platform in its first generation leverages the [Secure Service Container technology](https://www.ibm.com/downloads/cas/V8XERDQO){: external}. This technology already maintains the confidentiality and integrity of hosted client data. It provides the support for enterprise DevSecOps solutions like the IBM Hyper Protect Secure Build or the simplified approach to industry and regulatory challenges, which technical assurance provides.
 
 In its second generation, the IBM Hyper Protect Platform leverages [IBM Secure Execution for Linux technololgy](https://www.ibm.com/docs/en/linux-on-systems?topic=virtualization-introducing-secure-execution-linux){: external},. This is a hardware-based security technology, which was introduced with the IBM z15® and IBM® LinuxONE III generation systems for Kernel Virtual Machines (KVM). It is designed to provide scalable isolation for individual workloads to help protect them from not only external attacks, but also insider threats. Secure Execution can help protect and isolate workloads on-premises, or on IBM Z and IBM® LinuxONE hybrid cloud environments.
 
