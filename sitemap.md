@@ -39,9 +39,9 @@ Find what you are looking for in the topics that are available for Confidential 
 {: #sitemap_best_practices_and_requirements}
 
 
-[Best practices and requirements for confidential virtual servers](/docs/confidential-computing?topic=confidential-computing-best-practices#best-practices)
+[Best practices and requirements for confidential virtual servers](/docs/confidential-computing?topic=confidential-computing-best-practices-vsi#best-practices-vsi)
 
-[Best practices and requirements for confidential containers](/docs/confidential-computing?topic=confidential-computing-best-practices#best-practices)
+[Best practices and requirements for confidential containers](/docs/confidential-computing?topic=confidential-computing-best-practices-containers#best-practices-containers)
 
 
 ## Release notes
@@ -68,9 +68,9 @@ Find what you are looking for in the topics that are available for Confidential 
 
 * [About Secure Execution for Linux](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#about-secure-execution-for-linux)
 
-[Hyper Protect container Runtime](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
+[Hyper Protect container Runtime](/docs/confidential-computing?topic=confidential-computing-hyper-protect-container-runtime#hyper-protect-container-runtime)
 
-[Hyper Protect managed Add-on for Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
+[Hyper Protect managed Add-on for Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-addon#hyper-protect-addon)
 
 
 ## Protecting and isolating the application and memory
