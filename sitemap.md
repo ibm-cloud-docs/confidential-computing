@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-06-20"
+lastupdated: "2023-06-27"
 
 keywords: 
 
@@ -64,22 +64,22 @@ Find what you are looking for in the topics that are available for Confidential 
 {: #sitemap_confidential_computing_on_ibm_z_or_linuxone}
 
 
-[Hyper Protect on s390x architecture](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
+[Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
 
 * [About Secure Execution for Linux](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#about-secure-execution-for-linux)
 
-[Hyper Protect Container Runtime for virtual servers](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
+[Hyper Protect container Runtime](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
 
-[Hyper Protect Managed add-on for Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
+[Hyper Protect managed Add-on for Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
 
 
 ## Protecting and isolating the application and memory
 {: #sitemap_protecting_and_isolating_the_application_and_memory}
 
 
-[Deploying a single container with docker-compose for confidential computing](/docs/confidential-computing?topic=confidential-computing-paynow-on-hpvs#paynow-on-hpvs)
+[Deploying a single container with docker-compose for Confidential Computing](/docs/confidential-computing?topic=confidential-computing-paynow-on-hpvs#paynow-on-hpvs)
 
-[Deploying multiple containers as a pod for confidential computing](/docs/confidential-computing?topic=confidential-computing-paynow-on-hpvs#paynow-on-hpvs)
+[Deplying multiple containers as a pod for Confidential Computing](/docs/confidential-computing?topic=confidential-computing-paynow-on-hpvs#paynow-on-hpvs)
 
 
 ## General deployment and configuration information

@@ -9,8 +9,8 @@ toc:
     href: /docs/confidential-computing?topic=confidential-computing-about
     product-page: https://www.ibm.com/cloud/confidential-computing
     path: confidential-computing
-    description: Confidential computing protects applications and data while in use by keeping them encrypted all the time, even in memory, and only decrypting inside the processor.
     label: Confidential Computing on IBM Cloud
+    description: Confidential computing protects applications and data while in use by keeping them encrypted all the time, even in memory, and only decrypting inside the processor.
   entries:
   - navgroup:
       id: overview
@@ -30,11 +30,8 @@ toc:
           label: Confidential computing on IBM z or LinuxONE
           topics:
           - topic: s390x/hyper-protect-overview.md
-            navtitle: Hyper Protect on s390x architecture
           - topic: s390x/hyper-protect-runtime.md
-            navtitle: Hyper Protect Container Runtime for virtual servers
           - topic: s390x/hyper-protect-addon.md
-            navtitle: Hyper Protect Managed add-on for Kubernetes 
   - navgroup: 
       id: tutorial
       topics: 
@@ -42,9 +39,7 @@ toc:
           label: Protecting and isolating the application and memory
           topics: 
           - topic: s390x/tutorials/paynow-on-hpvs-tutorial.md
-            navtitle: Deploying a single container with docker-compose for confidential computing
           - topic: s390x/tutorials/pods-on-hpvs-tutorial.md
-            navtitle: Deploying multiple containers as a pod for confidential computing
   - navgroup:
       id: howto
       topics:
