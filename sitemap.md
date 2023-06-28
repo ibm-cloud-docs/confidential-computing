@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-06-27"
+lastupdated: "2023-06-28"
 
 keywords: 
 
@@ -35,6 +35,57 @@ Find what you are looking for in the topics that are available for Confidential 
 * [Personas in the confidential computing](/docs/confidential-computing?topic=confidential-computing-about#personas-in-the-confidential-computing)
 
 
+## Hyper Protect Platform on IBM z and LinuxONE
+{: #sitemap_hyper_protect_platform_on_ibm_z_and_linuxone}
+
+
+[Hyper Protect Platform on IBM z and LinuxONE](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
+
+* [About Secure Execution for Linux](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#about-secure-execution-for-linux)
+
+
+## About Secure Execution for Linux
+{: #sitemap_about_secure_execution_for_linux}
+
+
+[About Secure Execution for Linux](/docs/confidential-computing?topic=confidential-computing-secure-execution#secure-execution)
+
+
+## Hyper Protect container Runtime
+{: #sitemap_hyper_protect_container_runtime}
+
+
+[Hyper Protect container Runtime](/docs/confidential-computing?topic=confidential-computing-hyper-protect-container-runtime#hyper-protect-container-runtime)
+
+
+## About contract
+{: #sitemap_about_contract}
+
+
+[About contract](/docs/confidential-computing?topic=confidential-computing-hyper-protect-contract#hyper-protect-contract)
+
+
+## About attestation
+{: #sitemap_about_attestation}
+
+
+[About attestation](/docs/confidential-computing?topic=confidential-computing-hyper-protect-attestation#hyper-protect-attestation)
+
+
+## About Secure Build
+{: #sitemap_about_secure_build}
+
+
+[About Secure Build](/docs/confidential-computing?topic=confidential-computing-hyper-protect-contract#hyper-protect-contract)
+
+
+## Hyper Protect managed Add-on for Kubernetes
+{: #sitemap_hyper_protect_managed_add-on_for_kubernetes}
+
+
+[Hyper Protect managed Add-on for Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-addon#hyper-protect-addon)
+
+
 ## Best practices and requirements
 {: #sitemap_best_practices_and_requirements}
 
@@ -58,19 +109,6 @@ Find what you are looking for in the topics that are available for Confidential 
 
 
 [Reference architecture overview](/docs/confidential-computing?topic=confidential-computing-reference-architecture-overview#reference-architecture-overview)
-
-
-## Confidential computing on IBM z or LinuxONE
-{: #sitemap_confidential_computing_on_ibm_z_or_linuxone}
-
-
-[Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
-
-* [About Secure Execution for Linux](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#about-secure-execution-for-linux)
-
-[Hyper Protect container Runtime](/docs/confidential-computing?topic=confidential-computing-hyper-protect-container-runtime#hyper-protect-container-runtime)
-
-[Hyper Protect managed Add-on for Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-addon#hyper-protect-addon)
 
 
 ## Protecting and isolating the application and memory

@@ -16,6 +16,13 @@ toc:
       id: overview
       topics:
       - about.md
+      - s390x/hyper-protect-overview.md
+      - s390x/secure-execution.md
+      - s390x/hyper-protect-runtime.md
+      - s390x/hyper-protect-contract.md
+      - s390x/hyper-protect-attestation.md
+      - s390x/hyper-protect-securebuild.md
+      - s390x/hyper-protect-addon.md
       - topicgroup: 
           label: Best practices and requirements
           topics:
@@ -26,12 +33,6 @@ toc:
       id: architecture
       topics:
       - reference-architecture-overview.md
-      - topicgroup: 
-          label: Confidential computing on IBM z or LinuxONE
-          topics:
-          - topic: s390x/hyper-protect-overview.md
-          - topic: s390x/hyper-protect-runtime.md
-          - topic: s390x/hyper-protect-addon.md
   - navgroup: 
       id: tutorial
       topics: 
