@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-07-21"
+lastupdated: "2023-07-23"
 
 keywords: 
 
@@ -22,6 +22,7 @@ As defined by the [Confidential Computing Consortium](https://confidentialcomput
 * **Data confidentiality**: Unauthorized entities cannot view data while it is in use within the TEE.
 * **Data integrity**: Unauthorized entities cannot add, remove, or alter data while it is in use within the TEE.
 * **Code integrity**: Unauthorized entities cannot add, remove, or alter code executing in the TEE.
+
 
 ## IBM's confidential computing strategy
 
