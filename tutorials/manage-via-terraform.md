@@ -12,9 +12,10 @@ subcollection: confidential-computing
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Deplying multiple containers as a pod for Confidential Computing
-{: #pod-on-hpvs}
+# Managing confidential computing resources via terraform
+{: #manage-terraform}
 
-Deploying your multi-container apps as a pod to HPVS for confidential computing.
+Use terraform templates to manage and deploy your hyper protected resources.
+
 
 

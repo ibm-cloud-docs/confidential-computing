@@ -74,18 +74,27 @@ Find what you are looking for in the topics that are available for Confidential 
 [Reference architecture overview on Hybrid Cloud](/docs/confidential-computing?topic=confidential-computing-reference-architecture-overview#reference-architecture-overview)
 
 
-## Deploying a single container with docker-compose for Confidential Computing
-{: #sitemap_deploying_a_single_container_with_docker-compose_for_confidential_computing}
+## Use cases
+{: #sitemap_use_cases}
 
 
-[Deploying a single container with docker-compose for Confidential Computing](/docs/confidential-computing?topic=confidential-computing-paynow-on-hpvs#paynow-on-hpvs)
+[Digital assets custody and governance](/docs/confidential-computing?topic=confidential-computing-digital-assets#digital-assets)
+
+[Secure development and build pipeline](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops)
 
 
-## Deplying multiple containers as a pod for Confidential Computing
-{: #sitemap_deplying_multiple_containers_as_a_pod_for_confidential_computing}
+## Deploying transactional workloads with confidential computing capability
+{: #sitemap_deploying_transactional_workloads_with_confidential_computing_capability}
 
 
-[Deplying multiple containers as a pod for Confidential Computing](/docs/confidential-computing?topic=confidential-computing-pod-on-hpvs#pod-on-hpvs)
+[Deploying transactional workloads with confidential computing capability](/docs/confidential-computing?topic=confidential-computing-deploy-workload#deploy-workload)
+
+
+## Managing confidential computing resources via terraform
+{: #sitemap_managing_confidential_computing_resources_via_terraform}
+
+
+[Managing confidential computing resources via terraform](/docs/confidential-computing?topic=confidential-computing-manage-terraform#manage-terraform)
 
 
 ## Implementing Confidential Computing solutions

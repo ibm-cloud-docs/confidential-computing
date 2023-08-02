@@ -27,18 +27,18 @@ toc:
       topics:
       - architecture/oncloud.md
       - architecture/onhybrid.md
+      - topicgroup:
+          label: Use cases
+          topics:   
+          - architecture/usecase-digital-assets.md
+          - architecture/usecase-mpc.md
+          - architecture/usecase-devsecops.md
   - navgroup: 
       id: tutorial
       topics:  
-      - topic: tutorials/paynow-on-hpvs-tutorial.md
-      - topic: tutorials/pods-on-hpvs-tutorial.md
-  - navgroup:
-      id: deploy
-      topics:
-      - usecase-digital-assets.md
-      - usecase-mpc.md
-      - usecase-devsecops.md
-
+      - topic: tutorials/deploy-transaction-workload.md
+      - topic: tutorials/manage-via-terraform.md
+      - topic: tutorials/orchestrate-worklaods.md
   - navgroup:
       id: reference
       topics: 
