@@ -41,6 +41,8 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Hyper Protect Platform on IBM z and LinuxONE](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
 
+* [Protection boundary in Hyper Protect](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#protection-boundary-in-hyper-protect)
+
 [Concepts in Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-secure-execution#secure-execution)
 
 * [Secure Execution](/docs/confidential-computing?topic=confidential-computing-secure-execution#secure-execution)
@@ -57,21 +59,21 @@ Find what you are looking for in the topics that are available for Confidential 
 
 * [Hyper Protect Crytpo Services](/docs/confidential-computing?topic=confidential-computing-hyper-protect-addon#hpcs)
 
-* [Hyper Protect managed Add-on on Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-addon#ikswhp)
+* [Hyper Protect managed Add-on for Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-addon#ikswhp)
 
 
 ## Reference architecture overview on IBM Cloud
 {: #sitemap_reference_architecture_overview_on_ibm_cloud}
 
 
-[Reference architecture overview on IBM Cloud](/docs/confidential-computing?topic=confidential-computing-reference-architecture-overview#reference-architecture-overview)
+[Reference architecture overview on IBM Cloud](/docs/confidential-computing?topic=confidential-computing-public-cloud#public-cloud)
 
 
 ## Reference architecture overview on Hybrid Cloud
 {: #sitemap_reference_architecture_overview_on_hybrid_cloud}
 
 
-[Reference architecture overview on Hybrid Cloud](/docs/confidential-computing?topic=confidential-computing-reference-architecture-overview#reference-architecture-overview)
+[Reference architecture overview on Hybrid Cloud](/docs/confidential-computing?topic=confidential-computing-hybrid-cloud#hybrid-cloud)
 
 
 ## Use cases
@@ -81,6 +83,10 @@ Find what you are looking for in the topics that are available for Confidential 
 [Digital assets custody and governance](/docs/confidential-computing?topic=confidential-computing-digital-assets#digital-assets)
 
 [Secure development and build pipeline](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops)
+
+* [On cloud](/docs/confidential-computing?topic=confidential-computing-devsecops#on-cloud)
+
+* [On-prem](/docs/confidential-computing?topic=confidential-computing-devsecops#on-prem)
 
 
 ## Deploying transactional workloads with confidential computing capability

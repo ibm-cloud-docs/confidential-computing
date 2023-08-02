@@ -13,7 +13,7 @@ subcollection: confidential-computing
 {{site.data.keyword.attribute-definition-list}}
 
 # Reference architecture overview on IBM Cloud
-{: #reference-architecture-overview}
+{: #public-cloud}
 
 The reference architecture overview provides the supported architectures that can be used as a basis for implementing confidential computing solutions on IBM Cloud. 
 

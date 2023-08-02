@@ -17,7 +17,11 @@ subcollection: confidential-computing
 
 Confidential computing (CC) protects applications and data while in use by keeping them encrypted all the time, even in memory, and only decrypting inside the processor, which is also known as Truested Execution Environment (TEE). The decryption keys are known only to the application/data owner and the processor. This way, even a compromised operating system or hypervisor can’t peek into the application or steal any sensitive data. Confidential computing is critical for cloud deployments, but also for edge deployments where such devices can be easily compromised or stolen. It’s also important for AI data processing where data needs to be shared (such as federated learning) but the data owners don’t trust the infrastructure where data needs to be jointly processed.
 
-As defined by the [Confidential Computing Consortium](https://confidentialcomputing.io/wp-content/uploads/sites/85/2021/03/confidentialcomputing_outreach_whitepaper-8-5x11-1.pdf), Confidential Computing has the following Kky characteristics: 
+
+![Confidential Computing](images/cc.png){: caption="Figure 1. Confidential Computing" caption-side="bottom"}
+
+
+As defined by the [Confidential Computing Consortium](https://confidentialcomputing.io/wp-content/uploads/sites/85/2021/03/confidentialcomputing_outreach_whitepaper-8-5x11-1.pdf), Confidential Computing has the following key characteristics: 
 
 * **Data confidentiality**: Unauthorized entities cannot view data while it is in use within the TEE.
 * **Data integrity**: Unauthorized entities cannot add, remove, or alter data while it is in use within the TEE.

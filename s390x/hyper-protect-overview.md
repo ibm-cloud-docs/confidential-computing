@@ -24,3 +24,9 @@ In its second generation, the IBM Hyper Protect Platform leverages [IBM Secure E
 
  By reducing the size of the protected environment with Hyper protect Platfrom generation 2, it is possible to enhance data protection from potential attacks on the system from inside and outside. By the ability to protect data-in-use by individual KVMs it is possible to increase flexibility and scalability of the solution, which also becomes independent of underlaying software stack.
 
+
+## Protection boundary in Hyper Protect
+
+
+
+![Protection boundary](../images/hyper-protect-boundary.png){: caption="Figure 2. Protection boundry" caption-side="bottom"}

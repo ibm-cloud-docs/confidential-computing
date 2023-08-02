@@ -18,7 +18,7 @@ subcollection: confidential-computing
 Understand the product portfolio in the Hyper Protect platform.
 
 
-TO-DO:   Need a diagram to illustrate the relationships of each product
+![Hyper Protect products](../images/hyper-protect-platform.png){: caption="Figure 1. Hyper Protect products" caption-side="bottom"}
 
 
 ## Hyper Protect Container Runtime
@@ -40,7 +40,7 @@ TO-do:  need the product architecure diagram and explanation
 TO-do:  need the product architecure diagram and explanation
 
 
-## Hyper Protect managed Add-on on Kubernetes
+## Hyper Protect managed Add-on for Kubernetes
 {: #ikswhp}
 
 TO-do:  need the product architecure diagram and explanation
