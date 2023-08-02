@@ -31,14 +31,14 @@ toc:
           label: Use cases
           topics:   
           - architecture/usecase-digital-assets.md
-          - architecture/usecase-mpc.md
+          - architecture/usecase-smpc.md
           - architecture/usecase-devsecops.md
   - navgroup: 
       id: tutorial
       topics:  
       - topic: tutorials/deploy-transaction-workload.md
       - topic: tutorials/manage-via-terraform.md
-      - topic: tutorials/orchestrate-worklaods.md
+      - topic: tutorials/orchestrate-workloads.md
   - navgroup:
       id: reference
       topics: 

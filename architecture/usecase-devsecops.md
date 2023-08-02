@@ -28,7 +28,7 @@ TO-DO: Add the architecture diagram on how Secure Build works as part of the Hye
 {: #on-cloud}
 
 
-![Secure build on IBM Cloud](../images/securebuld-vpc.png){: caption="Figure 1. Secure Build on IBM Cloud" caption-side="bottom"}
+![Secure build on IBM Cloud](../images/securebuild-vpc.png){: caption="Figure 1. Secure Build on IBM Cloud" caption-side="bottom"}
 
 
 ## On-prem
@@ -36,4 +36,4 @@ TO-DO: Add the architecture diagram on how Secure Build works as part of the Hye
 
 
 
-![Secure build for on-premises](../images/securebuld-onprem.png){: caption="Figure 1. Secure Build for on-premises" caption-side="bottom"}
+![Secure build for on-premises](../images/securebuild-onprem.png){: caption="Figure 1. Secure Build for on-premises" caption-side="bottom"}

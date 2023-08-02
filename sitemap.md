@@ -39,7 +39,7 @@ Find what you are looking for in the topics that are available for Confidential 
 {: #sitemap_hyper_protect_platform}
 
 
-[Hyper Protect Platform on IBM z and LinuxONE](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
+[Hyper Protect Platform on IBM Z and LinuxONE](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
 
 * [Protection boundary in Hyper Protect](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#protection-boundary-in-hyper-protect)
 
@@ -82,6 +82,8 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Digital assets custody and governance](/docs/confidential-computing?topic=confidential-computing-digital-assets#digital-assets)
 
+[Secure multi-party computation](/docs/confidential-computing?topic=confidential-computing-smpc#smpc)
+
 [Secure development and build pipeline](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops)
 
 * [On cloud](/docs/confidential-computing?topic=confidential-computing-devsecops#on-cloud)
@@ -101,6 +103,13 @@ Find what you are looking for in the topics that are available for Confidential 
 
 
 [Managing confidential computing resources via terraform](/docs/confidential-computing?topic=confidential-computing-manage-terraform#manage-terraform)
+
+
+## Orchestrating cloud native workloads with confidential computing
+{: #sitemap_orchestrating_cloud_native_workloads_with_confidential_computing}
+
+
+[Orchestrating cloud native workloads with confidential computing](/docs/confidential-computing?topic=confidential-computing-orchestrate-workload#orchestrate-workload)
 
 
 ## Implementing Confidential Computing solutions

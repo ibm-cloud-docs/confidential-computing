@@ -12,7 +12,7 @@ subcollection: confidential-computing
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Hyper Protect Platform on IBM z and LinuxONE
+# Hyper Protect Platform on IBM Z and LinuxONE
 {: #hyper-protect-s390x}
 
 
