@@ -19,7 +19,5 @@ The reference architecture overview provides the supported architectures that ca
 
 
 
-TO-DO: Add the architecture diagram on how Hyper Protect pieces are used on IBM Cloud
-
-
+![Hyper Protect on IBM cloud](../images/hp-vpc.png){: caption="Figure 1. Hyper Protect on IBM Cloud" caption-side="bottom"}
 
