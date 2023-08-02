@@ -32,7 +32,7 @@ toc:
       topics:  
       - topic: tutorials/paynow-on-hpvs-tutorial.md
       - topic: tutorials/pods-on-hpvs-tutorial.md
-   - navgroup:
+  - navgroup:
       id: Use cases
       topics:
       - usecase-digital-assets.md
