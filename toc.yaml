@@ -33,7 +33,7 @@ toc:
       - topic: tutorials/paynow-on-hpvs-tutorial.md
       - topic: tutorials/pods-on-hpvs-tutorial.md
   - navgroup:
-      id: Use cases
+      id: deploy
       topics:
       - usecase-digital-assets.md
       - usecase-mpc.md
