@@ -16,44 +16,33 @@ toc:
       id: overview
       topics:
       - about.md
-      - s390x/hyper-protect-overview.md
-      - s390x/secure-execution.md
-      - s390x/hyper-protect-runtime.md
-      - s390x/hyper-protect-contract.md
-      - s390x/hyper-protect-attestation.md
-      - s390x/hyper-protect-securebuild.md
-      - s390x/hyper-protect-addon.md
-      - topicgroup: 
-          label: Best practices and requirements
-          topics:
-          - topic: best-practices/best-practices-vsi.md
-          - topic: best-practices/best-practices-container.md
-      - release-notes.md
+      - topicgroup:
+          label: Hyper Protect Platform
+          topics: 
+          - s390x/hyper-protect-overview.md
+          - s390x/hyper-protect-concepts.md
+          - s390x/hyper-protect-products.md
   - navgroup:
       id: architecture
       topics:
-      - reference-architecture-overview.md
+      - architecture/oncloud.md
+      - architecture/onhybrid.md
   - navgroup: 
       id: tutorial
-      topics: 
-      - topicgroup:
-          label: Protecting and isolating the application and memory
-          topics: 
-          - topic: s390x/tutorials/paynow-on-hpvs-tutorial.md
-          - topic: s390x/tutorials/pods-on-hpvs-tutorial.md
-  - navgroup:
-      id: howto
+      topics:  
+      - topic: tutorials/paynow-on-hpvs-tutorial.md
+      - topic: tutorials/pods-on-hpvs-tutorial.md
+   - navgroup:
+      id: Use cases
       topics:
-      - topicgroup:
-          label: General deployment and configuration information
-          topics: 
-          - shared/shared-deployment-overview.md
+      - usecase-digital-assets.md
+      - usecase-mpc.md
+      - usecase-devsecops.md
+
   - navgroup:
       id: reference
       topics: 
       - adopting-cc.md
-  - navgroup:
-      id: help
-      topics: 
+      - best-practices.md
       - faqs.md
       - sitemap.md
