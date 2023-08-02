@@ -26,7 +26,7 @@ In its second generation, the IBM Hyper Protect Platform leverages [IBM Secure E
 
 
 ## Protection boundary in Hyper Protect
-
+{: #enclave-boundary}
 
 
 ![Protection boundary](../images/hyper-protect-boundary.png){: caption="Figure 2. Protection boundry" caption-side="bottom"}

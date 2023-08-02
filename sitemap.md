@@ -41,7 +41,7 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Hyper Protect Platform on IBM Z and LinuxONE](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
 
-* [Protection boundary in Hyper Protect](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#protection-boundary-in-hyper-protect)
+* [Protection boundary in Hyper Protect](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#enclave-boundary)
 
 [Concepts in Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-secure-execution#secure-execution)
 
