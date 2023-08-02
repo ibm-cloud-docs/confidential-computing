@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-07-23"
+lastupdated: "2023-08-02"
 
 keywords: 
 
@@ -24,10 +24,11 @@ As defined by the [Confidential Computing Consortium](https://confidentialcomput
 * **Code integrity**: Unauthorized entities cannot add, remove, or alter code executing in the TEE.
 
 
-## IBM's confidential computing strategy
+## IBM confidential computing strategy
+{: #cc-ibm}
 
 
-IBM's confidential computing strategy focuses on providing secure and trusted computing environments that protect sensitive data and workloads throughout their lifecycle. It aims to address concerns related to data privacy, security, and compliance in cloud, hybrid cloud, and edge computing environments. IBM's confidential computing strategy encompasses the following key elements:
+IBM confidential computing strategy focuses on providing secure and trusted computing environments that protect sensitive data and workloads throughout their lifecycle. It aims to address concerns related to data privacy, security, and compliance in cloud, hybrid cloud, and edge computing environments with technical assurance rather than operation assurance. IBM's confidential computing strategy encompasses the following key elements:
 
 - **Hardware-Based Security**
    IBM leverages hardware and firmware security features to establish trusted execution environments (TEEs). These TEEs create isolated enclaves where sensitive data and computations can be securely processed, ensuring confidentiality and integrity.
@@ -50,11 +51,12 @@ IBM's confidential computing strategy focuses on providing secure and trusted co
 - **Cloud-Based Confidential Computing**
    IBM provides confidential computing capabilities in its Hyper Protect services. These services enable organizations to leverage secure enclaves and confidential computing technologies in the cloud, providing a secure and compliant platform for sensitive workloads.
 
-In a nut shell, IBM's confidential computing strategy emphasizes the use of hardware-based security, secure enclaves, encryption, and isolation mechanisms to protect sensitive data and workloads. By incorporating these elements into their offerings, IBM aims to provide organizations with secure and trusted environments that safeguard their data and maintain compliance in various computing scenarios.
+In a nut shell, IBM confidential computing strategy emphasizes the use of hardware-based security, secure enclaves, encryption, and isolation mechanisms to protect sensitive data and workloads with zero-trust and technical assurance. By incorporating these elements into their offerings, IBM aims to provide organizations with secure and trusted environments that safeguard their data and maintain compliance in various computing scenarios.
 
 
 
 ## Personas in the confidential computing
+{: #cc-personas}
 
 When considering personas, we start with the view that the responsibility for defining the workload to be deployed is separate from control over how it gets deployed. And that there is no “assumed” trust that what is expected to be deployed is in fact what gets deployed.
 

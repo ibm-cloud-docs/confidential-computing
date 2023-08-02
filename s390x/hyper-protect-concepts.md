@@ -21,6 +21,7 @@ TO-DO: Need a diagram or something to explain those key concepts and their relat
 
 
 ## Secure Execution
+{: #secure-execution}
 
 Understand the Secure Execution for Linux in the Hyper Protect platform.
 
@@ -42,12 +43,14 @@ To process the secret information, the Ultravisor uses the matching private host
 
 
 ## Contract
+{: #contract}
 
 
 TO-DO: Need explanation on the concept and why it matters.
 
 
 ## Attestation
+{: #attestation}
 
 
 TO-DO: Need explanation on the concept and why it matters.
