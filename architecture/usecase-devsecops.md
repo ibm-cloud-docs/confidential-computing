@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-08-02"
+lastupdated: "2023-08-03"
 
 keywords: 
 
@@ -12,7 +12,7 @@ subcollection: confidential-computing
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Secure development and build pipeline
+# Secure worklaod supplychain
 {: #devsecops}
 
 How to leverage confidential computing to secure the development and build pipeline.

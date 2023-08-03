@@ -84,7 +84,7 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Secure multi-party computation](/docs/confidential-computing?topic=confidential-computing-smpc#smpc)
 
-[Secure development and build pipeline](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops)
+[Secure worklaod supplychain](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops)
 
 * [On cloud](/docs/confidential-computing?topic=confidential-computing-devsecops#on-cloud)
 
