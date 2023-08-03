@@ -12,7 +12,7 @@ subcollection: confidential-computing
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Secure worklaod supplychain
+# Secure workload supply chain
 {: #devsecops}
 
 How to leverage confidential computing to secure the development and build pipeline.
