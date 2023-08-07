@@ -25,7 +25,7 @@ Understand the product portfolio in the Hyper Protect platform.
 {: #hpcr}
 
 
-![Hyper Protect Container Runtime on public and Hybrid cloud](../images/hpcr-hybride.png){: caption="Figure 2. Hyper Protect Container Runtime on public and Hybrid cloud" caption-side="bottom"}
+![Hyper Protect Container Runtime on public and Hybrid cloud](../images/hpcr-hybrid.svg){: caption="Figure 2. Hyper Protect Container Runtime on public and Hybrid cloud" caption-side="bottom"}
 
 
 You can deploy a workload built with SUSE Linux Enterprise Base Container Images into the Hyper Protect Container Runtime in a hybrid confidential computing environment. For more information, see [Confidential Computing with SUSE Linux Enterprise Base Container Images Using the IBM Hyper Protect Platform](https://documentation.suse.com/trd/linux/single-html/gs_sles_ibm-hpvs).
