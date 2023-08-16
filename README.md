@@ -5,7 +5,7 @@ This is the documentation repository for the Reference Architecture / Deployment
 
 ## IBM Cloud Docs Links
 
-* [Public](https://cloud.ibm.com/docs/confidential-computing)
+* [Public - Not available yet](https://cloud.ibm.com/docs/confidential-computing)
 
 
 
