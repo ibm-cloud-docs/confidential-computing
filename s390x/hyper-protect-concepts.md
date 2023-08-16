@@ -48,7 +48,7 @@ To process the secret information, the Ultravisor uses the matching private host
 
 The contract in the Hyper Protect platform ensures your workload confidentialality and integrity, and it has different meanings in terms of confidential VMs and orchestrated confidential containers running in the Secure Execution context . 
 
-|| Contract || For confidential VMs || For orchestrated confidential containers ||
+| Contract | For confidential VMs | For orchestrated confidential containers |
 |-----|-----|-----|
 | Description|  A definition file in the YAML format defines what gets run inside the Secure Execution environment.  |   A definition file in the YAML format defines what is allowed to be run inside the Secure Exeuction peer pod and what commands can cross the boundary.|
 
