@@ -11,5 +11,3 @@ This is the documentation repository for the Reference Architecture / Deployment
 
 
 
-
-## Stakeholders
