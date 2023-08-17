@@ -53,6 +53,8 @@ The contract in the Hyper Protect platform ensures your workload confidentialali
 | Contract | For confidential VMs | For orchestrated confidential containers |
 |-----|-----|-----|
 | Description|  A definition file in the YAML format defines what gets run inside the secure-execution mode.  |   A definition file in the YAML format defines what is allowed to be run inside the secure-execution peer pod and what commands can cross the boundary.|
+{: caption="Table 1. Contracts" caption-side="bottom"}}
+
 
 For similarities:
 
