@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-08-16"
+lastupdated: "2023-08-17"
 
 keywords: 
 
@@ -31,12 +31,12 @@ The Secure Execution for Linux is available as part of the following hardwares:
 
 Secure Execution for Linux is built to apply Zero Trust policies. Encryption combined with architectural, development and manufactural processes can establish technical assurance. Regulation and Audition require proof that the assumed environment and workload is present as well as appropriate personalisation of instances has happened. A common way to provide such proof are attestation methods or through an attestation record. 
 
-To achieve this, the zSystem firmware contains a so-called Ultravisor, a trusted firmware component, which enforces memory protection and offers the owner of a given KVM guest to securely pass secret information to the Ultravisor by using the public host key.
+To achieve this, the zSystem firmware contains a so-called Ultravisor, a trusted firmware component, which enforces memory protection and offers the owner of a given KVM guest to securely pass secret information to the Ultravisor by using the public host key included in the host key document.
 
 ![Secure Exuection for Linux](../images/lxse_uv.jpg){: caption="Figure 2. IBM Secure Execution for Linux" caption-side="bottom"}}
 
 
-To process the secret information, the Ultravisor uses the matching private host key. The private host key is specific to an IBM z or LinuxONE server and is hardware protected.
+To process the secret information, the Ultravisor uses the matching private host key to run the workload in the secure-execution mode. The following diagram shows a simplified view of the keys that are involved in all stages of securing the workload. The private host key is specific to an IBM z or LinuxONE server and is hardware protected. 
 
 ![Securing the workload](../images/lxse_flowkeys_otherway.jpg){: caption="Figure 3. Securing the workload" caption-side="bottom"}}
 
@@ -46,11 +46,13 @@ To process the secret information, the Ultravisor uses the matching private host
 {: #contract}
 
 
-The contract in the Hyper Protect platform ensures your workload confidentialality and integrity, and it has different meanings in terms of confidential VMs and orchestrated confidential containers running in the Secure Execution context . 
+To run your workload in the secure-execution mode and provide the required configuration data to your cloud admin, you need to use a contract to convey such information.
+
+The contract in the Hyper Protect platform ensures your workload confidentialality and integrity, and it has different meanings in terms of confidential VMs and orchestrated confidential containers running in the secure-execution mode. 
 
 | Contract | For confidential VMs | For orchestrated confidential containers |
 |-----|-----|-----|
-| Description|  A definition file in the YAML format defines what gets run inside the Secure Execution environment.  |   A definition file in the YAML format defines what is allowed to be run inside the Secure Exeuction peer pod and what commands can cross the boundary.|
+| Description|  A definition file in the YAML format defines what gets run inside the secure-execution mode.  |   A definition file in the YAML format defines what is allowed to be run inside the secure-execution peer pod and what commands can cross the boundary.|
 
 For similarities:
 
@@ -70,9 +72,11 @@ For differences:
 ## Attestation
 {: #attestation}
 
-Attestation is a process that starts by default at virtual instance creation, ensures that the virtual server instance image is indeed built by IBM, and that it was not modified. This process also provides information and allows validation of any data that is provided to the instance at the time of deployment.
+Attestation is the evidence that the KVM guest runs in secure-execution mode. If the KVM guest was built for one particular IBM Z or LinuxONE server, the attestation also verifies that the KVM guest runs on that specific server.
 
-TO-DO: Need explanation on the concept and why it matters.
+If the KVM guest was built for several servers, the attestation only verifies that the KVM guest runs on one of those servers.
 
+
+![Attestation process](../images/attestation.jpg){: caption="Figure 4. Attestation process" caption-side="bottom"}}
 
 
