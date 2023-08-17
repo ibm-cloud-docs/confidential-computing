@@ -13,7 +13,7 @@ subcollection: confidential-computing
 {{site.data.keyword.attribute-definition-list}}
 
 # Concepts in Hyper Protect Platform
-{: #secure-execution}
+{: #hyper-protect-concepts}
 
 Understand the common concetps in the Hyper Protect platform.
 

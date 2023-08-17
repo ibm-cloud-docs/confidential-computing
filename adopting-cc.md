@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-06-05"
+lastupdated: "2023-08-17"
 
 keywords: 
 
@@ -16,6 +16,6 @@ subcollection: confidential-computing
 {: #implement-cc}
 
 
-Things to consider when implementing CC solution.
+Things to consider when implementing CC solution such as how to contact and who to ask for further information.
 
 

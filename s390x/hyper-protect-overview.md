@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-08-02"
+lastupdated: "2023-08-17"
 
 keywords: 
 
@@ -13,7 +13,7 @@ subcollection: confidential-computing
 {{site.data.keyword.attribute-definition-list}}
 
 # Hyper Protect Platform on IBM Z and LinuxONE
-{: #hyper-protect-s390x}
+{: #hyper-protect-overview}
 
 
 The IBM Hyper Protect Platform in its first generation leverages the [Secure Service Container technology](https://www.ibm.com/downloads/cas/V8XERDQO){: external}. This technology already maintains the confidentiality and integrity of hosted client data. It provides the support for enterprise DevSecOps solutions like the IBM Hyper Protect Secure Build or the simplified approach to industry and regulatory challenges, which technical assurance provides.

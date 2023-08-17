@@ -39,27 +39,27 @@ Find what you are looking for in the topics that are available for Confidential 
 {: #sitemap_hyper_protect_platform}
 
 
-[Hyper Protect Platform on IBM Z and LinuxONE](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#hyper-protect-s390x)
+[Hyper Protect Platform on IBM Z and LinuxONE](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#hyper-protect-overview)
 
-* [Protection boundary in Hyper Protect](/docs/confidential-computing?topic=confidential-computing-hyper-protect-s390x#enclave-boundary)
+* [Protection boundary in Hyper Protect](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#enclave-boundary)
 
-[Concepts in Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-secure-execution#secure-execution)
+[Concepts in Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-concepts#hyper-protect-concepts)
 
-* [Secure Execution](/docs/confidential-computing?topic=confidential-computing-secure-execution#secure-execution)
+* [Secure Execution](/docs/confidential-computing?topic=confidential-computing-hyper-protect-concepts#secure-execution)
 
-* [Contract](/docs/confidential-computing?topic=confidential-computing-secure-execution#contract)
+* [Contract](/docs/confidential-computing?topic=confidential-computing-hyper-protect-concepts#contract)
 
-* [Attestation](/docs/confidential-computing?topic=confidential-computing-secure-execution#attestation)
+* [Attestation](/docs/confidential-computing?topic=confidential-computing-hyper-protect-concepts#attestation)
 
-[Products in Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-addon#hyper-protect-addon)
+[Products in Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hyper-protect-products)
 
-* [Hyper Protect Container Runtime](/docs/confidential-computing?topic=confidential-computing-hyper-protect-addon#hpcr)
+* [Hyper Protect Container Runtime](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpcr)
 
-* [Hyper Protect Virtual Servers](/docs/confidential-computing?topic=confidential-computing-hyper-protect-addon#hpvs)
+* [Hyper Protect Virtual Servers](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpvs)
 
-* [Hyper Protect Crytpo Services](/docs/confidential-computing?topic=confidential-computing-hyper-protect-addon#hpcs)
+* [Hyper Protect Crytpo Services](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpcs)
 
-* [Hyper Protect managed Add-on for Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-addon#ikswhp)
+* [Hyper Protect managed Add-on for Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#ikswhp)
 
 
 ## Reference architecture overview on IBM Cloud
@@ -123,7 +123,7 @@ Find what you are looking for in the topics that are available for Confidential 
 {: #sitemap_best_practices_for_confidential_computing}
 
 
-[Best practices for confidential computing](/docs/confidential-computing?topic=confidential-computing-best-practices-vsi#best-practices-vsi)
+[Best practices for confidential computing](/docs/confidential-computing?topic=confidential-computing-best-practices#best-practices)
 
 
 ## FAQs for Confidential Computing

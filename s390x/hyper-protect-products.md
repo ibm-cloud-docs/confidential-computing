@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-08-07"
+lastupdated: "2023-08-17"
 
 keywords: 
 
@@ -13,7 +13,7 @@ subcollection: confidential-computing
 {{site.data.keyword.attribute-definition-list}}
 
 # Products in Hyper Protect Platform
-{: #hyper-protect-addon}
+{: #hyper-protect-products}
 
 Understand the product portfolio in the Hyper Protect platform.
 
