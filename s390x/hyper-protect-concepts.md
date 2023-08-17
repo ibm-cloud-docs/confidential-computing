@@ -79,6 +79,6 @@ Attestation is the evidence that the KVM guest runs in secure-execution mode. If
 If the KVM guest was built for several servers, the attestation only verifies that the KVM guest runs on one of those servers.
 
 
-![Attestation process](../images/attestation.png){: caption="Figure 4. Attestation process" caption-side="bottom"}}
+![Attestation process](../images/attestation-process.png){: caption="Figure 4. Attestation process" caption-side="bottom"}}
 
 
