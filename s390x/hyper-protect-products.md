@@ -56,7 +56,7 @@ The following architecture diagram shows how you interact with Hyper Protect Cry
 | Feature name |  Description |  Usage and reference link |
 |----|-----|------|
 | Key Management Service (KMS) |     |    |
-| Universal Key Orchestration (UKO)  |   Description of UKO  |   [UKO Introduction](), [UKO tutorial](https://cloud.ibm.com/docs/hs-crypto?topic=hs-crypto-tutorial-uko-satellite) |
+| Universal Key Orchestration (UKO)  |   Description of UKO  |  * [UKO Introduction](https://cloud.ibm.com/docs/hs-crypto?topic=hs-crypto-uko-overview) \n * [UKO tutorial](https://cloud.ibm.com/docs/hs-crypto?topic=hs-crypto-tutorial-uko-satellite) |
 | Hardware Security Module (HSM) |  |    |
 {: caption="Table 1. Major features in Hyper Protect Crypto Service" caption-side="bottom"}}
 
