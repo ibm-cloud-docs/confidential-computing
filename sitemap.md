@@ -57,7 +57,7 @@ Find what you are looking for in the topics that are available for Confidential 
 
 * [Hyper Protect Virtual Servers](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpvs)
 
-* [{{site.data.keyword.hscrypto}} with {{site.data.keyword.uko_full_notm}}](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpcs)
+* [{{site.data.keyword.hscrypto}}](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpcs)
 
 * [Hyper Protect managed Add-on for Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#ikswhp)
 

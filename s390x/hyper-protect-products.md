@@ -41,7 +41,7 @@ You can deploy a workload built with SUSE Linux Enterprise Base Container Images
 TO-do:  need the product architecure diagram and explanation
 
 
-## {{site.data.keyword.hscrypto}} with {{site.data.keyword.uko_full_notm}}
+## {{site.data.keyword.hscrypto}} 
 {: #hpcs}
 
 {{site.data.keyword.cloud}} {{site.data.keyword.hscrypto}} is a dedicated key management service and Hardware Security Module (HSM) that provides you with the Keep Your Own Key capability for cloud data encryption. Built on FIPS 140-2 Level 4 certified hardware, {{site.data.keyword.hscrypto}} provides you with exclusive control of your encryption keys. You can take the ownership of the HSM through master key initialization. With {{site.data.keyword.uko_full_notm}}, you can connect your service instance to keystores in IBM Cloud and third-party cloud providers, back up and manage keys using a unified system, and orchestrate keys across multiple clouds.
