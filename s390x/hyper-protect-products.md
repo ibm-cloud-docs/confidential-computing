@@ -50,6 +50,16 @@ The following architecture diagram shows how you interact with Hyper Protect Cry
 
 ![HPCS architecture components](../images/hs-crypto-components-uko.svg "HPCS architecture components"){: caption="Figure 1. Interaction with {{site.data.keyword.hscrypto}} components" caption-side="bottom"}
 
+
+**To-do: use a three-column table to list the major functions in HPCS and its usage links in the 3rd column**
+
+| Feature name |  Description |  Usage and reference link |
+|----|-----|------|
+| Key Management Service (KMS) |     |    |
+| Universal Key Orchestration (UKO)  |   Description of UKO  |   [UKO Introduction](), [UKO tutorial](https://cloud.ibm.com/docs/hs-crypto?topic=hs-crypto-tutorial-uko-satellite) |
+| Hardware Security Module (HSM) |  |    |
+{: caption="Table 1. Major features in Hyper Protect Crypto Service" caption-side="bottom"}}
+
 ## Hyper Protect managed Add-on for Kubernetes
 {: #ikswhp}
 
