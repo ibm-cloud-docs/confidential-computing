@@ -33,6 +33,8 @@ toc:
           - architecture/usecase-digital-assets.md
           - architecture/usecase-smpc.md
           - architecture/usecase-devsecops.md
+          - architecture/usecase-confidential-ai.md
+          - architecture/usecase-scp.md
   - navgroup: 
       id: tutorial
       topics:  

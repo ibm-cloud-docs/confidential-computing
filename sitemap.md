@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-08-17"
+lastupdated: "2023-08-18"
 
 keywords: 
 
@@ -89,6 +89,10 @@ Find what you are looking for in the topics that are available for Confidential 
 * [On cloud](/docs/confidential-computing?topic=confidential-computing-devsecops#on-cloud)
 
 * [On-prem](/docs/confidential-computing?topic=confidential-computing-devsecops#on-prem)
+
+[Confidential AI](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai)
+
+[Secure Container Platform](/docs/confidential-computing?topic=confidential-computing-scp#scp)
 
 
 ## Deploying transactional workloads with confidential computing capability
