@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-08-17"
+lastupdated: "2023-08-22"
 
 keywords: 
 
@@ -23,9 +23,10 @@ TO-DO: Need a diagram or something to explain those key concepts and their relat
 ## Secure Execution
 {: #secure-execution}
 
-Understand the Secure Execution for Linux in the Hyper Protect platform.
+IBM Secure Execution for Linux protects data of workloads that run in a KVM guest from being inspected or modified by the server environment. In particular, no hardware administrator, no KVM code, and no KVM administrator can access the data in a guest that was started as an IBM Secure Execution guest. Only the workload owner can access the workload and data.
 
-The Secure Execution for Linux is available as part of the following hardwares:
+The Secure Execution for Linux is a continuation and expansion of well-known security features
+of IBM Z and LinuxONE, and is available as part of the following hardwares:
    * IBM z15 and z16
    * IBM LinuxONE III and LinuxONE 4
 
@@ -77,6 +78,15 @@ For differences:
 Attestation is the evidence that the KVM guest runs in secure-execution mode. If the KVM guest was built for one particular IBM Z or LinuxONE server, the attestation also verifies that the KVM guest runs on that specific server.
 
 If the KVM guest was built for several servers, the attestation only verifies that the KVM guest runs on one of those servers.
+
+Reasons for IBM Secure Execution attestation include auditing, image personalization, and aligning with other confidential computing architectures.
+
+With cybersecurity threats developing and calling for mitigation, attestation is being integrated into workflows for cloud-based workloads. IBM Secure Execution as a superior security architecture provides an attestation function.
+
+The following examples illustrate possible uses of attestation.
+  * **Auditing**  Your organization might mandate that an attestation on cybersecurity be included in each department's annual report. That is, annually, a report must be created that shows that cybersecurity measures are in place. This report includes showing that all workloads that run at a cloud provider are safe.
+  * **Personalization**  Assume that a KVM guest in secure execution mode runs a generic workload, for example Soda Company Recipe Store. This workload can be bought and used by different soda companies. These companies would want to personalize the KVM guest with individual secrets, such as replacing SSL or TLS keys. But before that they want to verify the integrity of the base image.
+  * **Unlocking data**  A company provides data in the form of a file system encrypted with LUKS. A KVM guest running in secure execution mode is to process this data. An attester performs the attestation, and only sends the LUKS key to this guest after verifying its integrity. This procedure might be mandated by an external workflow.
 
 
 ![Attestation process](../images/attestation-process.png){: caption="Figure 4. Attestation process" caption-side="bottom"}}
