@@ -49,7 +49,7 @@ To process the secret information, the Ultravisor uses the matching private host
 
 To run your workload in the secure-execution mode and provide the required configuration data to your cloud admin, you need to use a contract to convey such information.
 
-The contract in the Hyper Protect platform ensures your workload confidentialality and integrity, and it has different meanings in terms of confidential VMs and orchestrated confidential containers running in the secure-execution mode. 
+The contract in the Hyper Protect platform ensures the confidentialality and integrity of the workload details and deployment configuration, and it has different meanings in terms of confidential VMs and orchestrated confidential containers running in the secure-execution mode. 
 
 | Contract | For confidential VMs | For orchestrated confidential containers |
 |-----|-----|-----|
