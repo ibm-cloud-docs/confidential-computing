@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-06-06"
+lastupdated: "2023-09-13"
 
 keywords: 
 
@@ -22,10 +22,15 @@ subcollection: framework-financial-services
 Answers to common questions about Confidential Computing on IBM Cloud.
 {: shortdesc}
 
-## What are the supported reference architectures for the Confidential Computing solutions?
-{: #reference-architectures}
-{: faq}
+## What is confidential computing?
 
-Answers to common questions about confidential computing. 
-{: shortdesc}
+Answer to be added.
+
+## What is zero-trust?
+
+Answer to be added.
+
+## What is the difference between Operation Assurance and Technical Assurance?
+
+Answer to be added.
 

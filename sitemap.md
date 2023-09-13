@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-08-22"
+lastupdated: "2023-09-13"
 
 keywords: 
 
@@ -136,5 +136,9 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [FAQs for Confidential Computing](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc)
 
-* [What are the supported reference architectures for the Confidential Computing solutions?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#reference-architectures)
+* [What is confidential computing?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#what-is-confidential-computing)
+
+* [What is zero-trust?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#what-is-zero-trust)
+
+* [What is the difference between Operation Assurance and Technical Assurance?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#what-is-the-difference-between-operation-assurance-and-technical-assurance)
 
