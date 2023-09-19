@@ -29,10 +29,10 @@ Confidential computing is a cloud computing technology that isolates sensitive d
 
 For more information about confidential computing, see [Confidential computing on IBM Cloud](https://www.ibm.com/cloud/confidential-computing){: external}.
 
-## What is zero trust?
+## What is Zero-Trust?
 {: faqs-cc-zero-trust}
 
-Zero trust is a framework that assumes a complex network’s security is always at risk to both external and internal threats by default. Hyper Protect Virtual Servers for VPC applies zero trust principles from the workload development to the deployment. It enables each persona to provide its contribution and be ensured through encryption that none of the other personas can access this data or intellectual property. 
+Zero-Trust is a framework that assumes a complex network’s security is always at risk to both external and internal threats by default. Hyper Protect Virtual Servers for VPC applies zero trust principles from the workload development to the deployment. It enables each persona to provide its contribution and be ensured through encryption that none of the other personas can access this data or intellectual property. 
 
 
 ## What is the difference between Operation Assurance and Technical Assurance?
