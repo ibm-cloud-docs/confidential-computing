@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-09-15"
+lastupdated: "2023-09-18"
 
 keywords: 
 
@@ -27,7 +27,7 @@ Answers to common questions about Confidential Computing on IBM Cloud.
 
 Confidential computing is a cloud computing technology that isolates sensitive data in a protected CPU enclave during processing. Based on LinuxONE (s390x processor architecture) with IBM Secure Execution for Linux technology, confidential computing is the protection of data-in-use through a hardware-based technique. 
 
-For more information about confidetial computing, see [Confidential computing on IBM Cloud](https://www.ibm.com/cloud/confidential-computing){: external}.
+For more information about confidential computing, see [Confidential computing on IBM Cloud](https://www.ibm.com/cloud/confidential-computing){: external}.
 
 ## What is zero trust?
 {: faqs-cc-zero-trust}
