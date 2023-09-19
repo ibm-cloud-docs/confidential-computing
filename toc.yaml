@@ -1,0 +1,50 @@
+toc:
+  properties:
+    subcollection: confidential-computing
+    category: solution_docs
+    industry: Technology
+    compliance: SOCStandards
+    audience: solution
+    content-type: solution
+    href: /docs/confidential-computing?topic=confidential-computing-about
+    product-page: https://www.ibm.com/cloud/confidential-computing
+    path: confidential-computing
+    label: Confidential Computing on IBM Cloud
+    description: Confidential computing protects applications and data while in use by keeping them encrypted all the time, even in memory, and only decrypting inside the processor.
+  entries:
+  - navgroup:
+      id: overview
+      topics:
+      - about.md
+      - topicgroup:
+          label: Hyper Protect Platform
+          topics: 
+          - s390x/hyper-protect-overview.md
+          - s390x/hyper-protect-concepts.md
+          - s390x/hyper-protect-products.md
+  - navgroup:
+      id: architecture
+      topics:
+      - architecture/oncloud.md
+      - architecture/onhybrid.md
+      - topicgroup:
+          label: Use cases
+          topics:   
+          - architecture/usecase-digital-assets.md
+          - architecture/usecase-smpc.md
+          - architecture/usecase-devsecops.md
+          - architecture/usecase-confidential-ai.md
+          - architecture/usecase-scp.md
+  - navgroup: 
+      id: tutorial
+      topics:  
+      - topic: tutorials/deploy-transaction-workload.md
+      - topic: tutorials/manage-via-terraform.md
+      - topic: tutorials/orchestrate-workloads.md
+  - navgroup:
+      id: reference
+      topics: 
+      - adopting-cc.md
+      - best-practices.md
+      - faqs.md
+      - sitemap.md
