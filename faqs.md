@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021, 2023
-lastupdated: "2023-09-18"
+lastupdated: "2023-09-19"
 
 keywords: 
 
@@ -21,6 +21,7 @@ subcollection: framework-financial-services
 
 Answers to common questions about Confidential Computing on IBM Cloud.
 {: shortdesc}
+
 
 ## What is confidential computing?
 {: faqs-cc-what}
@@ -41,4 +42,5 @@ Zero trust is a framework that assumes a complex network’s security is always 
 Operation assurance means that unauthorized users cannot have access to the application.
 
 Technical assurance means that unauthorized users, including IBM Cloud admins, do not have access to the application. 
+
 

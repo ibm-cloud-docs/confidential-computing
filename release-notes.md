@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-06-06"
+lastupdated: "2023-09-19"
 
 keywords: 
 
@@ -17,6 +17,7 @@ subcollection: confidential-computing
 
 Use the release notes to learn about the latest changes to the documentation for the Confidential Computing on IBM Cloud.
 {: shortdesc}
+
 
 
 ## 07 June 2023
