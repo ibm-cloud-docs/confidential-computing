@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-09-19"
+lastupdated: "2023-11-09"
 
 keywords: 
 
@@ -69,11 +69,11 @@ Find what you are looking for in the topics that are available for Confidential 
 [Reference architecture overview on IBM Cloud](/docs/confidential-computing?topic=confidential-computing-public-cloud#public-cloud)
 
 
-## Reference architecture overview on Hybrid Cloud
+## Reference architecture overview on hybrid cloud
 {: #sitemap_reference_architecture_overview_on_hybrid_cloud}
 
 
-[Reference architecture overview on Hybrid Cloud](/docs/confidential-computing?topic=confidential-computing-hybrid-cloud#hybrid-cloud)
+[Reference architecture overview on hybrid cloud](/docs/confidential-computing?topic=confidential-computing-hybrid-cloud#hybrid-cloud)
 
 
 ## Use cases
