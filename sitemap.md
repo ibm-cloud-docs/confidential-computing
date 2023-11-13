@@ -148,9 +148,9 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [FAQs for Confidential Computing](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc)
 
-* [What is confidential computing?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#what-is-confidential-computing)
+* [What is confidential computing?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-what)
 
-* [What is Zero-Trust?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#what-is-zero-trust)
+* [What is Zero-Trust?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-zero-trust)
 
-* [What is the difference between Operation Assurance and Technical Assurance?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#what-is-the-difference-between-operation-assurance-and-technical-assurance)
+* [What is the difference between Operation Assurance and Technical Assurance?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-operation-technical)
 
