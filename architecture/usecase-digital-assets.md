@@ -18,7 +18,7 @@ subcollection: confidential-computing
 Confidential computing on IBM Cloud helps build a trusted platform for digital assets, non-fungible tokens (NFTs), and policy enforcement. Entities can store and transfer high-value digital assets in highly secure wallets while achieving reliability at scale.
 {: shortdesc}
 
-## Challenge
+## Challenges
 {: #da-challenge}
 
 In a digital assets infrastructure, maintaining control over private keys is extremely challenging and poses a major risk, especially when managing thousands or millions of wallets. Loss of control of an account private key through cyber-attack or mishandling can result in irreversible asset loss.

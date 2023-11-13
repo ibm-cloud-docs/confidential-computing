@@ -82,25 +82,29 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Digital assets custody and governance](/docs/confidential-computing?topic=confidential-computing-digital-assets#digital-assets)
 
-* [Challenge](/docs/confidential-computing?topic=confidential-computing-digital-assets#da-challenge)
+* [Challenges](/docs/confidential-computing?topic=confidential-computing-digital-assets#da-challenge)
 
 * [How can the Hyper Protect Platform help?](/docs/confidential-computing?topic=confidential-computing-digital-assets#da-hp)
 
 [Secure multi-party computation and collaboration](/docs/confidential-computing?topic=confidential-computing-smpc#smpc)
 
-* [Challenge](/docs/confidential-computing?topic=confidential-computing-smpc#smpc-challenge)
+* [Challenges](/docs/confidential-computing?topic=confidential-computing-smpc#smpc-challenge)
 
 * [How can the Hyper Protect Platform help?](/docs/confidential-computing?topic=confidential-computing-smpc#smpc-hp)
 
 [Secure workload supply chain](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops)
 
-* [On cloud](/docs/confidential-computing?topic=confidential-computing-devsecops#on-cloud)
+* [Challenges](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-challenge)
 
-* [On-prem](/docs/confidential-computing?topic=confidential-computing-devsecops#on-prem)
+* [How can the Hyper Protect Platform help?](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-hp)
+
+    * [On cloud](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-hp-on-cloud)
+
+    * [On-prem](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-hp-on-prem)
 
 [Confidential AI](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai)
 
-* [Challenge](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai-challenge)
+* [Challenges](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai-challenge)
 
 * [How can the Hyper Protect Platform help?](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai-hp)
 
