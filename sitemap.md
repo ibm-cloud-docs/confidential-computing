@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-11-09"
+lastupdated: "2023-11-13"
 
 keywords: 
 
@@ -82,7 +82,7 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Digital assets custody and governance](/docs/confidential-computing?topic=confidential-computing-digital-assets#digital-assets)
 
-[Secure multi-party computation](/docs/confidential-computing?topic=confidential-computing-smpc#smpc)
+[Secure multi-party computation and collaboration](/docs/confidential-computing?topic=confidential-computing-smpc#smpc)
 
 [Secure workload supply chain](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops)
 
