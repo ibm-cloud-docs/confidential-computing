@@ -82,7 +82,15 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Digital assets custody and governance](/docs/confidential-computing?topic=confidential-computing-digital-assets#digital-assets)
 
+* [Challenge](/docs/confidential-computing?topic=confidential-computing-digital-assets#da-challenge)
+
+* [How can the Hyper Protect Platform help?](/docs/confidential-computing?topic=confidential-computing-digital-assets#da-hp)
+
 [Secure multi-party computation and collaboration](/docs/confidential-computing?topic=confidential-computing-smpc#smpc)
+
+* [Challenge](/docs/confidential-computing?topic=confidential-computing-smpc#smpc-challenge)
+
+* [How can the Hyper Protect Platform help?](/docs/confidential-computing?topic=confidential-computing-smpc#smpc-hp)
 
 [Secure workload supply chain](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops)
 
@@ -91,6 +99,10 @@ Find what you are looking for in the topics that are available for Confidential 
 * [On-prem](/docs/confidential-computing?topic=confidential-computing-devsecops#on-prem)
 
 [Confidential AI](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai)
+
+* [Challenge](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai-challenge)
+
+* [How can the Hyper Protect Platform help?](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai-hp)
 
 [Secure Container Platform](/docs/confidential-computing?topic=confidential-computing-scp#scp)
 
