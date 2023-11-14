@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-08-17"
+lastupdated: "2023-11-14"
 
 keywords: 
 
@@ -18,7 +18,7 @@ subcollection: confidential-computing
 Understand the product portfolio in the Hyper Protect platform.
 
 
-![Hyper Protect products](../images/hyper-protect-platform.png){: caption="Figure 1. Hyper Protect products" caption-side="bottom"}
+![Hyper Protect products](../images/hyper-protect-platform-1.png){: caption="Figure 1. Hyper Protect products" caption-side="bottom"}
 
 
 ## Hyper Protect Container Runtime

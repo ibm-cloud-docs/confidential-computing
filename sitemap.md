@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-11-13"
+lastupdated: "2023-11-14"
 
 keywords: 
 
@@ -80,11 +80,23 @@ Find what you are looking for in the topics that are available for Confidential 
 {: #sitemap_use_cases}
 
 
+[Secure containerized workloads](/docs/confidential-computing?topic=confidential-computing-scp#scp)
+
+* [Challenges](/docs/confidential-computing?topic=confidential-computing-scp#scp-challenge)
+
+* [How can the Hyper Protect Platform help?](/docs/confidential-computing?topic=confidential-computing-scp#scp-hp)
+
 [Digital assets custody and governance](/docs/confidential-computing?topic=confidential-computing-digital-assets#digital-assets)
 
 * [Challenges](/docs/confidential-computing?topic=confidential-computing-digital-assets#da-challenge)
 
 * [How can the Hyper Protect Platform help?](/docs/confidential-computing?topic=confidential-computing-digital-assets#da-hp)
+
+[Confidential AI](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai)
+
+* [Challenges](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai-challenge)
+
+* [How can the Hyper Protect Platform help?](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai-hp)
 
 [Secure multi-party computation and collaboration](/docs/confidential-computing?topic=confidential-computing-smpc#smpc)
 
@@ -101,14 +113,6 @@ Find what you are looking for in the topics that are available for Confidential 
     * [On cloud](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-hp-on-cloud)
 
     * [On-prem](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-hp-on-prem)
-
-[Confidential AI](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai)
-
-* [Challenges](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai-challenge)
-
-* [How can the Hyper Protect Platform help?](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai-hp)
-
-[Secure Container Platform](/docs/confidential-computing?topic=confidential-computing-scp#scp)
 
 
 ## Deploying transactional workloads with confidential computing capability
@@ -132,11 +136,11 @@ Find what you are looking for in the topics that are available for Confidential 
 [Orchestrating cloud native workloads with confidential computing](/docs/confidential-computing?topic=confidential-computing-orchestrate-workload#orchestrate-workload)
 
 
-## Implementing Confidential Computing solutions
+## Implementing confidential computing solutions
 {: #sitemap_implementing_confidential_computing_solutions}
 
 
-[Implementing Confidential Computing solutions](/docs/confidential-computing?topic=confidential-computing-implement-cc#implement-cc)
+[Implementing confidential computing solutions](/docs/confidential-computing?topic=confidential-computing-implement-cc#implement-cc)
 
 
 ## Best practices for confidential computing

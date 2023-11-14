@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-08-17"
+lastupdated: "2023-11-14"
 
 keywords: 
 
@@ -12,7 +12,7 @@ subcollection: confidential-computing
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Implementing Confidential Computing solutions
+# Implementing confidential computing solutions
 {: #implement-cc}
 
 

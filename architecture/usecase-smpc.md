@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-11-13"
+lastupdated: "2023-11-14"
 
 keywords: smpc, multi party collaboration, multi party computation
 
@@ -21,7 +21,7 @@ As various entities collaborate towards a common goal: the need for the individu
 ## Challenges
 {: #smpc-challenge}
 
-In multi-party collaborations (MPC), the biggest concern is how can the confidentiality and integrity of the data be preserved? For example, secure federated learning can be applied to cases in which multiple parties have private data that needs to be combined and analyzed without exposing the underlying data or machine learning models to any of the other parties. This technology can be applied to preventing fraud in financial services (as shown is Figure 1), detecting or developing cures for diseases in the healthcare industry (as shown in Figure 2), or gaining business insights.As the following diagram shows, multiple hospitals could combine data to train a machine learning model to clinically analyze medical images.
+In multi-party collaborations (MPC), the biggest concern is how can the confidentiality and integrity of the data be preserved? For example, secure federated learning can be applied to cases in which multiple parties have private data that needs to be combined and analyzed without exposing the underlying data or machine learning models to any of the other parties. This technology can be applied to preventing fraud in financial services (as shown is Figure 1), detecting or developing cures for diseases in the healthcare industry (as shown in Figure 2), or gaining business insights. As the following diagram shows, multiple hospitals could combine data to train a machine learning model to clinically analyze medical images.
 
 ![Secure multi-party computation - banks](../images/smpc-banks.png){: caption="Figure 1. Banks collaborate to find patterns of anti-money laundering" caption-side="bottom"}
 
