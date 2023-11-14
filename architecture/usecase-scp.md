@@ -30,7 +30,7 @@ The biggest barrier for bringing sensitive applications to the cloud is that the
 
 The Hyper Protect Platform provides isolated enclaves for running your applications. The contents of the enclave — the data being processed, and the techniques that are used to process it — are accessible only to authorized programming code, and are invisible and unknowable to anything or anyone, including the cloud provider. The Hyper Protect Platform protects your sensitive data in a holistic approach — spanning compute, containers, databases and encryption.
 
-![Hyper Protect Platform protects data in a holistic approach](../images/hp-holistic.jpeg){: caption="Figure 1. Hyper Protect Platform protects data across its lifecycle" caption-side="bottom"}
+![Hyper Protect Platform protects data in a holistic approach](../images/hp-holistic.jpg){: caption="Figure 1. Hyper Protect Platform protects data across its lifecycle" caption-side="bottom"}
 
 With the Hyper Protect Platform, you can take advantage of hybrid cloud for application modernization and design of cloud native and containerized applications, while ensuring compliance to regulations, data sovereignty and data protection requirements are met. The Hyper Protect Platform also ensures protection of trade secrets and intellectual property that can be part of the application, like proprietary business logic, private AI training data and AI models.
 
