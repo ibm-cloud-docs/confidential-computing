@@ -108,27 +108,27 @@ The Hyper protect Platform uses a contract mechanism to enable the workload prov
 
 The contract has several sections, two of these are mandatory:
 
-- Workload (mandatory)
+- `workload` (mandatory)
 
   This section contains the definition of the application workload in form of a docker compose file or a pod descriptor. It defines one or more container images, the container image registry where it resides as well as information and credentials required to download and validate the image.
 
   The section can also comprise information about data volumes, the seed for deriving the disk encryption passphrase, environment variables.
 
-- env (mandatory)
+- `env` (mandatory)
 
   This section describes the environment for the application. It comprises several subsections to define information about logging (where the logs should be sent to), data volumes, another seed for deriving the disk encryption passphrase, environment variables and optionally the public part of the contract signing key.
 
-- attestationPublicKey (optional)
+- `attestationPublicKey` (optional)
   
   This section provides a public RSA key, which is used to encrypt the attestation document.
 
-- envWorkloadSignature (optional)
+- `envWorkloadSignature` (optional)
 
   This section contains the signature of the other sections of the contract, allowing to pin a specific workload part to the env part. An Auditor, Workload Provider, or Workload Deployer person can choose to sign a contract before it is passed as input.
 
-Only the Hyper Protect Platform can decrypt an encrypted contract. Therefore, by using the contract mechanism the Workload Provider (persona) can define and encrypt the workload section of the contract, then pass it to the Workload Deployer (persona). This way, the Workload Provider can hide the content of the workload section of the contract like the actual container images of the application from the Workload Deployer, while still allowing the Workload Deployer to provision [Hyper Protect Virtual Server](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products) instances.
+Only the Hyper Protect Platform can decrypt an encrypted contract. Therefore, by using the contract mechanism the Workload Provider (persona) can define and encrypt the `workload` section of the contract, then pass it to the Workload Deployer (persona). This way, the Workload Provider can hide the content of the workload section of the contract like the actual container images of the application from the Workload Deployer, while still allowing the Workload Deployer to provision [Hyper Protect Virtual Server](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products) instances.
 
-The Workload Deployer can define and encrypt the env section of the contract. He then combines the workload and the env section, optionally adds the envWorkloadSignature and the attestationPublicKey sections and then deploys the [Hyper Protect Virtual Server](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products) instance using the contract. As both sections of the contract are encrypted, no intermediate infrastructure component and no other party including privileged actors can view the contents of the contract. By adding the envWorkloadSignature, the contract can be protected against modification or tampering.
+The Workload Deployer can define and encrypt the `env` section of the contract. This persona combines the `workload` and the `env` section, optionally adds the `envWorkloadSignature` and the `attestationPublicKey` sections and then deploys the [Hyper Protect Virtual Server](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products) instance using the contract. As both sections of the contract are encrypted, no intermediate infrastructure component and no other party including privileged actors can view the contents of the contract. By adding the `envWorkloadSignature`, the contract can be protected against modification or tampering.
 
 ### Attestation
 {: #feature-attestation}
