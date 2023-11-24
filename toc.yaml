@@ -20,7 +20,6 @@ toc:
           label: Hyper Protect Platform
           topics: 
           - s390x/hyper-protect-overview.md
-          - s390x/hyper-protect-concepts.md
           - s390x/hyper-protect-products.md
   - navgroup:
       id: architecture

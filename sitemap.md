@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-11-14"
+lastupdated: "2023-11-24"
 
 keywords: 
 
@@ -32,8 +32,6 @@ Find what you are looking for in the topics that are available for Confidential 
 
 * [IBM confidential computing strategy](/docs/confidential-computing?topic=confidential-computing-about#cc-ibm)
 
-* [Personas in the confidential computing](/docs/confidential-computing?topic=confidential-computing-about#cc-personas)
-
 
 ## Hyper Protect Platform
 {: #sitemap_hyper_protect_platform}
@@ -41,25 +39,27 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Hyper Protect Platform on IBM Z and LinuxONE](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#hyper-protect-overview)
 
-* [Protection boundary in Hyper Protect](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#enclave-boundary)
+* [Introducing the Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#hp-introduction)
 
-[Concepts in Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-concepts#hyper-protect-concepts)
+* [Features of the Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#hp-features)
 
-* [Secure Execution](/docs/confidential-computing?topic=confidential-computing-hyper-protect-concepts#secure-execution)
+    * [Secure Execution](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-se)
 
-* [Contract](/docs/confidential-computing?topic=confidential-computing-hyper-protect-concepts#contract)
+    * [Bring Your Own Image - Hyper Protect Container Runtime](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-hpcr)
 
-* [Attestation](/docs/confidential-computing?topic=confidential-computing-hyper-protect-concepts#attestation)
+    * [Separation of duties](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-duty-separation)
+
+    * [Encrypted contract mechanism](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-contract)
+
+    * [Attestation](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-attestation)
 
 [Products in Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hyper-protect-products)
 
-* [Hyper Protect Container Runtime](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpcr)
+* [Hyper Protect Virtual Servers for VPC](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpvs-cloud)
 
-* [Hyper Protect Virtual Servers](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpvs)
+* [Hyper Protect Virtual Servers](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpvs-on-prem)
 
 * [{{site.data.keyword.hscrypto}}](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpcs)
-
-* [Hyper Protect managed Add-on for Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#ikswhp)
 
 
 ## Reference architecture overview on IBM Cloud
