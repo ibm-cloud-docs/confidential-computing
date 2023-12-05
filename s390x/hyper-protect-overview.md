@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-11-24"
+lastupdated: "2023-12-05"
 
 keywords: hyper protect, hyper protect services, hyper protect platform
 
@@ -104,31 +104,9 @@ The Hyper Protect Platform supports separation of duty with predefined personas.
 ### Encrypted contract mechanism
 {: #feature-contract}
 
-The Hyper protect Platform uses a contract mechanism to enable the workload provider and the workload deployer to define the container images and the properties of the application and its environment in a secure way. The contract is a document comprising multiple sections which can be independently encrypted. The contract can be signed and is provided during deployment. During initialization or boot of instance, the Hyper Protect Container Runtime decrypts the contract, verifies the contract signature, creates the passphrase to encrypt disk devices based on the seeds contained in the contract, starts the container images defined in the contract and sets up the environment according to the properties defined in the contract, by setting environment variables.
+The Hyper protect Platform uses a contract mechanism to enable the Workload Provider and the Workload Deployer to define the container images and the properties of the application and its environment in a secure way. The contract is a document comprising multiple sections which can be independently encrypted. No intermediate infrastructure component and no other party including privileged actors can view the contents of the contract. The contract can be signed and is provided during deployment. During initialization or boot of instance, the Hyper Protect Container Runtime decrypts the contract, verifies the contract signature, creates the passphrase to encrypt disk devices based on the seeds contained in the contract, starts the container images defined in the contract and sets up the environment according to the properties defined in the contract, by setting environment variables.
 
-The contract has several sections, two of these are mandatory:
-
-- `workload` (mandatory)
-
-  This section contains the definition of the application workload in form of a docker compose file or a pod descriptor. It defines one or more container images, the container image registry where it resides as well as information and credentials required to download and validate the image.
-
-  The section can also comprise information about data volumes, the seed for deriving the disk encryption passphrase, environment variables.
-
-- `env` (mandatory)
-
-  This section describes the environment for the application. It comprises several subsections to define information about logging (where the logs should be sent to), data volumes, another seed for deriving the disk encryption passphrase, environment variables and optionally the public part of the contract signing key.
-
-- `attestationPublicKey` (optional)
-  
-  This section provides a public RSA key, which is used to encrypt the attestation document.
-
-- `envWorkloadSignature` (optional)
-
-  This section contains the signature of the other sections of the contract, allowing to pin a specific workload part to the env part. An Auditor, Workload Provider, or Workload Deployer person can choose to sign a contract before it is passed as input.
-
-Only the Hyper Protect Platform can decrypt an encrypted contract. Therefore, by using the contract mechanism the Workload Provider (persona) can define and encrypt the `workload` section of the contract, then pass it to the Workload Deployer (persona). This way, the Workload Provider can hide the content of the workload section of the contract like the actual container images of the application from the Workload Deployer, while still allowing the Workload Deployer to provision [Hyper Protect Virtual Server](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products) instances.
-
-The Workload Deployer can define and encrypt the `env` section of the contract. This persona combines the `workload` and the `env` section, optionally adds the `envWorkloadSignature` and the `attestationPublicKey` sections and then deploys the [Hyper Protect Virtual Server](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products) instance using the contract. As both sections of the contract are encrypted, no intermediate infrastructure component and no other party including privileged actors can view the contents of the contract. By adding the `envWorkloadSignature`, the contract can be protected against modification or tampering.
+Only the Hyper Protect Platform can decrypt an encrypted contract. Therefore, by using the contract mechanism, the Workload Provider can define and encrypt the workload in the contract, then pass it to the Workload Deployer. This way, the Workload Provider can hide the content of the workload like the actual container images of the application from the Workload Deployer, while still allowing the Workload Deployer to deploy the workload. For more information, see [About the contract](/docs/vpc?topic=vpc-about-contract_se){: external}.
 
 ### Attestation
 {: #feature-attestation}
