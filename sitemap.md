@@ -57,7 +57,7 @@ Find what you are looking for in the topics that are available for Confidential 
 
 * [Hyper Protect Virtual Servers for VPC](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpvs-cloud)
 
-* [Hyper Protect Virtual Servers](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpvs-on-prem)
+* [Hyper Protect Virtual Servers for IBM LinuxONE and IBM Z](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpvs-on-prem)
 
 * [{{site.data.keyword.hscrypto}}](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpcs)
 

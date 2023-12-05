@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-11-24"
+lastupdated: "2023-12-05"
 
 keywords: hyper protect services, hpvs, hpcs
 
@@ -18,7 +18,7 @@ subcollection: confidential-computing
 The Hyper Protect Platform is comprised of the following products:
 
 - [IBM Cloud Hyper Protect Virtual Servers for VPC](#hpvs-cloud)
-- [IBM Hyper Protect Virtual Servers for on-premises environments](#hpvs-on-prem)
+- [IBM Hyper Protect Virtual Servers for IBM LinuxONE and IBM Z](#hpvs-on-prem)
 - [{{site.data.keyword.hscrypto}}](#hpcs)
 
 The following figure illustrates the products portfolio and the enclave boundary for each product:
@@ -32,7 +32,7 @@ Hyper Protect Virtual Servers for VPC leverage the IBM Secure Execution for Linu
 
 You can now also deploy a workload built with SUSE Linux Enterprise Base Container Images into the Hyper Protect Container Runtime in a hybrid confidential computing environment. For more information, see [Confidential Computing with SUSE Linux Enterprise Base Container Images Using the IBM Hyper Protect Platform](https://documentation.suse.com/trd/linux/single-html/gs_sles_ibm-hpvs){: external}.
 
-## Hyper Protect Virtual Servers
+## Hyper Protect Virtual Servers for IBM LinuxONE and IBM Z
 {: #hpvs-on-prem}
 
 IBM Hyper Protect Virtual Servers leverage the IBM Secure Execution for Linux technology to protect Linux workloads on IBM Z and LinuxONE throughout the application lifecycle – from build through to deploy and manage. You can be confident that applications and data are always private and protected from internal and external threats. For more information, see [IBM Hyper Protect Virtual Services documentation](https://www.ibm.com/docs/en/hpvs/2.1.x){: external}.
