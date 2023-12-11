@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-12-05"
+lastupdated: "2023-12-11"
 
 keywords: hyper protect, hyper protect services, hyper protect platform
 
@@ -15,31 +15,21 @@ subcollection: confidential-computing
 # Hyper Protect Platform on IBM Z and LinuxONE
 {: #hyper-protect-overview}
 
-The IBM Hyper Protect Platform as the IBM confidential computing solution can help solve the data protection concerns in a hybrid cloud environment, on-premises environment, and as an IBM Cloud-based SaaS model.
+Hyper Protect Platform is an unique confidential computing solution based on s390x architecture of IBM Z and IBM LinuxONE, and offers highly secure and confidential computing environment for mission-critical workloads both for on-premises and public cloud environments. The platform leverages hardeware-based security features and advanced encryption techniques to protect data, appplications, and transactions.
 {: shortdesc}
 
-## Introducing the Hyper Protect Platform
-{: #hp-introduction}
 
-The IBM Hyper Protect Platform leverages [IBM Secure Execution for Linux technology](https://www.ibm.com/docs/en/linux-on-systems?topic=virtualization-introducing-secure-execution-linux){: external}. This is a hardware-based security technology, which was introduced with the IBM z15® and IBM® LinuxONE III generation systems for Kernel Virtual Machines (KVM). It is designed to provide scalable isolation for individual workloads to help protect them from not only external attacks, but also insider threats. Secure Execution can help protect and isolate workloads on-premises, or on IBM Z and IBM® LinuxONE hybrid cloud environments. The following figure illustrates the overall stack for the Hyper Protect Platform.
+The Hyper Protect Platform is comprised of the following components:
 
-![Hyper Protect Platform stack overview](../images/hp-stack.png){: caption="Figure 1. Hyper Protect Platform stack overview" caption-side="bottom"}
+* A Trusted Execution Environment for containerized applications based on IBM Secure Execution for Linux technology
+* A hardware security module (HSM) based on the Crypto Express features
+* A component for secure CI/CD based on a trusted container image within the secure enclave
 
-By reducing the size of the protected environment with the Hyper protect Platform, it is possible to enhance data protection from potential attacks on the system from inside and outside. By the ability to protect data-in-use by individual KVMs it is possible to increase flexibility and scalability of the solution, which also becomes independent of underlying software stack.
 
-Based on the stack, the following figure illustrated the protection boundary in Hyper Protect:
-
-![Protection boundary](../images/hyper-protect-boundary.png){: caption="Figure 2. Protection boundary" caption-side="bottom"}
-
-## Features of the Hyper Protect Platform
-{: #hp-features}
-
-The features offered by the Hyper Protect Platform create the foundation for an end-to-end secure environment. This platform provides protection of code and data while supporting a consistent developer experience.
-
-### Secure Execution
+## Secure Execution
 {: #feature-se}
 
-IBM Secure Execution for Linux protects data of workloads that run in a KVM guest from being inspected or modified by the server environment. In particular, no hardware administrator, no KVM code, and no KVM administrator can access the data in a guest that was started as an IBM Secure Execution guest. Only the workload owner can access the workload and data.
+The IBM Hyper Protect Platform leverages [IBM Secure Execution for Linux technology](https://www.ibm.com/docs/en/linux-on-systems?topic=virtualization-introducing-secure-execution-linux){: external}, which is a hardware-based security technology and was introduced with the IBM z15® and IBM® LinuxONE III generation systems for Kernel Virtual Machines (KVM). It protects data of workloads that run in a KVM guest from being inspected or modified by the server environment. In particular, no hardware administrator, no KVM code, and no KVM administrator can access the data in a guest that was started as an IBM Secure Execution guest. Only the workload owner can access the workload and data.
 
 The Secure Execution for Linux is a continuation and expansion of well-known security features of IBM Z and LinuxONE, and is available as part of the following hardwares:
 
@@ -56,7 +46,8 @@ To process the secret information, the Ultravisor uses the matching private host
 
 ![Securing the workload](../images/lxse_flowkeys_otherway.jpg){: caption="Figure 3. Securing the workload" caption-side="bottom"}
 
-### Bring Your Own Image - Hyper Protect Container Runtime
+
+## Hyper Protect Container Runtime
 {: #feature-hpcr}
 
 The Hyper protect Platform provides a Container Runtime (a trusted container runtime which provides the benefits and properties of a TEE) for OCI images. It supports any OCI images built for IBM LinuxONE and IBM Z, which means images do not need to be adapted specifically for Hyper Protect. The application code does not need to be changed and does not need to adhere to a specific programming model. You can use your existing application code and images and bring these to the Hyper Protect Platform.

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-12-05"
+lastupdated: "2023-12-11"
 
 keywords: 
 
@@ -39,13 +39,9 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Hyper Protect Platform on IBM Z and LinuxONE](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#hyper-protect-overview)
 
-* [Introducing the Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#hp-introduction)
+* [Secure Execution](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-se)
 
-* [Features of the Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#hp-features)
-
-    * [Secure Execution](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-se)
-
-    * [Bring Your Own Image - Hyper Protect Container Runtime](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-hpcr)
+* [Hyper Protect Container Runtime](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-hpcr)
 
     * [Separation of duties](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-duty-separation)
 
