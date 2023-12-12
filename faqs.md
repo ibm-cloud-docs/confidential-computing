@@ -22,7 +22,7 @@ Answers to common questions about Confidential Computing on IBM Cloud.
 ## What is IBM Hyper Protect Services?
 {: #faqs-cc-hps}
     
-IBM Hyper Protect Services is a suite of services designed to provide a highly secure environment for sensitive data and applications in hybrid cloud deployments, leveraging Confidential Computing capabilities.
+IBM Hyper Protect Services is a suite of services designed to provide a highly secure environment for sensitive data and applications in hybrid cloud deployments, leveraging Confidential Computing capabilities on IBM Z or LinuxONE.
 
 ## What is Confidential Computing, and how does it relate to Hyper Protect Services?
 {: #faqs-cc-hps}
