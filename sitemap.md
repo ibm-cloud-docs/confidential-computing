@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-12-11"
+lastupdated: "2023-12-12"
 
 keywords: 
 
@@ -152,9 +152,27 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [FAQs for Confidential Computing](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc)
 
-* [What is confidential computing?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-what)
+* [What is IBM Hyper Protect Services?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-hps)
+
+* [What is Confidential Computing, and how does it relate to Hyper Protect Services?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-hps)
 
 * [What is Zero-Trust?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-zero-trust)
 
 * [What is the difference between Operation Assurance and Technical Assurance?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-operation-technical)
+
+* [What kind of technology underlies the Hyper Protect Platform?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-tech)
+
+* [How does Hyper Protect Crypto Service enhance security?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-hpcs)
+
+* [Can Hyper Protect Services be integrated with a hybrid cloud strategy?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-hb)
+
+* [What is the Hyper Protect Virtual Server, and what does it offer?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faq-hpvs)
+
+* [How does the Hyper Protect Secure Build process work?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-hpsb)
+
+* [What is cryptographic agility, and why is it important in Hyper Protect Services?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-ca)
+
+* [Is there support for custom application OCI images within Hyper Protect Services?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-oci)
+
+* [What considerations should be taken when deploying workloads in HPVS instances?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-consider)
 
