@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-11-24"
+lastupdated: "2023-12-13"
 
 keywords: 
 
@@ -17,4 +17,6 @@ subcollection: confidential-computing
 
 The reference architecture overview provides the supported architectures that can be used as a basis for implementing confidential computing solutions on Hybrid Cloud. Learn about these reference architectures in the following table.
 
-TO-DO: Add the architecture diagram on how Hyper Protect pieces are used on Hybrid cloud
+
+![Hyper Protect on Hybrid Cloud](../images/architecture-hybrid.png "Hyper Protect on Hybrid Cloud"){: caption="Figure 1. Hyper Protect on Hybrid Cloud" caption-side="bottom"}
+

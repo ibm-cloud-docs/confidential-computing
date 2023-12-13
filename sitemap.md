@@ -41,28 +41,26 @@ Find what you are looking for in the topics that are available for Confidential 
 
 * [Secure Execution](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-se)
 
-* [Hyper Protect Container Runtime](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-hpcr)
+* [Separation of duties](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-duty-separation)
 
-    * [Separation of duties](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-duty-separation)
-
-    * [Encrypted contract mechanism](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-contract)
+    * [Contract mechanism](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-contract)
 
     * [Attestation](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-attestation)
 
 [Products in Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hyper-protect-products)
 
-* [Hyper Protect Virtual Servers for VPC](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpvs-cloud)
+* [Hyper Protect Virtual Servers](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpvs)
 
-* [Hyper Protect Virtual Servers for IBM LinuxONE and IBM Z](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpvs-on-prem)
+* [Hyper Protect Secure Build](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpsb)
 
-* [{{site.data.keyword.hscrypto}}](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpcs)
-
-
-## Reference architecture overview on IBM Cloud
-{: #sitemap_reference_architecture_overview_on_ibm_cloud}
+* [Hyper Protect Crypto Services](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpcs)
 
 
-[Reference architecture overview on IBM Cloud](/docs/confidential-computing?topic=confidential-computing-public-cloud#public-cloud)
+## Reference architecture overview on public Cloud
+{: #sitemap_reference_architecture_overview_on_public_cloud}
+
+
+[Reference architecture overview on public Cloud](/docs/confidential-computing?topic=confidential-computing-public-cloud#public-cloud)
 
 
 ## Reference architecture overview on hybrid cloud
@@ -146,11 +144,11 @@ Find what you are looking for in the topics that are available for Confidential 
 [Best practices for confidential computing](/docs/confidential-computing?topic=confidential-computing-best-practices#best-practices)
 
 
-## FAQs for Confidential Computing
-{: #sitemap_faqs_for_confidential_computing}
+## FAQs for Confidential Computing in IBM
+{: #sitemap_faqs_for_confidential_computing_in_ibm}
 
 
-[FAQs for Confidential Computing](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc)
+[FAQs for Confidential Computing in IBM](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc)
 
 * [What is IBM Hyper Protect Services?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-hps)
 

@@ -2,9 +2,9 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-12-05"
+lastupdated: "2023-12-13"
 
-keywords: hyper protect services, hpvs, hpcs
+keywords: hyper protect services, hpvs, hpcs, hpsb, hyper protect products
 
 subcollection: confidential-computing
 
@@ -15,29 +15,58 @@ subcollection: confidential-computing
 # Products in Hyper Protect Platform
 {: #hyper-protect-products}
 
-The Hyper Protect Platform is comprised of the following products:
 
-- [IBM Cloud Hyper Protect Virtual Servers for VPC](#hpvs-cloud)
-- [IBM Hyper Protect Virtual Servers for IBM LinuxONE and IBM Z](#hpvs-on-prem)
-- [{{site.data.keyword.hscrypto}}](#hpcs)
+The IBM Hyper Protect Platform provides several key products aimed at enhancing the security of applications and data, particularly in hybrid cloud environments. 
+
+- [Hyper Protect Virtual Servers](#hpvs)
+- [Hyper Protect Secure Build](#hpsb)
+- [Hyper Protect Crypto Services](#hpcs)
 
 The following figure illustrates the products portfolio and the enclave boundary for each product:
 
 ![Hyper Protect products](../images/hyper-protect-platform-2.png){: caption="Figure 1. Hyper Protect products" caption-side="bottom"}
 
-## Hyper Protect Virtual Servers for VPC
-{: #hpvs-cloud}
+## Hyper Protect Virtual Servers
+{: #hpvs}
 
-Hyper Protect Virtual Servers for VPC leverage the IBM Secure Execution for Linux technology to provide the latest confidential computing as-a-service solution on IBM Cloud. It is a fully managed confidential computing container runtime that enables you to deploy containerized workloads in isolated tamper-proof computing environments, thus mitigating your security concerns about moving mission-critical workloads to public clouds. For more information, see [Confidential computing with LinuxONE](/docs/vpc?topic=vpc-about-se){: external}.
+Hyper Protect Virtual Servers (HPVS) takes advantage of IBM Secure Execution for Linux to create a secure boundary around each workload—technical assurance that ensures unauthorized users do not have access to the workload or data. Workloads are locked down by individual, instance-level secure enclaves. 
 
-You can now also deploy a workload built with SUSE Linux Enterprise Base Container Images into the Hyper Protect Container Runtime in a hybrid confidential computing environment. For more information, see [Confidential Computing with SUSE Linux Enterprise Base Container Images Using the IBM Hyper Protect Platform](https://documentation.suse.com/trd/linux/single-html/gs_sles_ibm-hpvs){: external}.
+The following diagram illustrates the components that make up the Hyper Protect Virtual Server, which includes the Bootloader and Hyper Protect Services to validate the authenticity and trust of the workload. 
 
-## Hyper Protect Virtual Servers for IBM LinuxONE and IBM Z
-{: #hpvs-on-prem}
+![Hyper Protect Virtual Server](../images/hpvs-arch.jpg){: caption="Figure 1. Hyper Protect Virtual Server" caption-side="bottom"}
 
-IBM Hyper Protect Virtual Servers leverage the IBM Secure Execution for Linux technology to protect Linux workloads on IBM Z and LinuxONE throughout the application lifecycle – from build through to deploy and manage. You can be confident that applications and data are always private and protected from internal and external threats. For more information, see [IBM Hyper Protect Virtual Services documentation](https://www.ibm.com/docs/en/hpvs/2.1.x){: external}.
+HPVS offers different distributions so that you can protect your missiion-critical workload either on pubic cloud or in your own IBM Z or LinuxONE servers. The following table shows the comparision of key capabilities between the public cloud distribution and the on-premises distribution. For more details, see [IBM Hyper Protect Virtual Servers for VPC on IBM Cloud](/docs/vpc?topic=vpc-about-se){: external} and [IBM Hyper Protect Virtual Services documentation](https://www.ibm.com/docs/en/hpvs/2.1.x){: external}.
 
-## {{site.data.keyword.hscrypto}}
+
+|| Capability	|| HPVS for VPC	|| HPVS for On-Premise ||
+| --- | --- | --- |
+| Deployment Environment	 | IBM Cloud infrastructure, offering a public cloud deployment option with secure execution for workloads. | 	Private cloud deployment on Linux LPAR (Logical Partition) running KVM enabled with Secure Execution, suitable for IBM Z or LinuxONE. |
+| Secure Execution	| Workloads are protected by secure execution, ensuring that containers are securely deployed on Virtual Server Instances (VSI). | Secure Execution on Linux feature (0115) and CP Assist for Cryptographic Function (CPACF) feature (3863) are required for enabling confidentiality and integrity by protecting and isolating containers as KVM guests running a HPCR image. |
+| Security and Isolation | Utilizes IBM Secure Execution for Linux to create secure boundaries around each workload, preventing unauthorized access. | Similar to VPC, leverages Secure Execution for workload isolation and security on-premises.|
+| Volume Encryption |  | LUKS volume encryption for attached storage devices |.
+| Network Security	| Built-in extra network security within the VPC infrastructure, with the ability to use common network security groups and logging infrastructure | Contact your network administrator	|
+| Logging and Monitoring	| Supports setting up a logging service for HPVS for VPC provisioning . | Setting up an rsyslog logging service for HPVS log information is supported. |
+| Scalability	| Offers various profile sizes and the ability to grow as needed to protect containerized applications with a pay-as-you-go model. | 	Not explicitly mentioned in the documents provided.
+| Managed Service Offering | 	Deployment of services happens automatically as part of the managed-service offering in the IBM Cloud. |	The Infrastructure/System admin must ensure proper system configuration and enablement of Secure Execution. |
+| Resource Provisioning |	Can provision HPVS for VPC from the IBM Cloud portal or using the IBM Cloud CLI, with Secure Execution Profile selection. |	Requires verifying hardware and enabling IBM Secure Execution technology, along with installation and configuration steps for LPAR with KVM. |
+{: caption="Table 1. Comparison of HPVS for VPC and on-premises" caption-side="bottom"}
+
+
+## Hyper Protect Secure Build
+{: #hpsb}
+
+
+Hyper Protect Secure Build (HPSB) ensures a trusted container image can be built within a secure enclave that is provided by IBM HPVS. The enclave is highly isolated, where developers can access the container only by using a specific API and the cloud administrator cannot access the contents of the container. Therefore, the image that is built can be highly trusted. Specifically, the build server cryptographically signs the image, and a manifest (which is a collection of materials that are used during the build, for audit purposes). Since the enclave protects the signing keys within the enclave, the signatures can be used to verify whether the image and manifest files are from the HPSB and not elsewhere.
+
+The HPSB can be used to securely build source code from a GitHub repository, publish the built image to a repository such as Docker hub or IBM Container Registry, and then deploy the built image as an HPVS instance.
+
+The following diagram shows how you interact with Hyper Protect Secure Build to build and deploy your container image. For more information, see [IBM Hyper Protect Secure Build](https://github.com/ibm-hyper-protect/secure-build-cli){: external}.
+
+
+![Hyper Protect Secure Build](../images/hpsb-arch.jpg){: caption="Figure 2. Hyper Protect Secure Build" caption-side="bottom"}
+
+
+## Hyper Protect Crypto Services
 {: #hpcs}
 
 {{site.data.keyword.cloud_notm}} {{site.data.keyword.hscrypto}} is a dedicated key management service and Hardware Security Module (HSM) that provides you with the Keep Your Own Key (KYOK) capability for cloud data encryption. Built on FIPS 140-2 Level 4 certified hardware, {{site.data.keyword.hscrypto}} provides you with exclusive control of your encryption keys. You can take the ownership of the HSM through master key initialization. With {{site.data.keyword.uko_full_notm}}, you can connect your service instance to keystores in IBM Cloud and third-party cloud providers, back up and manage keys using a unified system, and orchestrate keys across multiple clouds.

@@ -2,9 +2,9 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-12-12"
+lastupdated: "2023-12-13"
 
-keywords: 
+keywords: faq, confidential computings
 
 subcollection: framework-financial-services
 
@@ -13,7 +13,7 @@ subcollection: framework-financial-services
 {{site.data.keyword.attribute-definition-list}}
 
 
-# FAQs for Confidential Computing
+# FAQs for Confidential Computing in IBM
 {: #faqs-cc}
 
 Answers to common questions about Confidential Computing on IBM Cloud.
@@ -37,7 +37,7 @@ Zero-trust is a security model that never assumes trust and always verifies acce
 ## What is the difference between Operation Assurance and Technical Assurance?
 {: #faqs-cc-operation-technical}
 
-Operation assurance ensures that the operations conducted by service providers and others are compliant and do not intentionally or unintentionally compromise security
+Operation assurance ensures that the operations conducted by service providers and others are compliant and do not intentionally or unintentionally compromise security.
 
 Technical assurance ensures that the security features are ingrained in the technology. And it is technically impossible for unauthorized access or changes to occur.
 

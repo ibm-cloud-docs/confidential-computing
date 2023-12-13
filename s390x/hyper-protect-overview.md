@@ -2,9 +2,9 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-12-11"
+lastupdated: "2023-12-13"
 
-keywords: hyper protect, hyper protect services, hyper protect platform
+keywords: hyper protect, hyper protect services, hyper protect platform, kvm, s390x
 
 subcollection: confidential-computing
 
@@ -15,48 +15,39 @@ subcollection: confidential-computing
 # Hyper Protect Platform on IBM Z and LinuxONE
 {: #hyper-protect-overview}
 
-Hyper Protect Platform is an unique confidential computing solution based on s390x architecture of IBM Z and IBM LinuxONE, and offers highly secure and confidential computing environment for mission-critical workloads both for on-premises and public cloud environments. The platform leverages hardeware-based security features and advanced encryption techniques to protect data, appplications, and transactions.
+IBM Hyper Protect Platform represents the cutting-edge in confidential computing, designed to secure sensitive data and mission-critical applications in hybrid cloud environments. The platform leverages IBM Z and LinuxONE systems' Secure Execution technology, providing a robust foundation for creating protected kernel virtual machines (KVM) tailored for the s390x architecture. This secure execution environment encapsulates workloads within secure enclaves, effectively shielding them from unauthorized access, even from privileged users such as cloud administrators.
 {: shortdesc}
 
+One of the key advantages of the Hyper Protect Platform is its ability to provide end-to-end security for data at rest, in motion, and in use. By utilizing this platform, enterprises can confidently move sensitive applications to the cloud, knowing that their code and data are safeguarded throughout their lifecycle. This is particularly crucial for industries with stringent data protection requirements, such as financial services, healthcare, and government sectors.
 
-The Hyper Protect Platform is comprised of the following components:
+The Hyper Protect Platform ensures data confidentiality by encrypting data in use within secure enclaves, preventing unauthorized access or tampering. Data integrity is maintained through secure boot processes and encrypted images that are only decryptable by the hardware's trusted firmware. Moreover, code integrity is protected by the Hyper Protect Secure Build, which creates a secure environment for the build process, ensuring that the resulting images are free from tampering.
 
-* A Trusted Execution Environment for containerized applications based on IBM Secure Execution for Linux technology
-* A hardware security module (HSM) based on the Crypto Express features
-* A component for secure CI/CD based on a trusted container image within the secure enclave
+Additionally, cryptographic operations, such as key creation and signing, are performed using the FIPS 140-2 Level 4 certified Hyper Protect Crypto Service (HPCS) on IBM Z and LinuxONE. This level of cryptographic security ensures that keys and access tokens are kept within the confines of the platform and are inaccessible, even to those with elevated privileges.
 
 
 ## Secure Execution
 {: #feature-se}
 
-The IBM Hyper Protect Platform leverages [IBM Secure Execution for Linux technology](https://www.ibm.com/docs/en/linux-on-systems?topic=virtualization-introducing-secure-execution-linux){: external}, which is a hardware-based security technology and was introduced with the IBM z15® and IBM® LinuxONE III generation systems for Kernel Virtual Machines (KVM). It protects data of workloads that run in a KVM guest from being inspected or modified by the server environment. In particular, no hardware administrator, no KVM code, and no KVM administrator can access the data in a guest that was started as an IBM Secure Execution guest. Only the workload owner can access the workload and data.
+The IBM Hyper Protect Platform leverages [IBM Secure Execution for Linux technology](https://www.ibm.com/docs/en/linux-on-systems?topic=virtualization-introducing-secure-execution-linux){: external}, which is a hardware-based security technology and was introduced with the IBM z15® and IBM® LinuxONE III generation systems for Kernel Virtual Machines (KVM). It protects data of workloads that run in a KVM guest from being inspected or modified by the server environment. In particular, no hardware administrator, no KVM code, and no KVM administrator can access the data in a guest that was started as an IBM Secure Execution guest. Only the workload owner can access the workload and data. This means that no hardware administrator, KVM code, or KVM administrator can compromise the sanctity of the data, effectively isolating the workload from any external interference.
 
 The Secure Execution for Linux is a continuation and expansion of well-known security features of IBM Z and LinuxONE, and is available as part of the following hardwares:
 
    * IBM z15 and z16
    * IBM LinuxONE III and LinuxONE 4
 
-Secure Execution for Linux is built to apply Zero Trust policies. Encryption combined with architectural, development and manufactural processes can establish technical assurance. Regulation and Audition require proof that the assumed environment and workload is present as well as appropriate personalization of instances has happened. A common way to provide such proof are attestation methods or through an attestation record. 
+IBM Secure Execution for Linux is designed to provide a scalable isolation for individual workloads, enhancing security by protecting against both external attacks and insider threats. This reinforces principles aligned with Zero Trust security models with encryption combined with architectural, development and manufactural processes to establish technical assurance.
 
-To achieve this, the zSystem firmware contains a so-called Ultravisor, a trusted firmware component, which enforces memory protection and offers the owner of a given KVM guest to securely pass secret information to the Ultravisor by using the public host key included in the host key document.
+The Ultravisor, a trusted firmware component within the IBM Z and LinuxONE, enforces memory protection and facilitates the secure transfer of sensitive information. It allows the owner of a KVM guest to securely pass secret information to the Ultravisor using the public host key, which is part of the host key document. This document functions similarly to a certificate, with IBM acting as the trusted third party to verify its authenticity.
 
-![Secure Exuection for Linux](../images/lxse_uv.jpg){: caption="Figure 2. IBM Secure Execution for Linux" caption-side="bottom"}
+![Secure Exuection for Linux](../images/lxse_uv.jpg){: caption="Figure 1. IBM Secure Execution for Linux" caption-side="bottom"}
 
-To process the secret information, the Ultravisor uses the matching private host key to run the workload in the secure-execution mode. The following diagram shows a simplified view of the keys that are involved in all stages of securing the workload. The private host key is specific to an IBM z or LinuxONE server and is hardware protected. 
+To process the secret information, the Ultravisor uses the matching private host key to run the workload in the secure-execution mode. The following diagram shows a simplified view of the keys that are involved in all stages of securing the workload. The private host key is specific to an IBM Z or LinuxONE server and is hardware protected. 
 
-![Securing the workload](../images/lxse_flowkeys_otherway.jpg){: caption="Figure 3. Securing the workload" caption-side="bottom"}
+![Securing the workload](../images/lxse_flowkeys_otherway.jpg){: caption="Figure 2. Securing the workload" caption-side="bottom"}
 
+When you start a KVM guest or deploy a workload in IBM Secure Execution mode, the boot image, guest memory, and guest state are all protected against being observed or modified by the hosting environment. Across its entire lifecycle, such a guest has its confidentiality and integrity protected, from the moment the image is built, through the boot process and the running of the virtual server, until its termination.
 
-## Hyper Protect Container Runtime
-{: #feature-hpcr}
-
-The Hyper protect Platform provides a Container Runtime (a trusted container runtime which provides the benefits and properties of a TEE) for OCI images. It supports any OCI images built for IBM LinuxONE and IBM Z, which means images do not need to be adapted specifically for Hyper Protect. The application code does not need to be changed and does not need to adhere to a specific programming model. You can use your existing application code and images and bring these to the Hyper Protect Platform.
-
-The following figure illustrates the main components in Hyper Protect Container Runtime:
-
-![Hyper Protect Container Runtime on public and Hybrid cloud](../images/hpcr-hybrid.svg){: caption="Figure 2. Hyper Protect Container Runtime on public and Hybrid cloud" caption-side="bottom"}
-
-### Separation of duties
+## Separation of duties
 {: #feature-duty-separation}
 
 The Hyper Protect Platform supports separation of duty with predefined personas. The predefined personas as described below are based on least privilege and zero trust principles. There is no assumed trust that what is expected to be deployed is in fact what gets deployed.
@@ -92,17 +83,25 @@ The Hyper Protect Platform supports separation of duty with predefined personas.
 
   This role includes the system (cloud) administrator of a compute, storage, and network or support persona of the infrastructure like a Site Reliability Engineer (SRE). They will have responsibility for the underlying hardware but must not be able to use the capabilities this role offers to access confidential data or subvert the workload providers definition of the workload and expected environment. The use of Secure Execution achieves this through protecting the memory used by the workload from all external access at runtime, and the use of an encrypted Contract protects the intended workload and environment definitions at deployment time.
 
-### Encrypted contract mechanism
+### Contract mechanism
 {: #feature-contract}
 
-The Hyper protect Platform uses a contract mechanism to enable the Workload Provider and the Workload Deployer to define the container images and the properties of the application and its environment in a secure way. The contract is a document comprising multiple sections which can be independently encrypted. No intermediate infrastructure component and no other party including privileged actors can view the contents of the contract. The contract can be signed and is provided during deployment. During initialization or boot of instance, the Hyper Protect Container Runtime decrypts the contract, verifies the contract signature, creates the passphrase to encrypt disk devices based on the seeds contained in the contract, starts the container images defined in the contract and sets up the environment according to the properties defined in the contract, by setting environment variables.
+A contract is a mechanism used to configure and establish a confidential computing environment for workloads running on the Hyper Protect platform. It includes the workload configuraton, deployment-specific configuration and ensures that integrity and confidentiality are maintained between the different personas involved in creating and deploying the workload. Moreover, it secures the confidentiality from the underlying infrastructure being used. 
 
-Only the Hyper Protect Platform can decrypt an encrypted contract. Therefore, by using the contract mechanism, the Workload Provider can define and encrypt the workload in the contract, then pass it to the Workload Deployer. This way, the Workload Provider can hide the content of the workload like the actual container images of the application from the Workload Deployer, while still allowing the Workload Deployer to deploy the workload. For more information, see [About the contract](/docs/vpc?topic=vpc-about-contract_se){: external}.
+![Contract mechanism](../images/contract-hpcr.jpg){: caption="Figure 3. Contract mechanism" caption-side="bottom"}
+
+The contract is essential for the workload lifecycle within the secure execution environment. The workload itself and its contract are passed into the container runtime environment in the KVM guest during the deployment, and this container runtime environment is also known as Hyper Protect Container Runtime (HPCR). To safeguard the contract, a public/private key pair is used to encrypt the contract contents. This public/private key pair helps maintain the confidentiality of the contract during its distribution and before it is decrypted by the HPCR image.
+
+The encryption of the contract is carried out using the public X509 certificate associated with the Contract Encryption public key. This public key is published by IBM, allowing any persona to validate it out-of-band, which means that it can be validated independently of the system that uses it, ensuring the trustworthiness of the encryption mechanism.
+
+Upon receipt of the contract by the HPCR image, the contract is decrypted by the different components or services within it. This process involves decrypting the contract (if encrypted), validating the contract schema, checking for contract signatures, and creating a passphrase to encrypt the disk device. After these steps, the container specified in the contract is brought up and becomes operational.
+
+For more information, see [About the contract](/docs/vpc?topic=vpc-about-contract_se){: external}.
 
 ### Attestation
 {: #feature-attestation}
 
-Attestation is the evidence that the KVM guest runs in secure-execution mode. If the KVM guest was built for one particular IBM Z or LinuxONE server, the attestation also verifies that the KVM guest runs on that specific server. If the KVM guest was built for several servers, the attestation only verifies that the KVM guest runs on one of those servers.
+Attestation is the evidence that the KVM guest runs in secure execution environment. If the KVM guest was built for one particular IBM Z or LinuxONE server, the attestation also verifies that the KVM guest runs on that specific server. If the KVM guest was built for several servers, the attestation only verifies that the KVM guest runs on one of those servers.
 
 With cybersecurity threats developing and calling for mitigation, attestation is being integrated into workflows for cloud-based workloads. IBM Secure Execution as a superior security architecture provides an attestation function.
 
