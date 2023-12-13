@@ -143,6 +143,26 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Best practices for confidential computing](/docs/confidential-computing?topic=confidential-computing-best-practices#best-practices)
 
+* [Technical Assurance](/docs/confidential-computing?topic=confidential-computing-best-practices#technical-assurance)
+
+* [Trusted Execution Environment (TEE) Deployment](/docs/confidential-computing?topic=confidential-computing-best-practices#trusted-execution-environment-tee-deployment)
+
+* [Reduced Trust Boundary](/docs/confidential-computing?topic=confidential-computing-best-practices#reduced-trust-boundary)
+
+* [Separation of Duty](/docs/confidential-computing?topic=confidential-computing-best-practices#separation-of-duty)
+
+* [Exclusive Control Over Cryptographic Keys](/docs/confidential-computing?topic=confidential-computing-best-practices#exclusive-control-over-cryptographic-keys)
+
+* [Support for OCI Images](/docs/confidential-computing?topic=confidential-computing-best-practices#support-for-oci-images)
+
+* [Scalability](/docs/confidential-computing?topic=confidential-computing-best-practices#scalability)
+
+* [Zero Trust Architecture Integration](/docs/confidential-computing?topic=confidential-computing-best-practices#zero-trust-architecture-integration)
+
+* [Data Protection Throughout Lifecycle](/docs/confidential-computing?topic=confidential-computing-best-practices#data-protection-throughout-lifecycle)
+
+* [Regular Awareness and Training](/docs/confidential-computing?topic=confidential-computing-best-practices#regular-awareness-and-training)
+
 
 ## FAQs for Confidential Computing in IBM
 {: #sitemap_faqs_for_confidential_computing_in_ibm}
