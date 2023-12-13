@@ -88,7 +88,7 @@ The Hyper Protect Platform supports separation of duty with predefined personas.
 
 A contract is a mechanism used to configure and establish a confidential computing environment for workloads running on the Hyper Protect platform. It includes the workload configuraton, deployment-specific configuration and ensures that integrity and confidentiality are maintained between the different personas involved in creating and deploying the workload. Moreover, it secures the confidentiality from the underlying infrastructure being used. 
 
-![Contract mechanism](../images/contract-hpcr.jpg){: caption="Figure 3. Contract mechanism" caption-side="bottom"}
+![Contract mechanism](../images/contract-hpcr.png){: caption="Figure 3. Contract mechanism" caption-side="bottom"}
 
 The contract is essential for the workload lifecycle within the secure execution environment. The workload itself and its contract are passed into the container runtime environment in the KVM guest during the deployment, and this container runtime environment is also known as Hyper Protect Container Runtime (HPCR). To safeguard the contract, a public/private key pair is used to encrypt the contract contents. This public/private key pair helps maintain the confidentiality of the contract during its distribution and before it is decrypted by the HPCR image.
 
