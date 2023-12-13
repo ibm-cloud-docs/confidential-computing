@@ -33,12 +33,12 @@ Hyper Protect Virtual Servers (HPVS) takes advantage of IBM Secure Execution for
 
 The following diagram illustrates the components that make up the Hyper Protect Virtual Server, which includes the Bootloader and Hyper Protect Services to validate the authenticity and trust of the workload. 
 
-![Hyper Protect Virtual Server](../images/hpvs-arch.jpg){: caption="Figure 1. Hyper Protect Virtual Server" caption-side="bottom"}
+![Hyper Protect Virtual Server](../images/hpvs-arch.png){: caption="Figure 1. Hyper Protect Virtual Server" caption-side="bottom"}
 
 HPVS offers different distributions so that you can protect your missiion-critical workload either on pubic cloud or in your own IBM Z or LinuxONE servers. The following table shows the comparision of key capabilities between the public cloud distribution and the on-premises distribution. For more details, see [IBM Hyper Protect Virtual Servers for VPC on IBM Cloud](/docs/vpc?topic=vpc-about-se){: external} and [IBM Hyper Protect Virtual Services documentation](https://www.ibm.com/docs/en/hpvs/2.1.x){: external}.
 
 
-|| Capability	|| HPVS for VPC	|| HPVS for On-Premise ||
+| Capability	| HPVS for VPC	| HPVS for On-Premise |
 | --- | --- | --- |
 | Deployment Environment	 | IBM Cloud infrastructure, offering a public cloud deployment option with secure execution for workloads. | 	Private cloud deployment on Linux LPAR (Logical Partition) running KVM enabled with Secure Execution, suitable for IBM Z or LinuxONE. |
 | Secure Execution	| Workloads are protected by secure execution, ensuring that containers are securely deployed on Virtual Server Instances (VSI). | Secure Execution on Linux feature (0115) and CP Assist for Cryptographic Function (CPACF) feature (3863) are required for enabling confidentiality and integrity by protecting and isolating containers as KVM guests running a HPCR image. |
@@ -63,7 +63,7 @@ The HPSB can be used to securely build source code from a GitHub repository, pub
 The following diagram shows how you interact with Hyper Protect Secure Build to build and deploy your container image. For more information, see [IBM Hyper Protect Secure Build](https://github.com/ibm-hyper-protect/secure-build-cli){: external}.
 
 
-![Hyper Protect Secure Build](../images/hpsb-arch.jpg){: caption="Figure 2. Hyper Protect Secure Build" caption-side="bottom"}
+![Hyper Protect Secure Build](../images/hpsb-arch.png){: caption="Figure 2. Hyper Protect Secure Build" caption-side="bottom"}
 
 
 ## Hyper Protect Crypto Services
