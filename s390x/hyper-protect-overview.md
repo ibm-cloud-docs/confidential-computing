@@ -20,8 +20,6 @@ IBM Hyper Protect Platform represents the cutting-edge in confidential computing
 
 One of the key advantages of the Hyper Protect Platform is its ability to provide end-to-end security for data at rest, in motion, and in use. By utilizing this platform, enterprises can confidently move sensitive applications to the cloud, knowing that their code and data are safeguarded throughout their lifecycle. This is particularly crucial for industries with stringent data protection requirements, such as financial services, healthcare, and government sectors.
 
-Additionally, cryptographic operations, such as key creation and signing, are performed using the FIPS 140-2 Level 4 certified Hyper Protect Crypto Service (HPCS) on IBM Z and LinuxONE. This level of cryptographic security ensures that keys and access tokens are kept within the confines of the platform and are inaccessible, even to those with elevated privileges.
-
 
 ## Secure Execution
 {: #feature-se}
