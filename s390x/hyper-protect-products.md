@@ -15,8 +15,10 @@ subcollection: confidential-computing
 # Products in Hyper Protect Platform
 {: #hyper-protect-products}
 
+The IBM Hyper Protect Platform provides several key products aimed at enhancing the security of applications and data, particularly in hybrid cloud environments.
+{: shortdesc}
 
-The IBM Hyper Protect Platform provides several key products aimed at enhancing the security of applications and data, particularly in hybrid cloud environments. 
+It ensures data confidentiality by encrypting data in use within secure enclaves, preventing unauthorized access or tampering. Data integrity is maintained through secure boot processes and encrypted images that are only decryptable by the hardware's trusted firmware. Moreover, code integrity is protected by the Hyper Protect Secure Build, which creates a secure environment for the build process, ensuring that the resulting images are free from tampering.
 
 - [Hyper Protect Virtual Servers](#hpvs)
 - [Hyper Protect Secure Build](#hpsb)
