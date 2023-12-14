@@ -195,14 +195,14 @@ Find what you are looking for in the topics that are available for Confidential 
 * [What considerations should be taken when deploying workloads in HPVS instances?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-consider)
 
 
-## Whitepaper - The Second Generation of IBM Hyper Protect Platform
-{: #sitemap_whitepaper---the-second-generation-of-ibm-hyper-protect-platform}
+## The Second Generation of IBM Hyper Protect Platform
+{: #sitemap_the-second-generation-of-ibm-hyper-protect-platform}
 
-[Whitepaper - The Second Generation of IBM Hyper Protect Platform](https://www.ibm.com/downloads/cas/GPVMWPM3){: external}
+[The Second Generation of IBM Hyper Protect Platform](https://www.ibm.com/downloads/cas/GPVMWPM3){: external}
 
 
-## RedBook - Applying Data Protection and Confidentiality in a Hybrid Cloud Environment
-{: #sitemap_redbook---applying-data-protection-and-confidentiality-in-a-hybrid-cloud-environment}
+## Applying Data Protection and Confidentiality in a Hybrid Cloud Environment
+{: #sitemap_applying-data-protection-and-confidentiality-in-a-hybrid-cloud-environment}
 
-[RedBook - Applying Data Protection and Confidentiality in a Hybrid Cloud Environment](https://www.redbooks.ibm.com/redpieces/abstracts/sg248555.html){: external}
+[Applying Data Protection and Confidentiality in a Hybrid Cloud Environment](https://www.redbooks.ibm.com/redpieces/abstracts/sg248555.html){: external}
 

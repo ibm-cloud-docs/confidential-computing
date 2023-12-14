@@ -47,9 +47,9 @@ toc:
       - best-practices.md
       - faqs.md
       - link:
-          label: Whitepaper - The Second Generation of IBM Hyper Protect Platform
+          label: The Second Generation of IBM Hyper Protect Platform
           href: https://www.ibm.com/downloads/cas/GPVMWPM3
       - link:
-          label: RedBook - Applying Data Protection and Confidentiality in a Hybrid Cloud Environment
+          label: Applying Data Protection and Confidentiality in a Hybrid Cloud Environment
           href: https://www.redbooks.ibm.com/redpieces/abstracts/sg248555.html
       - sitemap.md
