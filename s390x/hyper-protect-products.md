@@ -1,7 +1,7 @@
 ---
 
 copyright:
-  years: 2023, 2023
+  years: 2023
 lastupdated: "2023-12-14"
 
 keywords: hyper protect services, hpvs, hpcs, hpsb, hyper protect products
@@ -47,10 +47,10 @@ HPVS offers different distributions so that you can protect your missiion-critic
 | Deployment Environment	 | IBM Cloud infrastructure, offering a public cloud deployment option with secure execution for workloads. | 	Private cloud deployment on Linux LPAR (Logical Partition) running KVM enabled with Secure Execution, suitable for IBM Z or LinuxONE. |
 | Secure Execution	| Workloads are protected by secure execution, ensuring that containers are securely deployed on Virtual Server Instances (VSI). | Secure Execution on Linux feature (0115) and CP Assist for Cryptographic Function (CPACF) feature (3863) are required for enabling confidentiality and integrity by protecting and isolating containers as KVM guests running a HPCR image. |
 | Security and Isolation | Utilizes IBM Secure Execution for Linux to create secure boundaries around each workload, preventing unauthorized access. | Similar to VPC, leverages Secure Execution for workload isolation and security on-premises.|
-| Volume Encryption | Encrypted automatically with seeds provided in the contract or use your own key.  | LUKS volume encryption for attached storage devices |.
-| Network Security	| Built-in extra network security within the VPC infrastructure, with the ability to use common network security groups and logging infrastructure | Contact your network administrator	|
-| Logging and Monitoring	| Supports setting up a logging service for HPVS for VPC provisioning . | Setting up an rsyslog logging service for HPVS log information is supported. |
-| Scalability	| Offers various profile sizes and the ability to grow as needed to protect containerized applications with a pay-as-you-go model. | 	Not explicitly mentioned in the documents provided.
+| Volume Encryption | LUKS volume encryption with seeds provided in the contract or use your own key.  | Similar to VPC. |
+| Network Security	| Built-in extra network security within the VPC infrastructure, with the ability to use common network security groups and logging infrastructure | The system or network administrator must ensure proper network security configuration.	|
+| Logging and Monitoring	| Supports setting up a logging service for HPVS for VPC provisioning. | Setting up an rsyslog logging service for HPVS log information is supported. |
+| Scalability	| Offers various profile sizes and the ability to grow as needed to protect containerized applications with a pay-as-you-go model. | 	Not explicitly mentioned in the documents provided. | 
 | Managed Service Offering | 	Deployment of services happens automatically as part of the managed-service offering in the IBM Cloud. |	The Infrastructure/System admin must ensure proper system configuration and enablement of Secure Execution. |
 | Resource Provisioning |	Can provision HPVS for VPC from the IBM Cloud portal or using the IBM Cloud CLI, with Secure Execution Profile selection. |	Requires verifying hardware and enabling IBM Secure Execution technology, along with installation and configuration steps for LPAR with KVM. |
 {: caption="Table 1. Comparison of HPVS for VPC and on-premises" caption-side="bottom"}
