@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2023, 2023
+  years: 2023
 lastupdated: "2023-12-14"
 
-keywords: hyper protect, hyper protect services, hyper protect platform, kvm, s390x
+keywords: hyper protect, hyper protect services, hyper protect platform, kvm, s390x, overview, introduction
 
 subcollection: confidential-computing
 

@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2023, 2023
-lastupdated: "2023-12-13"
+  years: 2023
+lastupdated: "2023-12-14"
 
-keywords: 
+keywords: hybrid, confidential computing solution
 
 subcollection: confidential-computing
 

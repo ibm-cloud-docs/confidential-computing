@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2023, 2023
-lastupdated: "2023-08-22"
+  years: 2023
+lastupdated: "2023-12-14"
 
-keywords: 
+keywords: hyper protect platform, concepts.
 
 subcollection: confidential-computing
 
