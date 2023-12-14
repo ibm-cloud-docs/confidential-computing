@@ -17,7 +17,7 @@ toc:
       topics:
       - about.md
       - topicgroup:
-          label: Hyper Protect Platform
+          label: Hyper Protect Platform on IBM Z or LinuxONE
           topics: 
           - s390x/hyper-protect-overview.md
           - s390x/hyper-protect-products.md

@@ -33,11 +33,11 @@ Find what you are looking for in the topics that are available for Confidential 
 * [IBM confidential computing strategy](/docs/confidential-computing?topic=confidential-computing-about#cc-ibm)
 
 
-## Hyper Protect Platform
-{: #sitemap_hyper_protect_platform}
+## Hyper Protect Platform on IBM Z or LinuxONE
+{: #sitemap_hyper_protect_platform_on_ibm_z_or_linuxone}
 
 
-[Hyper Protect Platform on IBM Z and LinuxONE](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#hyper-protect-overview)
+[Hyper Protect Platform overview](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#hyper-protect-overview)
 
 * [Secure Execution](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-se)
 
@@ -170,7 +170,7 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [FAQs for Confidential Computing in IBM](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc)
 
-* [What is IBM Hyper Protect Services?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-hps)
+* [What is IBM Hyper Protect Platform?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-hps)
 
 * [What is Confidential Computing, and how does it relate to Hyper Protect Services?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-hps)
 

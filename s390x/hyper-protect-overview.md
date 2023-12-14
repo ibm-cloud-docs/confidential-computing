@@ -12,7 +12,7 @@ subcollection: confidential-computing
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Hyper Protect Platform on IBM Z and LinuxONE
+# Hyper Protect Platform overview
 {: #hyper-protect-overview}
 
 IBM Hyper Protect Platform represents the cutting-edge in confidential computing, designed to secure sensitive data and mission-critical applications in hybrid cloud environments. The platform leverages IBM Z and LinuxONE systems' Secure Execution technology, providing a robust foundation for creating protected kernel virtual machines (KVM) tailored for the s390x architecture. This secure execution environment encapsulates workloads within secure enclaves, effectively shielding them from unauthorized access, even from privileged users such as cloud administrators.
