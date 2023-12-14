@@ -34,7 +34,7 @@ toc:
           - architecture/usecase-smpc.md
           - architecture/usecase-devsecops.md
   - navgroup:
-      id: reference
+      id: help
       topics: 
       - adopting-cc.md
       - best-practices.md

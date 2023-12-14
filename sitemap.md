@@ -56,11 +56,11 @@ Find what you are looking for in the topics that are available for Confidential 
 * [Hyper Protect Crypto Services](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpcs)
 
 
-## Reference architecture overview on hybrid cloud
-{: #sitemap_reference_architecture_overview_on_hybrid_cloud}
+## Architecture in Hybrid cloud
+{: #sitemap_architecture_in_hybrid_cloud}
 
 
-[Reference architecture overview on hybrid cloud](/docs/confidential-computing?topic=confidential-computing-hybrid-cloud#hybrid-cloud)
+[Architecture in Hybrid cloud](/docs/confidential-computing?topic=confidential-computing-hybrid-cloud#hybrid-cloud)
 
 
 ## Use cases
