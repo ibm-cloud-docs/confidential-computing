@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-12-13"
+lastupdated: "2023-12-14"
 
 keywords: 
 
@@ -43,9 +43,9 @@ Find what you are looking for in the topics that are available for Confidential 
 
 * [Separation of duties](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-duty-separation)
 
-    * [Contract mechanism](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-contract)
+* [Contract mechanism](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-contract)
 
-    * [Attestation](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-attestation)
+* [Attestation](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-attestation)
 
 [Products in Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hyper-protect-products)
 

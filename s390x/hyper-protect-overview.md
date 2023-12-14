@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2023
-lastupdated: "2023-12-13"
+lastupdated: "2023-12-14"
 
 keywords: hyper protect, hyper protect services, hyper protect platform, kvm, s390x
 
@@ -30,8 +30,6 @@ The Secure Execution for Linux is a continuation and expansion of well-known sec
 
    * IBM z15 and z16
    * IBM LinuxONE III and LinuxONE 4
-
-IBM Secure Execution for Linux is designed to provide a scalable isolation for individual workloads, enhancing security by protecting against both external attacks and insider threats. This reinforces principles aligned with Zero Trust security models with encryption combined with architectural, development and manufactural processes to establish technical assurance.
 
 The Ultravisor, a trusted firmware component within the IBM Z and LinuxONE, enforces memory protection and facilitates the secure transfer of sensitive information. It allows the owner of a KVM guest to securely pass secret information to the Ultravisor using the public host key, which is part of the host key document. This document functions similarly to a certificate, with IBM acting as the trusted third party to verify its authenticity.
 
@@ -79,7 +77,7 @@ The Hyper Protect Platform supports separation of duty with predefined personas.
 
   This role includes the system (cloud) administrator of a compute, storage, and network or support persona of the infrastructure like a Site Reliability Engineer (SRE). They will have responsibility for the underlying hardware but must not be able to use the capabilities this role offers to access confidential data or subvert the workload providers definition of the workload and expected environment. The use of Secure Execution achieves this through protecting the memory used by the workload from all external access at runtime, and the use of an encrypted Contract protects the intended workload and environment definitions at deployment time.
 
-### Contract mechanism
+## Contract mechanism
 {: #feature-contract}
 
 The contract is essential for the workload lifecycle within the secure execution environment. The workload itself and its contract are passed into the container runtime environment in the KVM guest during the deployment, and this container runtime environment is also known as Hyper Protect Container Runtime (HPCR). To safeguard the contract, a public/private key pair is used to encrypt the contract contents. This public/private key pair helps maintain the confidentiality of the contract during its distribution and before it is decrypted by the HPCR image.
@@ -93,7 +91,7 @@ Upon receipt of the contract by the HPCR image, the contract is decrypted by the
 
 For more information, see [About the contract](/docs/vpc?topic=vpc-about-contract_se){: external}.
 
-### Attestation
+## Attestation
 {: #feature-attestation}
 
 Attestation is the evidence that the KVM guest runs in secure execution environment. If the KVM guest was built for one particular IBM Z or LinuxONE server, the attestation also verifies that the KVM guest runs on that specific server. If the KVM guest was built for several servers, the attestation only verifies that the KVM guest runs on one of those servers.
