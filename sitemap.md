@@ -37,7 +37,7 @@ Find what you are looking for in the topics that are available for Confidential 
 {: #sitemap_hyper_protect_platform_on_ibm_z_or_linuxone}
 
 
-[Hyper Protect Platform overview](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#hyper-protect-overview)
+[Overfview of Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#hyper-protect-overview)
 
 * [Secure Execution](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-se)
 
