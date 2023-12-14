@@ -24,7 +24,6 @@ toc:
   - navgroup:
       id: architecture
       topics:
-      - architecture/oncloud.md
       - architecture/onhybrid.md
       - topicgroup:
           label: Use cases
@@ -34,12 +33,6 @@ toc:
           - architecture/usecase-confidential-ai.md
           - architecture/usecase-smpc.md
           - architecture/usecase-devsecops.md
-  - navgroup: 
-      id: tutorial
-      topics:  
-      - topic: tutorials/deploy-transaction-workload.md
-      - topic: tutorials/manage-via-terraform.md
-      - topic: tutorials/orchestrate-workloads.md
   - navgroup:
       id: reference
       topics: 

@@ -56,13 +56,6 @@ Find what you are looking for in the topics that are available for Confidential 
 * [Hyper Protect Crypto Services](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpcs)
 
 
-## Reference architecture overview on public Cloud
-{: #sitemap_reference_architecture_overview_on_public_cloud}
-
-
-[Reference architecture overview on public Cloud](/docs/confidential-computing?topic=confidential-computing-public-cloud#public-cloud)
-
-
 ## Reference architecture overview on hybrid cloud
 {: #sitemap_reference_architecture_overview_on_hybrid_cloud}
 
@@ -107,27 +100,6 @@ Find what you are looking for in the topics that are available for Confidential 
     * [On cloud](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-hp-on-cloud)
 
     * [On-prem](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-hp-on-prem)
-
-
-## Deploying transactional workloads with confidential computing capability
-{: #sitemap_deploying_transactional_workloads_with_confidential_computing_capability}
-
-
-[Deploying transactional workloads with confidential computing capability](/docs/confidential-computing?topic=confidential-computing-deploy-workload#deploy-workload)
-
-
-## Managing confidential computing resources via terraform
-{: #sitemap_managing_confidential_computing_resources_via_terraform}
-
-
-[Managing confidential computing resources via terraform](/docs/confidential-computing?topic=confidential-computing-manage-terraform#manage-terraform)
-
-
-## Orchestrating cloud native workloads with confidential computing
-{: #sitemap_orchestrating_cloud_native_workloads_with_confidential_computing}
-
-
-[Orchestrating cloud native workloads with confidential computing](/docs/confidential-computing?topic=confidential-computing-orchestrate-workload#orchestrate-workload)
 
 
 ## Implementing confidential computing solutions
