@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023
-lastupdated: "2023-12-14"
+lastupdated: "2023-12-28"
 
 keywords: hyper protect, hyper protect services, hyper protect platform, kvm, s390x, overview, introduction
 
@@ -33,7 +33,7 @@ The Secure Execution for Linux is a continuation and expansion of well-known sec
 
 The Ultravisor, a trusted firmware component within the IBM Z and LinuxONE, enforces memory protection and facilitates the secure transfer of sensitive information. It allows the owner of a KVM guest to securely pass secret information to the Ultravisor using the public host key, which is part of the host key document. This document functions similarly to a certificate, with IBM acting as the trusted third party to verify its authenticity.
 
-![Secure Exuection for Linux](../images/lxse_uv.jpg){: caption="Figure 1. IBM Secure Execution for Linux" caption-side="bottom"}
+![Secure Execution for Linux](../images/secure-execution.svg){: caption="Figure 1. IBM Secure Execution for Linux" caption-side="bottom"}
 
 To process the secret information, the Ultravisor uses the matching private host key to run the workload in the secure-execution mode. The following diagram shows a simplified view of the keys that are involved in all stages of securing the workload. The private host key is specific to an IBM Z or LinuxONE server and is hardware protected. 
 
