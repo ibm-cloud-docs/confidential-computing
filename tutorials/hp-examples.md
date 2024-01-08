@@ -43,7 +43,7 @@ Hyper protect platform provides a list of scripts to help you speed up your delo
 The following list gives you an overview of the available samples. See the repo for the latest samples and the readme file of each sample for detailed instructions. 
 
 - `linuxone-vsi-automation-samples` - Ansible/Terraform examples for IBM Cloud LinuxONE and z/OS virtual server instances. 
-- `paynow-website` - A node.js Express app serving the PayNow website. The payment page has AJAX calls into the application. The application processes these RESTful JSON requests and stores the transaction data in memory.
+- `paynow-website` - A node.js Express app serving the PayNow website, and the deployment instructions as a Hyper Protect Virtual Server.
 - `k8s-operator-hpcr` - Custom resources for managing Hyper Protect Virtual Servers in Kubernetes clusters.
 - `terraform-provider-hpcr` -  A terraform provider to support working with IBM Cloud Hyper Protect Virtual Server for IBM Cloud VPC.
 - `contract-go` - A go-based utility to encrypt and decrypt the contract for Hyper Protect platform.
