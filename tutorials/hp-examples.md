@@ -13,11 +13,13 @@ subcollection: confidential-computing
 {{site.data.keyword.attribute-definition-list}}
 
 # Tutorials and examples
+{: #tuex}
 
 You can refer to this page for all the available tutorials or code examples for Hyper Protect products.
 
 
 ## Tutorials
+{: #tutorial}
 
 The following list gives you an overview of the available tutorials when using Hyper Protect products.
 
@@ -34,7 +36,7 @@ The following list gives you an overview of the available tutorials when using H
 
 
 ## Code examples
-
+{: examples}
 
 Hyper protect platform provides a list of Rerraform scripts to help you speed up your deloyment. To explore those Terraform samples, go to the [repository](https://github.com/ibm-hyper-protect){: external}. For more information about Terraform, see [About Terraform on IBM Cloud](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-about).
 

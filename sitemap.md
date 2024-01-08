@@ -111,6 +111,17 @@ Find what you are looking for in the topics that are available for Confidential 
     * [On-prem](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-hp-on-prem)
 
 
+## Tutorials and examples
+{: #sitemap_tutorials_and_examples}
+
+
+[Tutorials and examples](/docs/confidential-computing?topic=confidential-computing-tuex#tuex)
+
+* [Tutorials](/docs/confidential-computing?topic=confidential-computing-tuex#tutorial)
+
+* [Code examples](/docs/confidential-computing?topic=confidential-computing-tuex#code-examples)
+
+
 ## Implementing confidential computing solutions
 {: #sitemap_implementing_confidential_computing_solutions}
 
