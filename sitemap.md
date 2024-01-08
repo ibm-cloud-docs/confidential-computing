@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-12-14"
+  years: 2024
+lastupdated: "2024-01-08"
 
 keywords: 
 
@@ -54,6 +54,15 @@ Find what you are looking for in the topics that are available for Confidential 
 * [Hyper Protect Secure Build](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpsb)
 
 * [Hyper Protect Crypto Services](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpcs)
+
+
+## Release notes
+{: #sitemap_release_notes}
+
+
+[Release notes](/docs/confidential-computing?topic=confidential-computing-release-notes#release-notes)
+
+* [31 March 2024](/docs/confidential-computing?topic=confidential-computing-release-notes#31-march-2024)
 
 
 ## Architecture in Hybrid cloud

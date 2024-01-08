@@ -21,6 +21,7 @@ toc:
           topics: 
           - s390x/hyper-protect-overview.md
           - s390x/hyper-protect-products.md
+      - release-notes.md
   - navgroup:
       id: architecture
       topics:
@@ -33,6 +34,7 @@ toc:
           - architecture/usecase-confidential-ai.md
           - architecture/usecase-smpc.md
           - architecture/usecase-devsecops.md
+      - tutorials/hp-examples.md
   - navgroup:
       id: help
       topics: 
