@@ -38,18 +38,18 @@ The following list gives you an overview of the available tutorials when using H
 ## Code examples
 {: examples}
 
-Hyper protect platform provides a list of Rerraform scripts to help you speed up your deloyment. To explore those Terraform samples, go to the [repository](https://github.com/ibm-hyper-protect){: external}. For more information about Terraform, see [About Terraform on IBM Cloud](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-about).
+Hyper protect platform provides a list of scripts to help you speed up your deloyment. To explore those code samples, go to the [repository](https://github.com/ibm-hyper-protect){: external}. For more information about Terraform, see [About Terraform on IBM Cloud](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-about).
 
-The following list gives you an overview of the available samples. See the repo for the latest samples and the readme file in the subdirectory of each sample for detailed instructions. 
+The following list gives you an overview of the available samples. See the repo for the latest samples and the readme file of each sample for detailed instructions. 
 
-- `create-contract` - creates an encrypted and signed contract.
-- `create-contract-dynamic-registry` - creates an encrypted and signed contract with a dynamic registry reference. Related tutorial: [Deploying an application on Hyper Protect Virtual Server for VPC](/docs/vpc?topic=vpc-financial-transaction-confidential-computing-on-hyper-protect-virtual-server-for-vpc).
-- `hello-world` - deploys the hello-world example as a Hyper Protect Virtual Server for VPC.
-- `nginx-hello` - deploys the nginx-hello example as a Hyper Protect Virtual Server for VPC.
-- `mongodb` - deploys three MongoDB instances on Hyper Protect Virtual Servers for VPC in three availability zones.
-- `postgresql` - deploys a PostgreSQL instance on a Hyper Protect Virtual Server for VPC in a region.
-- `postgresql-cluster` - deploys a PostgreSQL cluster on Hyper Protect Virtual Servers for VPC in given regions.
-- `log-encryption` - encrypts selected log messages.
+- `linuxone-vsi-automation-samples` - Ansible/Terraform examples for IBM Cloud LinuxONE and z/OS virtual server instances. 
+- `paynow-website` - A node.js Express app serving the PayNow website. The payment page has AJAX calls into the application. The application processes these RESTful JSON requests and stores the transaction data in memory.
+- `k8s-operator-hpcr` - Custom resources for managing Hyper Protect Virtual Servers in Kubernetes clusters.
+- `terraform-provider-hpcr` -  A terraform provider to support working with IBM Cloud Hyper Protect Virtual Server for IBM Cloud VPC.
+- `contract-go` - A go-based utility to encrypt and decrypt the contract for Hyper Protect platform.
+- `secure-build-cli` - The scripts and intructions on how to use Hyper Protect Secure build CLI.
+- `hpcs-automation-samples` - Automation examples for Hyper Protect Crypto Services.
+
 
 
 
