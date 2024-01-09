@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2023
-lastupdated: "2023-11-13"
+  years: 2023, 2024
+lastupdated: "2024-01-09"
 
 keywords: secure build, ci/cd, supply chain
 
@@ -43,12 +43,12 @@ You can refer to the following architectures to use Secure Build either on cloud
 ### On cloud
 {: #devsecops-hp-on-cloud}
 
-![Secure build on IBM Cloud](../images/securebuild-vpc.png){: caption="Figure 1. Secure Build on IBM Cloud" caption-side="bottom"}
+![Secure build on IBM Cloud](../images/updated-sb-cloud.svg){: caption="Figure 1. Secure Build on IBM Cloud" caption-side="bottom"}
 
 ### On-prem
 {: #devsecops-hp-on-prem}
 
-![Secure build for on-premises](../images/securebuild-onprem.png){: caption="Figure 1. Secure Build for on-premises" caption-side="bottom"}
+![Secure build for on-premises](../images/updated-sb-prem.svg){: caption="Figure 1. Secure Build for on-premises" caption-side="bottom"}
 
 With Hyper Protect Secure Build, you can also benefit from the following aspects:
 

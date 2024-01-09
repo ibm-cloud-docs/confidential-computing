@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-12-28"
+  years: 2024
+lastupdated: "2024-01-09"
 
 keywords: hyper protect, hyper protect services, hyper protect platform, kvm, s390x, overview, introduction
 
@@ -33,11 +33,11 @@ The Secure Execution for Linux is a continuation and expansion of well-known sec
 
 The Ultravisor, a trusted firmware component within the IBM Z and LinuxONE, enforces memory protection and facilitates the secure transfer of sensitive information. It allows the owner of a KVM guest to securely pass secret information to the Ultravisor using the public host key, which is part of the host key document. This document functions similarly to a certificate, with IBM acting as the trusted third party to verify its authenticity.
 
-![Secure Execution for Linux](../images/secure-execution.svg){: caption="Figure 1. IBM Secure Execution for Linux" caption-side="bottom"}
+![Secure Execution for Linux](../images/updated-secure-execution.svg){: caption="Figure 1. IBM Secure Execution for Linux" caption-side="bottom"}
 
 To process the secret information, the Ultravisor uses the matching private host key to run the workload in the secure-execution mode. The following diagram shows a simplified view of the keys that are involved in all stages of securing the workload. The private host key is specific to an IBM Z or LinuxONE server and is hardware protected. 
 
-![Securing the workload](../images/lxse_flowkeys_otherway.jpg){: caption="Figure 2. Securing the workload" caption-side="bottom"}
+![Securing the workload](../images/updated-key-flow.svg){: caption="Figure 2. Securing the workload" caption-side="bottom"}
 
 When you start a KVM guest or deploy a workload in IBM Secure Execution mode, the boot image, guest memory, and guest state are all protected against being observed or modified by the hosting environment. Across its entire lifecycle, such a guest has its confidentiality and integrity protected, from the moment the image is built, through the boot process and the running of the virtual server, until its termination.
 
@@ -82,7 +82,7 @@ The Hyper Protect Platform supports separation of duty with predefined personas.
 
 The contract is essential for the workload lifecycle within the secure execution environment. The workload itself and its contract are passed into the container runtime environment in the KVM guest during the deployment, and this container runtime environment is also known as Hyper Protect Container Runtime (HPCR). To safeguard the contract, a public/private key pair is used to encrypt the contract contents. This public/private key pair helps maintain the confidentiality of the contract during its distribution and before it is decrypted by the HPCR image.
 
-![Contract mechanism](../images/contract-hpcr.png){: caption="Figure 3. Contract mechanism" caption-side="bottom"}
+![Contract mechanism](../images/updated-contract.svg){: caption="Figure 3. Contract mechanism" caption-side="bottom"}
 
 
 The encryption of the contract is carried out using the public X509 certificate associated with the Contract Encryption public key. This public key is published by IBM, allowing any persona to validate it out-of-band, which means that it can be validated independently of the system that uses it, ensuring the trustworthiness of the encryption mechanism.
@@ -98,7 +98,7 @@ Attestation is the evidence that the KVM guest runs in secure execution environm
 
 With cybersecurity threats developing and calling for mitigation, attestation is being integrated into workflows for cloud-based workloads. IBM Secure Execution as a superior security architecture provides an attestation function.
 
-![Attestation process](../images/attestation-process.png){: caption="Figure 4. Attestation process" caption-side="bottom"}
+![Attestation process](../images/updated-attestation-process.svg){: caption="Figure 4. Attestation process" caption-side="bottom"}
 
 Reasons for IBM Secure Execution attestation include auditing, image personalization, and aligning with other confidential computing architectures. The following examples illustrate possible uses of attestation:
 

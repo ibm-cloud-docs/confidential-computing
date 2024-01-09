@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-12-14"
+  years: 2024
+lastupdated: "2024-01-09"
 
 keywords: hyper protect services, hpvs, hpcs, hpsb, hyper protect products
 
@@ -33,13 +33,13 @@ The following figure illustrates the products portfolio and the enclave boundary
 ## Hyper Protect Virtual Servers
 {: #hpvs}
 
-Hyper Protect Virtual Servers (HPVS) takes advantage of IBM Secure Execution for Linux to create a secure boundary around each workload—technical assurance that ensures unauthorized users do not have access to the workload or data. Workloads are locked down by individual, instance-level secure enclaves. 
+Hyper Protect Virtual Servers (HPVS) takes advantage of IBM Secure Execution for Linux to create a secure boundary around each workload—technical assurance that ensures unauthorized users do not have access to the workload or data. Workloads are locked down by individual, instance-level secure enclaves.
 
-The following diagram illustrates the components that make up the Hyper Protect Virtual Server, which includes the Bootloader and Hyper Protect Services to validate the authenticity and trust of the workload. 
+The following diagram illustrates the components that make up the Hyper Protect Virtual Server, which includes the Bootloader and Hyper Protect Services to validate the authenticity and trust of the workload.
 
-![Hyper Protect Virtual Server](../images/hpvs-arch.png){: caption="Figure 1. Hyper Protect Virtual Server" caption-side="bottom"}
+![Hyper Protect Virtual Server](../images/updated-hpvs-archi.svg){: caption="Figure 1. Hyper Protect Virtual Server" caption-side="bottom"}
 
-HPVS offers different distributions so that you can protect your missiion-critical workload either on pubic cloud or in your own IBM Z or LinuxONE servers. The following table shows the comparision of key capabilities between the public cloud distribution and the on-premises distribution. For more details, see [IBM Hyper Protect Virtual Servers for VPC on IBM Cloud](/docs/vpc?topic=vpc-about-se){: external} and [IBM Hyper Protect Virtual Services documentation](https://www.ibm.com/docs/en/hpvs/2.1.x){: external}.
+HPVS offers different distributions so that you can protect your mission-critical workload either on pubic cloud or in your own IBM Z or LinuxONE servers. The following table shows the comparison of key capabilities between the public cloud distribution and the on-premises distribution. For more details, see [IBM Hyper Protect Virtual Servers for VPC on IBM Cloud](/docs/vpc?topic=vpc-about-se){: external} and [IBM Hyper Protect Virtual Services documentation](https://www.ibm.com/docs/en/hpvs/2.1.x){: external}.
 
 
 | Capability	| HPVS for VPC	| HPVS for On-Premise |
@@ -67,7 +67,7 @@ The HPSB can be used to securely build source code from a GitHub repository, pub
 The following diagram shows how you interact with Hyper Protect Secure Build to build and deploy your container image. For more information, see [IBM Hyper Protect Secure Build](https://github.com/ibm-hyper-protect/secure-build-cli){: external}.
 
 
-![Hyper Protect Secure Build](../images/hpsb-arch.png){: caption="Figure 2. Hyper Protect Secure Build" caption-side="bottom"}
+![Hyper Protect Secure Build](../images/updated-sb-archi.svg){: caption="Figure 2. Hyper Protect Secure Build" caption-side="bottom"}
 
 
 ## Hyper Protect Crypto Services
