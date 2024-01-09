@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-08"
+lastupdated: "2024-01-09"
 
 keywords: 
 
@@ -119,7 +119,7 @@ Find what you are looking for in the topics that are available for Confidential 
 
 * [Tutorials](/docs/confidential-computing?topic=confidential-computing-tuex#tutorial)
 
-* [Code examples](/docs/confidential-computing?topic=confidential-computing-tuex#code-examples)
+* [Code examples](/docs/confidential-computing?topic=confidential-computing-tuex#examples)
 
 
 ## Implementing confidential computing solutions

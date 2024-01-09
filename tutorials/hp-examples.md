@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-08"
+lastupdated: "2024-01-09"
 
 keywords: 
 
@@ -36,7 +36,7 @@ The following list gives you an overview of the available tutorials when using H
 
 
 ## Code examples
-{: examples}
+{: #examples}
 
 Hyper protect platform provides a list of scripts to help you speed up your deloyment. To explore those code samples, go to the [repository](https://github.com/ibm-hyper-protect){: external}. For more information about Terraform, see [About Terraform on IBM Cloud](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-about).
 
