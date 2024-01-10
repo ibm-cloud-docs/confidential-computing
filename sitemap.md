@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-09"
+lastupdated: "2024-01-10"
 
 keywords: 
 
@@ -115,11 +115,11 @@ Find what you are looking for in the topics that are available for Confidential 
 {: #sitemap_tutorials_and_examples}
 
 
-[Tutorials and examples](/docs/confidential-computing?topic=confidential-computing-tuex#tuex)
+[Tutorials and examples](/docs/confidential-computing?topic=confidential-computing-tutorial-example#tutorial-example)
 
-* [Tutorials](/docs/confidential-computing?topic=confidential-computing-tuex#tutorial)
+* [Tutorials](/docs/confidential-computing?topic=confidential-computing-tutorial-example#tutorial)
 
-* [Code examples](/docs/confidential-computing?topic=confidential-computing-tuex#examples)
+* [Code examples](/docs/confidential-computing?topic=confidential-computing-tutorial-example#examples)
 
 
 ## Implementing confidential computing solutions

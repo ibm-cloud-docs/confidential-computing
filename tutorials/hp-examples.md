@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-09"
+lastupdated: "2024-01-10"
 
 keywords: 
 
@@ -13,7 +13,7 @@ subcollection: confidential-computing
 {{site.data.keyword.attribute-definition-list}}
 
 # Tutorials and examples
-{: #tuex}
+{: #tutorial-example}
 
 You can refer to this page for all the available tutorials or code examples for Hyper Protect products.
 
