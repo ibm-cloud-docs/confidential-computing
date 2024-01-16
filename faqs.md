@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-12-14"
+  years: 2024
+lastupdated: "2024-01-16"
 
 keywords: faq, confidential computings
 
@@ -25,7 +25,7 @@ Answers to common questions about Confidential Computing on IBM Cloud.
 IBM Hyper Protect Platform is a suite of services designed to provide a highly secure environment for sensitive data and applications in hybrid cloud deployments, leveraging Confidential Computing capabilities on IBM Z or LinuxONE.
 
 ## What is Confidential Computing, and how does it relate to Hyper Protect Platform?
-{: #faqs-cc-hps}
+{: #faqs-cc-hpp}
 
 Confidential Computing refers to the protection of data in use by performing computation in a hardware-based Trusted Execution Environment (TEE), ensuring data is encrypted and isolated during processing. IBM Hyper Protect Platform utilize this concept to protect mission-critical workloads and sensitive data.
 

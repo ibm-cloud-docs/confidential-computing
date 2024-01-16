@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-11"
+lastupdated: "2024-01-16"
 
 keywords: 
 
@@ -164,7 +164,7 @@ Find what you are looking for in the topics that are available for Confidential 
 
 * [What is IBM Hyper Protect Platform?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-hps)
 
-* [What is Confidential Computing, and how does it relate to Hyper Protect Platform?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-hps)
+* [What is Confidential Computing, and how does it relate to Hyper Protect Platform?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-hpp)
 
 * [What is Zero-Trust?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-zero-trust)
 

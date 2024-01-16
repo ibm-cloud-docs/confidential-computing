@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-09"
+lastupdated: "2024-01-16"
 
 keywords: hyper protect, hyper protect services, hyper protect platform, kvm, s390x, overview, introduction
 
@@ -80,12 +80,14 @@ The Hyper Protect Platform supports separation of duty with predefined personas.
 ## Contract mechanism
 {: #feature-contract}
 
-The contract is essential for the workload lifecycle within the secure execution environment. The workload itself and its contract are passed into the container runtime environment in the KVM guest during the deployment, and this container runtime environment is also known as Hyper Protect Container Runtime (HPCR). To safeguard the contract, a public/private key pair is used to encrypt the contract contents. This public/private key pair helps maintain the confidentiality of the contract during its distribution and before it is decrypted by the HPCR image.
+The contract is essential for the workload lifecycle within the secure execution environment. The workload itself and its contract are passed into the container runtime environment in the KVM guest during the deployment, and this container runtime environment is also known as Hyper Protect Container Runtime (HPCR). To safeguard the contract, a public/private key pair is used to encrypt the contract contents. This public/private key pair helps maintain the confidentiality of the contract during its distribution and before it is decrypted by the HPCR image. 
+
+Each version of HPCR comes with an intermediate certificates with a defined expiry date, and the interim cetificate acts as a link to ensure the contract's encryption or decryption is backed by a trusted source, providing assurance to all parties involved that the encrypted data can be trusted and is secure.
 
 ![Contract mechanism](../images/updated-contract.svg){: caption="Figure 3. Contract mechanism" caption-side="bottom"}
 
 
-The encryption of the contract is carried out using the public X509 certificate associated with the Contract Encryption public key. This public key is published by IBM, allowing any persona to validate it out-of-band, which means that it can be validated independently of the system that uses it, ensuring the trustworthiness of the encryption mechanism.
+The encryption of the contract is carried out using the public X509 certificate associated with the Contract Encryption public key and signed by the interim certificate of the HPCR. This public key is published by IBM, allowing any persona to validate it independently of the system that uses it, ensuring the trustworthiness of the encryption mechanism.
 
 Upon receipt of the contract by the HPCR image, the contract is decrypted by the different components or services within it. This process involves decrypting the contract (if encrypted), validating the contract schema, checking for contract signatures, and creating a passphrase to encrypt the disk device. After these steps, the container specified in the contract is brought up and becomes operational.
 
@@ -96,7 +98,7 @@ For more information, see [About the contract](/docs/vpc?topic=vpc-about-contrac
 
 Attestation is the evidence that the KVM guest runs in secure execution environment. If the KVM guest was built for one particular IBM Z or LinuxONE server, the attestation also verifies that the KVM guest runs on that specific server. If the KVM guest was built for several servers, the attestation only verifies that the KVM guest runs on one of those servers.
 
-With cybersecurity threats developing and calling for mitigation, attestation is being integrated into workflows for cloud-based workloads. IBM Secure Execution as a superior security architecture provides an attestation function.
+The attestation record is signed using an attestation signing key. This key, in turn, is verified by the intermediate certificate of each version of HPCR to ensure the attestation record is authenticated and trustworthy by the firmware, also known as the Ultravisor.
 
 ![Attestation process](../images/updated-attestation-process.svg){: caption="Figure 4. Attestation process" caption-side="bottom"}
 
