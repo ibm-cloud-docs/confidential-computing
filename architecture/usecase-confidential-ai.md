@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-01-09"
+lastupdated: "2024-01-22"
 
 keywords: ai, generative ai, ai model, confidential ai
 
@@ -23,10 +23,10 @@ As customization of foundational models becomes more common, being done with and
 
 Data used for training and testing AI and ML models can be valuable, sensitive, and regulated. For example, in healthcare industry, AI can be leveraged to help disease diagnostic and drug development. The sensitive patient health information and diagnostic history data are shared for ML model training. How to ensure data privacy while benefiting from data sharing?
 
-## How can the Hyper Protect Platform help?
+## How can the Confidential Services Platform help?
 {: #conf-ai-hp}
 
-The Hyper Protect Platform can protect AI processes, like training, test, and inference by using features like memory protection, code and data confidentiality and integrity, disk encryption, attestation, and the contract mechanism with separation of duty.
+The Confidential Services Platform can protect AI processes, like training, test, and inference by using features like memory protection, code and data confidentiality and integrity, disk encryption, attestation, and the contract mechanism with separation of duty.
 
 The following diagram illustrates an example of a complete end-to-end flow for securely transcribing from a recording source and processing transcription, all within a confidential computing environment with boundaries of protection around all the important components.
 

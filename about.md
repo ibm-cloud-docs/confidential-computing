@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2023
-lastupdated: "2023-11-24"
+  years: 2024
+lastupdated: "2024-01-22"
 
 keywords: confidential computing, what is confidential computing, IBM confidential computing, IBM Cloud confidential computing
 
@@ -45,7 +45,7 @@ IBM's confidential computing strategy encompasses the following key elements:
 
 - **Data Encryption and Protection**
 
-  IBM incorporates strong encryption mechanisms to safeguard data in transit and at rest. It includes solutions such as Hyper Protect platforms, which provide encryption and key management capabilities to protect data in cloud environments.
+  IBM incorporates strong encryption mechanisms to safeguard data in transit and at rest. It includes solutions such as Confidential Services Platform, which provide encryption and key management capabilities to protect data in cloud environments.
 
 - **Confidential Containers**
 

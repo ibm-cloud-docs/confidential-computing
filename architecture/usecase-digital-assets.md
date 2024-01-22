@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2023
-lastupdated: "2023-11-13"
+  years: 2023, 2024
+lastupdated: "2024-01-22"
 
 keywords: digital asset, digital wallet, nft
 
@@ -23,12 +23,12 @@ Confidential computing on IBM Cloud helps build a trusted platform for digital a
 
 In a digital assets infrastructure, maintaining control over private keys is extremely challenging and poses a major risk, especially when managing thousands or millions of wallets. Loss of control of an account private key through cyber-attack or mishandling can result in irreversible asset loss.
 
-## How can the Hyper Protect Platform help?
+## How can the Confidential Services Platform help?
 {: #da-hp}
 
-The Hyper Protect Platform provides the building blocks to create reliable and scalable end-to-end solutions for managing, transferring, and storing large quantities of digital assets in highly secure wallets. Customers can utilize Secure Build to further enhance their security posture. This technology validates code before it is deployed to a container, ensuring that only verified code is allowed to run, ultimately reducing malware threats, and misconfigurations.
+The Confidential Services Platform provides the building blocks to create reliable and scalable end-to-end solutions for managing, transferring, and storing large quantities of digital assets in highly secure wallets. Customers can utilize Secure Build to further enhance their security posture. This technology validates code before it is deployed to a container, ensuring that only verified code is allowed to run, ultimately reducing malware threats, and misconfigurations.
 
-To securely provide a Digital Assets Infrastructure you can leverage features of the Hyper Protect Platform like the Trusted Container Runtime, memory protection and data in use protection, disk encryption, attestation, the contract mechanism, and separation of duty.
+To securely provide a Digital Assets Infrastructure you can leverage features of the Confidential Services Platform like the Trusted Container Runtime, memory protection and data in use protection, disk encryption, attestation, the contract mechanism, and separation of duty.
 
 The following diagram illustrates a common architecture to use Hyper Protect Services for digital asset solutions:
 

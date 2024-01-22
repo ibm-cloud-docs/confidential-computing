@@ -2,9 +2,9 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-16"
+lastupdated: "2024-01-22"
 
-keywords: hyper protect, hyper protect services, hyper protect platform, kvm, s390x, overview, introduction
+keywords: hyper protect, hyper protect services, Confidential Services Platform, kvm, s390x, overview, introduction
 
 subcollection: confidential-computing
 
@@ -12,19 +12,19 @@ subcollection: confidential-computing
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Overview of Hyper Protect Platform
+# Overview of Confidential Services Platform
 {: #hyper-protect-overview}
 
-IBM Hyper Protect Platform represents the cutting-edge in confidential computing, designed to secure sensitive data and mission-critical applications in hybrid cloud environments. The platform leverages IBM Z and LinuxONE systems' Secure Execution technology, providing a robust foundation for creating protected kernel virtual machines (KVM) tailored for the s390x architecture. This secure execution environment encapsulates workloads within secure enclaves, effectively shielding them from unauthorized access, even from privileged users such as cloud administrators.
+IBM Confidential Services Platform represents the cutting-edge in confidential computing, designed to secure sensitive data and mission-critical applications in hybrid cloud environments. The platform leverages IBM Z and LinuxONE systems' Secure Execution technology, providing a robust foundation for creating protected kernel virtual machines (KVM) tailored for the s390x architecture. This secure execution environment encapsulates workloads within secure enclaves, effectively shielding them from unauthorized access, even from privileged users such as cloud administrators.
 {: shortdesc}
 
-One of the key advantages of the Hyper Protect Platform is its ability to provide end-to-end security for data at rest, in motion, and in use. By utilizing this platform, enterprises can confidently move sensitive applications to the cloud, knowing that their code and data are safeguarded throughout their lifecycle. This is particularly crucial for industries with stringent data protection requirements, such as financial services, healthcare, and government sectors.
+One of the key advantages of the Confidential Services Platform is its ability to provide end-to-end security for data at rest, in motion, and in use. By utilizing this platform, enterprises can confidently move sensitive applications to the cloud, knowing that their code and data are safeguarded throughout their lifecycle. This is particularly crucial for industries with stringent data protection requirements, such as financial services, healthcare, and government sectors.
 
 
 ## Secure Execution
 {: #feature-se}
 
-The IBM Hyper Protect Platform leverages [IBM Secure Execution for Linux technology](https://www.ibm.com/docs/en/linux-on-systems?topic=virtualization-introducing-secure-execution-linux){: external}, which is a hardware-based security technology and was introduced with the IBM z15® and IBM® LinuxONE III generation systems for Kernel Virtual Machines (KVM). It protects data of workloads that run in a KVM guest from being inspected or modified by the server environment. In particular, no hardware administrator, no KVM code, and no KVM administrator can access the data in a guest that was started as an IBM Secure Execution guest. Only the workload owner can access the workload and data. This means that no hardware administrator, KVM code, or KVM administrator can compromise the sanctity of the data, effectively isolating the workload from any external interference.
+The IBM Confidential Services Platform leverages [IBM Secure Execution for Linux technology](https://www.ibm.com/docs/en/linux-on-systems?topic=virtualization-introducing-secure-execution-linux){: external}, which is a hardware-based security technology and was introduced with the IBM z15® and IBM® LinuxONE III generation systems for Kernel Virtual Machines (KVM). It protects data of workloads that run in a KVM guest from being inspected or modified by the server environment. In particular, no hardware administrator, no KVM code, and no KVM administrator can access the data in a guest that was started as an IBM Secure Execution guest. Only the workload owner can access the workload and data. This means that no hardware administrator, KVM code, or KVM administrator can compromise the sanctity of the data, effectively isolating the workload from any external interference.
 
 The Secure Execution for Linux is a continuation and expansion of well-known security features of IBM Z and LinuxONE, and is available as part of the following hardwares:
 
@@ -44,7 +44,7 @@ When you start a KVM guest or deploy a workload in IBM Secure Execution mode, th
 ## Separation of duties
 {: #feature-duty-separation}
 
-The Hyper Protect Platform supports separation of duty with predefined personas. The predefined personas as described below are based on least privilege and zero trust principles. There is no assumed trust that what is expected to be deployed is in fact what gets deployed.
+The Confidential Services Platform supports separation of duty with predefined personas. The predefined personas as described below are based on least privilege and zero trust principles. There is no assumed trust that what is expected to be deployed is in fact what gets deployed.
 
 - **Container Image Provider**
 

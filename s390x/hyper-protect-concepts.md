@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-12-14"
+  years: 2024
+lastupdated: "2024-01-22"
 
-keywords: hyper protect platform, concepts.
+keywords: Confidential Services Platform, concepts.
 
 subcollection: confidential-computing
 
@@ -12,10 +12,10 @@ subcollection: confidential-computing
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Concepts in Hyper Protect Platform
+# Concepts in Confidential Services Platform
 {: #hyper-protect-concepts}
 
-Understand the common concetps in the Hyper Protect platform.
+Understand the common concetps in the Confidential Services Platform.
 
 TO-DO: Need a diagram or something to explain those key concepts and their relationships.
 
@@ -49,7 +49,7 @@ To process the secret information, the Ultravisor uses the matching private host
 
 To run your workload in the secure-execution mode and provide the required configuration data to your cloud admin, you need to use a contract to convey such information.
 
-The contract in the Hyper Protect platform ensures the confidentialality and integrity of the workload details and deployment configuration, and it has different meanings in terms of confidential VMs and orchestrated confidential containers running in the secure-execution mode. 
+The contract in the Confidential Services Platform ensures the confidentialality and integrity of the workload details and deployment configuration, and it has different meanings in terms of confidential VMs and orchestrated confidential containers running in the secure-execution mode. 
 
 | Contract | For confidential VMs | For orchestrated confidential containers |
 |-----|-----|-----|

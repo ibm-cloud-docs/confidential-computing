@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-16"
+lastupdated: "2024-01-22"
 
 keywords: faq, confidential computings
 
@@ -19,15 +19,15 @@ subcollection: framework-financial-services
 Answers to common questions about Confidential Computing on IBM Cloud.
 {: shortdesc}
 
-## What is IBM Hyper Protect Platform?
+## What is IBM Confidential Services Platform?
 {: #faqs-cc-hps}
     
-IBM Hyper Protect Platform is a suite of services designed to provide a highly secure environment for sensitive data and applications in hybrid cloud deployments, leveraging Confidential Computing capabilities on IBM Z or LinuxONE.
+IBM Confidential Services Platform is a suite of services designed to provide a highly secure environment for sensitive data and applications in hybrid cloud deployments, leveraging Confidential Computing capabilities on IBM Z or LinuxONE.
 
-## What is Confidential Computing, and how does it relate to Hyper Protect Platform?
+## What is Confidential Computing, and how does it relate to Confidential Services Platform?
 {: #faqs-cc-hpp}
 
-Confidential Computing refers to the protection of data in use by performing computation in a hardware-based Trusted Execution Environment (TEE), ensuring data is encrypted and isolated during processing. IBM Hyper Protect Platform utilize this concept to protect mission-critical workloads and sensitive data.
+Confidential Computing refers to the protection of data in use by performing computation in a hardware-based Trusted Execution Environment (TEE), ensuring data is encrypted and isolated during processing. IBM Confidential Services Platform utilize this concept to protect mission-critical workloads and sensitive data.
 
 ## What is Zero-Trust?
 {: #faqs-cc-zero-trust}
@@ -42,10 +42,10 @@ Operation assurance ensures that the operations conducted by service providers a
 Technical assurance ensures that the security features are ingrained in the technology. And it is technically impossible for unauthorized access or changes to occur.
 
 
-## What kind of technology underlies the Hyper Protect Platform?
+## What kind of technology underlies the Confidential Services Platform?
 {: #faqs-tech}
     
-The Hyper Protect Platform is based on technology that includes hardware and firmware features such as memory encryption and an Ultravisor to create isolated, secure environments for workloads.
+The Confidential Services Platform is based on technology that includes hardware and firmware features such as memory encryption and an Ultravisor to create isolated, secure environments for workloads.
 
 ## How does Hyper Protect Crypto Service enhance security?
 {: #faqs-hpcs}

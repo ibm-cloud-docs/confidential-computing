@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-09"
+lastupdated: "2024-01-22"
 
 keywords: hyper protect services, hpvs, hpcs, hpsb, hyper protect products
 
@@ -12,10 +12,10 @@ subcollection: confidential-computing
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Products in Hyper Protect Platform
+# Products in Confidential Services Platform
 {: #hyper-protect-products}
 
-The IBM Hyper Protect Platform provides several key products aimed at enhancing the security of applications and data, particularly in hybrid cloud environments.
+The IBM Confidential Services Platform provides several key products aimed at enhancing the security of applications and data, particularly in hybrid cloud environments.
 {: shortdesc}
 
 It ensures data confidentiality by encrypting data in use within secure enclaves, preventing unauthorized access or tampering. Data integrity is maintained through secure boot processes and encrypted images that are only decryptable by the hardware's trusted firmware. Moreover, code integrity is protected by the Hyper Protect Secure Build, which creates a secure environment for the build process, ensuring that the resulting images are free from tampering.

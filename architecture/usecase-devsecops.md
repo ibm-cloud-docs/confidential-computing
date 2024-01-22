@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-01-09"
+lastupdated: "2024-01-22"
 
 keywords: secure build, ci/cd, supply chain
 
@@ -31,7 +31,7 @@ Although [Supply-chain Levels for Software Artifacts (SLSA)](https://slsa.dev/){
 - Producer trust: SLSA's Build Track protects from tampering after or during the build. However, they cannot address organizations that purposefully create malicious software.
 - Transitive trust for dependencies: An artefacts SLSA level does not depend on the level of its dependencies. Currently there is no SLSA level that can refer to both an artifact and its transitive dependencies.
 
-## How can the Hyper Protect Platform help?
+## How can the Confidential Services Platform help?
 {: #devsecops-hp}
 
 By using Hyper Protect Secure Build technology, a trusted container image can be built within a secure enclave that is provided by IBM Hyper Protect Virtual Servers. The enclave is highly isolated, where developers can access the container only by using a specific API, and the cloud administrator cannot access the contents of the container. Therefore, the image that is built can be highly trusted. Specifically, the build server cryptographically signs the image and a manifest (which is a collection of materials that are used during the build, for audit purposes). Since the enclave protects the signing of keys within the enclave, the signatures can be used to verify whether the image and manifest files are from the Hyper Protect Secure Build and not elsewhere. The following diagram illustrates the secure build process:

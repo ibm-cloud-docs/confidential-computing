@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-16"
+lastupdated: "2024-01-22"
 
 keywords: 
 
@@ -33,11 +33,11 @@ Find what you are looking for in the topics that are available for Confidential 
 * [IBM confidential computing strategy](/docs/confidential-computing?topic=confidential-computing-about#cc-ibm)
 
 
-## Hyper Protect Platform on IBM Z or LinuxONE
-{: #sitemap_hyper_protect_platform_on_ibm_z_or_linuxone}
+## Confidential Services Platform on IBM Z or LinuxONE
+{: #sitemap_confidential_services_platform_on_ibm_z_or_linuxone}
 
 
-[Overview of Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#hyper-protect-overview)
+[Overview of Confidential Services Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#hyper-protect-overview)
 
 * [Secure Execution](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-se)
 
@@ -47,7 +47,7 @@ Find what you are looking for in the topics that are available for Confidential 
 
 * [Attestation](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-attestation)
 
-[Products in Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hyper-protect-products)
+[Products in Confidential Services Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hyper-protect-products)
 
 * [Hyper Protect Virtual Servers](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpvs)
 
@@ -80,31 +80,31 @@ Find what you are looking for in the topics that are available for Confidential 
 
 * [Challenges](/docs/confidential-computing?topic=confidential-computing-scp#scp-challenge)
 
-* [How can the Hyper Protect Platform help?](/docs/confidential-computing?topic=confidential-computing-scp#scp-hp)
+* [How can the Confidential Services Platform help?](/docs/confidential-computing?topic=confidential-computing-scp#scp-hp)
 
 [Digital assets custody and governance](/docs/confidential-computing?topic=confidential-computing-digital-assets#digital-assets)
 
 * [Challenges](/docs/confidential-computing?topic=confidential-computing-digital-assets#da-challenge)
 
-* [How can the Hyper Protect Platform help?](/docs/confidential-computing?topic=confidential-computing-digital-assets#da-hp)
+* [How can the Confidential Services Platform help?](/docs/confidential-computing?topic=confidential-computing-digital-assets#da-hp)
 
 [Confidential AI](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai)
 
 * [Challenges](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai-challenge)
 
-* [How can the Hyper Protect Platform help?](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai-hp)
+* [How can the Confidential Services Platform help?](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai-hp)
 
 [Secure multi-party computation and collaboration](/docs/confidential-computing?topic=confidential-computing-smpc#smpc)
 
 * [Challenges](/docs/confidential-computing?topic=confidential-computing-smpc#smpc-challenge)
 
-* [How can the Hyper Protect Platform help?](/docs/confidential-computing?topic=confidential-computing-smpc#smpc-hp)
+* [How can the Confidential Services Platform help?](/docs/confidential-computing?topic=confidential-computing-smpc#smpc-hp)
 
 [Secure workload supply chain](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops)
 
 * [Challenges](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-challenge)
 
-* [How can the Hyper Protect Platform help?](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-hp)
+* [How can the Confidential Services Platform help?](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-hp)
 
     * [On cloud](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-hp-on-cloud)
 
@@ -162,15 +162,15 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [FAQs for Confidential Computing in IBM](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc)
 
-* [What is IBM Hyper Protect Platform?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-hps)
+* [What is IBM Confidential Services Platform?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-hps)
 
-* [What is Confidential Computing, and how does it relate to Hyper Protect Platform?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-hpp)
+* [What is Confidential Computing, and how does it relate to Confidential Services Platform?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-hpp)
 
 * [What is Zero-Trust?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-zero-trust)
 
 * [What is the difference between Operation Assurance and Technical Assurance?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc-operation-technical)
 
-* [What kind of technology underlies the Hyper Protect Platform?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-tech)
+* [What kind of technology underlies the Confidential Services Platform?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-tech)
 
 * [How does Hyper Protect Crypto Service enhance security?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-hpcs)
 
@@ -193,8 +193,8 @@ Find what you are looking for in the topics that are available for Confidential 
 [RedBook - Applying Data Protection and Confidentiality in a Hybrid Cloud Environment](https://www.redbooks.ibm.com/redpieces/abstracts/sg248555.html){: external}
 
 
-## Whitepaper - The Second Generation of IBM Hyper Protect Platform
-{: #sitemap_whitepaper---the-second-generation-of-ibm-hyper-protect-platform}
+## Whitepaper - The Second Generation of IBM Confidential Services Platform
+{: #sitemap_whitepaper---the-second-generation-of-ibm-confidential-services-platform}
 
-[Whitepaper - The Second Generation of IBM Hyper Protect Platform](https://www.ibm.com/downloads/cas/GPVMWPM3){: external}
+[Whitepaper - The Second Generation of IBM Confidential Services Platform](https://www.ibm.com/downloads/cas/GPVMWPM3){: external}
 

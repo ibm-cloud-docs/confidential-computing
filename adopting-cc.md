@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023
-lastupdated: "2023-12-14"
+  years: 2024
+lastupdated: "2024-01-22"
 
 keywords: adopting, contact
 
@@ -17,7 +17,7 @@ subcollection: confidential-computing
 
 {: shortdesc}
 
-When adopting a confidential computing solution based on the Hyper Protect platform, it is crucial to consider data sovereignty compliance, ensure hybrid cloud readiness, and utilize secure execution technology. 
+When adopting a confidential computing solution based on the Confidential Services Platform, it is crucial to consider data sovereignty compliance, ensure hybrid cloud readiness, and utilize secure execution technology. 
 {: shortdesc}
 
 Your solution must integrate with a zero trust architecture and leverage a trusted execution environment for containerized applications. Understanding of confidential computing concepts among the team is essential, as is familiarity with cryptographic operations and attestation processes. Additionally, understanding the specifics of your deployment, whether cloud-based or on-premises, is important for successful implementation. 

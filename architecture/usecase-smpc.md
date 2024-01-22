@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-01-09"
+lastupdated: "2024-01-22"
 
 keywords: smpc, multi party collaboration, multi party computation
 
@@ -27,10 +27,10 @@ In multi-party collaborations (MPC), the biggest concern is how can the confiden
 
 ![Secure multi-party computation - healthcare](../images/smpc-hospitals.png){: caption="Figure 2. Hospitals share data to help drug development and disease diagnostics" caption-side="bottom"}
 
-## How can the Hyper Protect Platform help?
+## How can the Confidential Services Platform help?
 {: #smpc-hp}
 
-With the Hyper Protect Platform, each party brings encrypted data to a confidential computing enclave (such as a Hyper Protect Virtual Server) where data can be safely un-encrypted and processed. Organizations can now ensure that data is protected against tampering and compromise, and data sovereignty and privacy regulations can be fulfilled. This includes threats within the partnering organizations and validating the integrity of the code processing that data. The data can be combined and analyzed and the results can be sent in an encrypted format back to each party. Data remains protected throughout the entire process: while in transit, in use and at rest. The following diagram illustrates a common SMPC implementation architecture with the Hyper Protect Platform:
+With the Confidential Services Platform, each party brings encrypted data to a confidential computing enclave (such as a Hyper Protect Virtual Server) where data can be safely un-encrypted and processed. Organizations can now ensure that data is protected against tampering and compromise, and data sovereignty and privacy regulations can be fulfilled. This includes threats within the partnering organizations and validating the integrity of the code processing that data. The data can be combined and analyzed and the results can be sent in an encrypted format back to each party. Data remains protected throughout the entire process: while in transit, in use and at rest. The following diagram illustrates a common SMPC implementation architecture with the Confidential Services Platform:
 
 ![Hyper Protect implementation in SMPC](../images/updated-smpc-hp.svg){: caption="Figure 3. Hyper Protect implementation in SMPC" caption-side="bottom"}
 
