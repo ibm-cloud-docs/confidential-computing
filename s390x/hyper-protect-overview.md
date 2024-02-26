@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-02-26"
 
 keywords: hyper protect, hyper protect services, Confidential Services Platform, kvm, s390x, overview, introduction
 
@@ -44,7 +44,7 @@ When you start a KVM guest or deploy a workload in IBM Secure Execution mode, th
 ## Separation of duties
 {: #feature-duty-separation}
 
-The Confidential Services Platform supports separation of duty with predefined personas. The predefined personas as described below are based on least privilege and zero trust principles. There is no assumed trust that what is expected to be deployed is in fact what gets deployed.
+The Confidential Services Platform supports separation of duty with predefined personas. The predefined personas as described in the following paragraphs are based on least privilege and zero trust principles. There is no assumed trust that what is expected to be deployed is in fact what gets deployed.
 
 - **Container Image Provider**
 
@@ -57,25 +57,25 @@ The Confidential Services Platform supports separation of duty with predefined p
 
 - **Workload Deployer Persona**
 
-  This persona is responsible for deploying the workload using the (cloud) infrastructure available. The Workload Provider provides the encrypted workload contract section and identifies and communicates to the Workload Deployer the environment required to provide the workload to an end user. This allows the Workload Deployer to supplement the definition provided by the workload provider with instance/environment specific information (logging, storage etc).
+  This persona is responsible for deploying the workload using the (cloud) infrastructure available. The Workload Provider provides the encrypted workload contract section and identifies and communicates to the Workload Deployer the environment required to provide the workload to an end user. This allows the Workload Deployer to supplement the definition provided by the workload provider with instance/environment specific information (logging, storage, ans so on).
 
-  The workload deployer is responsible for the service availability. They
+  The workload deployer is responsible for the service availability.  
 
-    * can control the networking, compute and storage resources made available to instance - can influence network traffic in and out of a provided workload
-    * cannot change the workload to be deployed
-    * cannot change the Workload Provider’ environment expectations.
+    * The workload deployer can control the networking, compute and storage resources made available to instance - can influence network traffic in and out of a provided workload.
+    * The workload deployer cannot change the workload to be deployed.
+    * The workload deployer cannot change the Workload Provider’ environment expectations.
 
   If they do change the environment expectations, either the workload will not start, or the Auditor will not verify the environment when the workload is deployed.
 
 - **Auditor**
 
-  Since there is no “assumed” trust between the Workload Provider and other personas we must ensure at runtime that the workload is not deployed in a manner which breaks the Workload Provider’s or the Workload Deployer’s expectations.
+  Since there is no “assumed” trust between the Workload Provider and other personas we must ensure at run time that the workload is not deployed in a manner which breaks the Workload Provider’s or the Workload Deployer’s expectations.
 
-  The Auditor is the persona with responsibility for verifying that a deployed workload is both the workload expected and deployed to the expected environment. They do this by obtaining and verifying a trusted attestation record at runtime. The contents of this record can be verified against workload and environment expectations and details are covered in future section of this document.
+  The Auditor is the persona with responsibility for verifying that a deployed workload is both the workload expected and deployed to the expected environment. They do this by obtaining and verifying a trusted attestation record at run time. The contents of this record can be verified against workload and environment expectations and details are covered in future section of this document.
 
 - **Infrastructure/System Admin Persona**
 
-  This role includes the system (cloud) administrator of a compute, storage, and network or support persona of the infrastructure like a Site Reliability Engineer (SRE). They will have responsibility for the underlying hardware but must not be able to use the capabilities this role offers to access confidential data or subvert the workload providers definition of the workload and expected environment. The use of Secure Execution achieves this through protecting the memory used by the workload from all external access at runtime, and the use of an encrypted Contract protects the intended workload and environment definitions at deployment time.
+  This role includes the system (cloud) administrator of a compute, storage, and network or support persona of the infrastructure like a Site Reliability Engineer (SRE). They will have responsibility for the underlying hardware but must not be able to use the capabilities this role offers to access confidential data or subvert the workload providers definition of the workload and expected environment. The use of Secure Execution achieves this through protecting the memory used by the workload from all external access at run time, and the use of an encrypted Contract protects the intended workload and environment definitions at deployment time.
 
 ## Contract mechanism
 {: #feature-contract}

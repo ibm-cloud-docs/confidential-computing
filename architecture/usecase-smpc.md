@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-02-26"
 
 keywords: smpc, multi party collaboration, multi party computation
 
@@ -15,7 +15,7 @@ subcollection: confidential-computing
 # Secure multi-party computation and collaboration
 {: #smpc}
 
-As various entities collaborate towards a common goal: the need for the individual data privacy as well as correct computation output. With confidential computing, it is possible to enable distributed multi-party computation and collaboration, where participants are ensured that their data or insights are protected even when being calculated outside their direct control.
+As various entities collaborate toward a common goal: the need for the individual data privacy as well as correct computation output. With confidential computing, it is possible to enable distributed multi-party computation and collaboration, where participants are ensured that their data or insights are protected even when being calculated outside their direct control.
 {: shortdesc}
 
 ## Challenges
@@ -30,10 +30,10 @@ In multi-party collaborations (MPC), the biggest concern is how can the confiden
 ## How can the Confidential Services Platform help?
 {: #smpc-hp}
 
-With the Confidential Services Platform, each party brings encrypted data to a confidential computing enclave (such as a Hyper Protect Virtual Server) where data can be safely un-encrypted and processed. Organizations can now ensure that data is protected against tampering and compromise, and data sovereignty and privacy regulations can be fulfilled. This includes threats within the partnering organizations and validating the integrity of the code processing that data. The data can be combined and analyzed and the results can be sent in an encrypted format back to each party. Data remains protected throughout the entire process: while in transit, in use and at rest. The following diagram illustrates a common SMPC implementation architecture with the Confidential Services Platform:
+With the Confidential Services Platform, each party brings encrypted data to a confidential computing enclave (such as a Hyper Protect Virtual Server) where data can be safely unencrypted and processed. Organizations can now ensure that data is protected against tampering and compromise, and data sovereignty and privacy regulations can be fulfilled. This includes threats within the partnering organizations and validating the integrity of the code processing that data. The data can be combined and analyzed and the results can be sent in an encrypted format back to each party. Data remains protected throughout the entire process: while in transit, in use and at rest. The following diagram illustrates a common SMPC implementation architecture with the Confidential Services Platform:
 
 ![Hyper Protect implementation in SMPC](../images/updated-smpc-hp.svg){: caption="Figure 3. Hyper Protect implementation in SMPC" caption-side="bottom"}
 
 - Sensitive data is processed within Hyper Protect Virtual Servers that are isolated computation enclaves with attestation records.
 - Data is stored in Cloud Object Storage, encrypted with keys generated in Hyper Protect Crypto Services backed by IBM LinuxONE and FIPS 140-2 Level 4 certified hardware security module (HSM).
-- Hyper Protect Crypto Services provide the third seeds for generating the LUKS passphrase to encrypt your data volume attached in Hyper Protect Virtual Server.
+- Hyper Protect Crypto Services provide the third seed for generating the LUKS passphrase to encrypt your data volumes that are attached in Hyper Protect Virtual Server.

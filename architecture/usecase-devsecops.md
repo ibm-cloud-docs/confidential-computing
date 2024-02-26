@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-02-26"
 
 keywords: secure build, ci/cd, supply chain
 
@@ -15,13 +15,13 @@ subcollection: confidential-computing
 # Secure workload supply chain
 {: #devsecops}
 
-Whether you are building a cloud native application, or on an application modernization journey, you can now do both with peace of mind by leveraging IBM’s Secure Execution technology. Containerizing applications within a confidential computing environment ensures that your applications are protected and isolated, even the IBM admin doesn’t have access.
+Whether you are building a cloud-native application, or on an application modernization journey, you can now do both with peace of mind by leveraging IBM’s Secure Execution technology. Containerizing applications within a confidential computing environment ensures that your applications are protected and isolated, even the IBM admin doesn’t have access.
 {: shortdesc}
 
 ## Challenges
 {: #devsecops-challenge}
 
-As workload supply chain comprises multiple stages from produce to deliver, data and code are transferred in each stage. How can you protect them from unauthorized access and malicious tampering during the entire process? 
+As the workload supply chain comprises multiple stages from produce to deliver, data and code are transferred in each stage. How can you protect them from unauthorized access and malicious tampering during the entire process? 
 
 ![Workload supply chain challenge](../images/supply-chain-challenge.png){: caption="Figure 1. Workload supply chain challenge" caption-side="bottom"}
 
@@ -29,7 +29,7 @@ Although [Supply-chain Levels for Software Artifacts (SLSA)](https://slsa.dev/){
 
 - Quality of code: SLSA cannot tell you whether the source code that was written follows secure coding practices.
 - Producer trust: SLSA's Build Track protects from tampering after or during the build. However, they cannot address organizations that purposefully create malicious software.
-- Transitive trust for dependencies: An artefacts SLSA level does not depend on the level of its dependencies. Currently there is no SLSA level that can refer to both an artifact and its transitive dependencies.
+- Transitive trust for dependencies: An artifact's SLSA level does not depend on the level of its dependencies. Currently, there is no SLSA level that can refer to both an artifact and its transitive dependencies.
 
 ## How can the Confidential Services Platform help?
 {: #devsecops-hp}
@@ -38,9 +38,9 @@ By using Hyper Protect Secure Build technology, a trusted container image can be
 
 ![Secure build with Hyper Protect](../images/securebuild-workflow.png){: caption="Figure 1. Secure Build with Hyper Protect" caption-side="bottom"}
 
-You can refer to the following architectures to use Secure Build either on cloud or on premises:
+You can refer to the following architectures to use Secure Build either on the cloud or premises:
 
-### On cloud
+### On the cloud
 {: #devsecops-hp-on-cloud}
 
 ![Secure build on IBM Cloud](../images/updated-sb-cloud.svg){: caption="Figure 1. Secure Build on IBM Cloud" caption-side="bottom"}

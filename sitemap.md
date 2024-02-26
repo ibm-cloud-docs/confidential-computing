@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-02-26"
 
 keywords: 
 
@@ -106,7 +106,7 @@ Find what you are looking for in the topics that are available for Confidential 
 
 * [How can the Confidential Services Platform help?](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-hp)
 
-    * [On cloud](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-hp-on-cloud)
+    * [On the cloud](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-hp-on-cloud)
 
     * [On-prem](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-hp-on-prem)
 
