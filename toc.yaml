@@ -1,0 +1,50 @@
+toc:
+  properties:
+    subcollection: confidential-computing
+    category: solution_docs
+    industry: Technology
+    compliance: SOCStandards
+    audience: solution
+    content-type: solution
+    href: /docs/confidential-computing?topic=confidential-computing-about
+    product-page: https://www.ibm.com/cloud/confidential-computing
+    path: confidential-computing
+    label: Confidential Computing in IBM
+    description: Confidential computing protects applications and data while in use by keeping them encrypted all the time, even in memory, and only decrypting inside the processor.
+  entries:
+  - navgroup:
+      id: overview
+      topics:
+      - about.md
+      - topicgroup:
+          label: Confidential Services Platform on IBM Z or LinuxONE
+          topics: 
+          - s390x/hyper-protect-overview.md
+          - s390x/hyper-protect-products.md
+      - release-notes.md
+  - navgroup:
+      id: architecture
+      topics:
+      - architecture/onhybrid.md
+      - topicgroup:
+          label: Use cases
+          topics:  
+          - architecture/usecase-scp.md 
+          - architecture/usecase-digital-assets.md
+          - architecture/usecase-confidential-ai.md
+          - architecture/usecase-smpc.md
+          - architecture/usecase-devsecops.md
+      - tutorials/hp-examples.md
+  - navgroup:
+      id: help
+      topics: 
+      - adopting-cc.md
+      - best-practices.md
+      - faqs.md
+      - link:
+          label: RedBook - Applying Data Protection and Confidentiality in a Hybrid Cloud Environment
+          href: https://www.redbooks.ibm.com/redpieces/abstracts/sg248555.html
+      - link:
+          label: Whitepaper - The Second Generation of IBM Confidential Services Platform
+          href: https://www.ibm.com/downloads/cas/GPVMWPM3
+      - sitemap.md

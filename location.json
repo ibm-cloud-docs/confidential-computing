@@ -1,0 +1,28 @@
+{
+    "markdown-enricher": {
+        "config": {
+            "source_github_branch": "source",
+            "log_branch": "source-logs"
+        },
+        "locations": [
+            {
+                "location": "staging",
+                "location_github_url": "https://github.ibm.com/https://github.ibm.com/cloud-docs-solutions/confidential-computing",
+                "location_github_branch": "draft",
+                "location_output_action": "merge-automatically",
+                "location_comments": "off",
+                "location_commit_summary_style": "AuthorAndSummary"
+            },
+            {
+                "location": "prod",
+                "location_github_url": "https://github.ibm.com/cloud-docs-solutions/confidential-computing",
+                "location_github_branch": "publish",
+                "location_github_branch_pr": "next-prod-push",
+                "location_output_action": "create-pr",
+                "location_comments": "off",
+                "location_commit_summary_style": "SummaryOnly"
+            }
+        ]
+    }
+}
+
