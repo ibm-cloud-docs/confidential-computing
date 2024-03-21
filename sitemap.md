@@ -62,7 +62,7 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Release notes](/docs/confidential-computing?topic=confidential-computing-release-notes#release-notes)
 
-* [31 March 2024](/docs/confidential-computing?topic=confidential-computing-release-notes#31-march-2024)
+* [21 March 2024](/docs/confidential-computing?topic=confidential-computing-release-notes#21-march-2024)
 
 
 ## Architecture in Hybrid cloud
