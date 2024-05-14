@@ -35,7 +35,7 @@ The blogs and videos are listed in the chronological order.
 
 * 2024-03-07: [Elevate Digital Assets protection with Confidential Computing: Hyper Protect Services on LinuxONE](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/henry-welborn1/2024/03/06/digital-assets-protection-confidential-computing){: external}
 
-* 2024-03-06: [](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/henry-welborn1/2024/03/06/digital-assets-protection-confidential-computing){: external}
+* 2024-03-06: [Elevate Digital Assets protection with Confidential Computing: Hyper Protect Services on LinuxONE](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/henry-welborn1/2024/03/06/digital-assets-protection-confidential-computing){: external}
 
 * 2024-02-25: [Navigating the digital wave: Understanding DORA and the role of confidential computing](https://www.ibm.com/blog/navigating-the-digital-wave-understanding-dora-and-the-role-of-confidential-computing/){: external}
 
