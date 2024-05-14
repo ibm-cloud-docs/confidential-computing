@@ -25,7 +25,7 @@ The blogs and videos are listed in the chronological order.
 
 * 2024-04-29: [IBM Secure Execution for Linux support for Crypto Express adapters](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/nicolas-mding/2024/04/29/ibm-secure-execution-for-linux-crypto-support?communityKey=e7b7d299-8509-4572-8cf1-c1112684644f){: external}
 
-: 2024-04-16: [Knox Networks Enhances Security with IBM Hyper Protect Crypto Services HSM for FIPS Compliance](https://medium.com/@knoxnetworks/knox-networks-enhances-security-with-ibm-hyper-protect-crypto-services-hsm-for-fips-compliance-c6847e7f78b4){: external}
+* 2024-04-16: [Knox Networks Enhances Security with IBM Hyper Protect Crypto Services HSM for FIPS Compliance](https://medium.com/@knoxnetworks/knox-networks-enhances-security-with-ibm-hyper-protect-crypto-services-hsm-for-fips-compliance-c6847e7f78b4){: external}
 
 * 2024-04-09: [BCB Group Moves Custody of Digital Asset Operations to Metaco's Platform](https://www.coindesk.com/business/2024/04/09/bcb-group-moves-custody-of-digital-asset-operations-to-metacos-platform/){: external}
 
@@ -60,7 +60,7 @@ The blogs and videos are listed in the chronological order.
 * 2023-02-14: [Announcing IBM Hyper Protect Crypto Services for AIX and Linux on IBM Power Systems Virtual Server](https://www.ibm.com/blog/announcement/announcing-ibm-hyper-protect-crypto-services-for-aix-and-linux-on-ibm-power-systems-virtual-server/){: external}
 
 
-# Published before 2023
+## Published before 2023
 {: b42023}
 
 * 2022-08-12: [Sicher in die Cloud: LBBW setzt auf IBM-Verschlüsselungskompetenz](https://de.newsroom.ibm.com/2022-08-12-Sicher-in-die-Cloud-LBBW-setzt-auf-IBM-Verschlusselungskompetenz)
