@@ -19,7 +19,7 @@ The blogs and videos are listed in the chronological order.
 
 
 ## Published in 2024
-{: #2024}
+{: #p-2024}
 
 * 2024-05-09: [Building Aadhaar Data Vault Solution on IBM LinuxONE](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/sandeep-batta/2024/05/09/aadhaar-data-vault-on-linuxone){: external}
 
@@ -45,7 +45,7 @@ The blogs and videos are listed in the chronological order.
 
 
 ## Published in 2023
-{: #2023}
+{: #p-2023}
 
 * 2023-12-12: [Multi-OCI container workloads on Hyper Protect Virtual Server for VPC](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/abhiram-kulkarni/2023/12/12/multi-oci-container-workloads-on-hyper-protect-vir?communityKey=378eb0a9-b968-4c46-ad72-2e1670c4ee92){: external}
 
@@ -59,7 +59,7 @@ The blogs and videos are listed in the chronological order.
 
 
 ## Published before 2023
-{: b42023}
+{: #b4-2023}
 
 * 2022-08-12: [Sicher in die Cloud: LBBW setzt auf IBM-Verschlüsselungskompetenz](https://de.newsroom.ibm.com/2022-08-12-Sicher-in-die-Cloud-LBBW-setzt-auf-IBM-Verschlusselungskompetenz){: external}
 
