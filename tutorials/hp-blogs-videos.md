@@ -39,9 +39,9 @@ The blogs and videos are listed in the chronological order.
 
 * 2024-02-01: [IBM Cloud Show Me - Hyper Protect Services for Confidential Computing Demo](https://mediacenter.ibm.com/media/1_f7e970ig){: external}
 
-* 2024-01-10: [Confidential Containers with Red Hat OpenShift Container Platform and IBM® Secure Execution for Linux](https://www.ibm.com/blog/confidential-containers-with-red-hat-openshift-container-platform-and-ibm-secure-execution-for-linux/){: external}
-
 * 2024-01-12: [How Jamworks protects confidentiality while integrating AI advantages](https://www.ibm.com/blog/how-jamworks-protects-confidentiality-while-integrating-ai-advantages/){: external}
+
+* 2024-01-10: [Confidential Containers with Red Hat OpenShift Container Platform and IBM® Secure Execution for Linux](https://www.ibm.com/blog/confidential-containers-with-red-hat-openshift-container-platform-and-ibm-secure-execution-for-linux/){: external}
 
 
 ## Published in 2023
@@ -51,9 +51,9 @@ The blogs and videos are listed in the chronological order.
 
 * 2023-12-05: [Video: IBM Hyper Protect Offline Signing Orchestrator overview](https://mediacenter.ibm.com/media/IBM+Hyper+Protect+Offline+Signing+Orchestrator+overview/1_mat0nnyc/276294303){: external}
 
-* 2023-12-04: [Confidential Containers at enterprise scale and security: IBM and Red Hat plan to deliver Red Hat OpenShift Container Platform with Confidential Containers leveraging IBM Secure Execution for Linux](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/louisa-muschal/2023/12/04/confidential-containers-at-enterprise-scale-and-se){: external}
-
 * 2023-12-05: [IBM announces new cold storage solution for digital assets](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/abhiram-kulkarni/2023/12/12/multi-oci-container-workloads-on-hyper-protect-vir){: external}
+
+* 2023-12-04: [Confidential Containers at enterprise scale and security: IBM and Red Hat plan to deliver Red Hat OpenShift Container Platform with Confidential Containers leveraging IBM Secure Execution for Linux](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/louisa-muschal/2023/12/04/confidential-containers-at-enterprise-scale-and-se){: external}
 
 * 2023-11-30: [Video: Data migration from IBM Cloud Hyper Protect Virtual Servers Gen1 to Gen2](https://mediacenter.ibm.com/media/Data+migration+from+IBM+Cloud+Hyper+Protect+Virtual+Servers+Gen1+to+Gen2/1_ca9kepns/276294303){: external}
 
@@ -98,7 +98,6 @@ The blogs and videos are listed in the chronological order.
 * 2022-03-22: [Announcing Multicloud Key Management with IBM Cloud Hyper Protect Crypto Services](https://www.ibm.com/blog/announcement/announcing-multicloud-key-management-with-ibm-cloud-hyper-protect-crypto-services/){: external}
 
 * 2021-07-12: [IBM Cloud Hyper Protect Crypto Services Is Launching in the London Region](https://www.ibm.com/blog/announcement/ibm-cloud-hyper-protect-crypto-services-is-launching-in-the-london-region/){: external}
-
 
 * 2021-04-01: [IBM Cloud Hyper Protect Crypto Services: A New Option to Initialize Your Service Instance](https://www.ibm.com/cloud/blog/announcements/ibm-cloud-hyper-protect-crypto-services-a-new-option-to-initialize-your-service-instance){: external}
 
