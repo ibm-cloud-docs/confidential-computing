@@ -29,7 +29,7 @@ The blogs and videos are listed in the chronological order.
 
 * 2024-02-25: [Navigating the digital wave: Understanding DORA and the role of confidential computing](https://www.ibm.com/blog/navigating-the-digital-wave-understanding-dora-and-the-role-of-confidential-computing/){: external}
 
-* 2024-02-01: [IBM Cloud Show Me- Hyper Protect Services for Confidential Computing Demo](https://mediacenter.ibm.com/media/1_f7e970ig){: external}
+* 2024-02-01: [IBM Cloud Show Me - Hyper Protect Services for Confidential Computing Demo](https://mediacenter.ibm.com/media/1_f7e970ig){: external}
 
 * 2024-01-10: [Confidential Containers with Red Hat OpenShift Container Platform and IBM® Secure Execution for Linux](https://www.ibm.com/blog/confidential-containers-with-red-hat-openshift-container-platform-and-ibm-secure-execution-for-linux/){: external}
 
