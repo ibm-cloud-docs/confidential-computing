@@ -31,7 +31,7 @@ The blogs and videos are listed in the chronological order.
 
 * 2024-04-09: [Why Confection Uses IBM's Hyper Protect Crypto Services](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/quimby-melton/2024/04/08/why-confection-uses-ibm-hyper-protect-crypto?communityKey=378eb0a9-b968-4c46-ad72-2e1670c4ee92){: external}
 
-* 2024-04-01: [Case study: Jamworks - Delivering AI where confidentiality really matters ](https://www.ibm.com/case-studies/jamworks){: external}
+* 2024-04-01: [Case study: Jamworks - Delivering AI where confidentiality really matters](https://www.ibm.com/case-studies/jamworks){: external}
 
 * 2024-03-07: [Elevate Digital Assets protection with Confidential Computing: Hyper Protect Services on LinuxONE](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/henry-welborn1/2024/03/06/digital-assets-protection-confidential-computing){: external}
 
@@ -63,7 +63,7 @@ The blogs and videos are listed in the chronological order.
 ## Published before 2023
 {: b42023}
 
-* 2022-08-12: [Sicher in die Cloud: LBBW setzt auf IBM-Verschlüsselungskompetenz](https://de.newsroom.ibm.com/2022-08-12-Sicher-in-die-Cloud-LBBW-setzt-auf-IBM-Verschlusselungskompetenz)
+* 2022-08-12: [Sicher in die Cloud: LBBW setzt auf IBM-Verschlüsselungskompetenz](https://de.newsroom.ibm.com/2022-08-12-Sicher-in-die-Cloud-LBBW-setzt-auf-IBM-Verschlusselungskompetenz){: external}
 
 * 2022-03-22: [Announcing Multicloud Key Management with IBM Cloud Hyper Protect Crypto Services](https://www.ibm.com/blog/announcement/announcing-multicloud-key-management-with-ibm-cloud-hyper-protect-crypto-services/){: external}
 
@@ -88,6 +88,6 @@ The blogs and videos are listed in the chronological order.
 
 * 2019-09-30: [Class of 2020: IBM Hyper Protect Accelerator powered by IBM LinuxONE ](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/melissa-sassi1/2019/09/30/class-of-2020-ibm-hyper-protect-accelerator-powere){: external}
 
-* 2019-09-06: [IBM Cloud Object Storage Announces Integration with IBM Cloud Hyper Protect Crypto Services](https://www.ibm.com/blog/announcement/ibm-cloud-object-storage-announces-integration-with-ibm-cloud-hyper-protect-crypto-services/)
+* 2019-09-06: [IBM Cloud Object Storage Announces Integration with IBM Cloud Hyper Protect Crypto Services](https://www.ibm.com/blog/announcement/ibm-cloud-object-storage-announces-integration-with-ibm-cloud-hyper-protect-crypto-services/){: external}
 
 * 2019-08-26: [Announcing IBM Cloud Hyper Protect Crypto Services – Hardware Security Module Services](https://www.ibm.com/blog/announcement/announcing-ibm-cloud-hyper-protect-crypto-services-hardware-security-module-services/){: external}
