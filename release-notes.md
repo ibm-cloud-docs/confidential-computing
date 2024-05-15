@@ -20,7 +20,7 @@ Use the release notes to learn about the latest changes to the solution guide do
 
 ## 15 May 2024
 
-* List of blogs and videos posted before this date about IBM confidential computing services can be found at [Blogs and Videos](/docs/confidential-computing?topic=blogs-videos.md).
+* List of blogs and videos posted before this date about IBM confidential computing services can be found at [Blogs and Videos](/docs/confidential-computing?topic=blogs-videos).
 
 ## 21 March 2024
 {: #21-march-2024}
