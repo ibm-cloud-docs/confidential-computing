@@ -35,6 +35,7 @@ toc:
           - architecture/usecase-smpc.md
           - architecture/usecase-devsecops.md
       - tutorials/hp-examples.md
+      - tutorials/hp-blogs-videos.md
   - navgroup:
       id: help
       topics: 
