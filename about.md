@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-05-15"
 
 keywords: confidential computing, what is confidential computing, IBM confidential computing, IBM Cloud confidential computing
 
@@ -20,7 +20,7 @@ Confidential computing (CC) protects applications and data while in use by keepi
 
 ![What is confidential computing](images/what-is-cc.jpg){: caption="Figure 1. What is confidential computing" caption-side="bottom"}
 
-As defined by the [Confidential Computing Consortium](https://confidentialcomputing.io/wp-content/uploads/sites/85/2021/03/confidentialcomputing_outreach_whitepaper-8-5x11-1.pdf), Confidential Computing has the following key characteristics: 
+As defined by the [Confidential Computing Consortium](https://confidentialcomputing.io/wp-content/uploads/sites/85/2021/03/confidentialcomputing_outreach_whitepaper-8-5x11-1.pdf){: external}, Confidential Computing has the following key characteristics: 
 
 * **Data confidentiality**: Unauthorized entities cannot view data while it is in use within the TEE.
 * **Data integrity**: Unauthorized entities cannot add, remove, or alter data while it is in use within the TEE.
