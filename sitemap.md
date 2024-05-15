@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-03-21"
+lastupdated: "2024-05-15"
 
 keywords: 
 
@@ -62,6 +62,8 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Release notes](/docs/confidential-computing?topic=confidential-computing-release-notes#release-notes)
 
+* [15 May 2024](/docs/confidential-computing?topic=confidential-computing-release-notes#15-may-2024)
+
 * [21 March 2024](/docs/confidential-computing?topic=confidential-computing-release-notes#21-march-2024)
 
 
@@ -120,6 +122,19 @@ Find what you are looking for in the topics that are available for Confidential 
 * [Tutorials](/docs/confidential-computing?topic=confidential-computing-tutorial-example#tutorial)
 
 * [Code examples](/docs/confidential-computing?topic=confidential-computing-tutorial-example#examples)
+
+
+## Blogs and Videos
+{: #sitemap_blogs_and_videos}
+
+
+[Blogs and Videos](/docs/confidential-computing?topic=confidential-computing-blogs-videos#blogs-videos)
+
+* [Published in 2024](/docs/confidential-computing?topic=confidential-computing-blogs-videos#p-2024)
+
+* [Published in 2023](/docs/confidential-computing?topic=confidential-computing-blogs-videos#p-2023)
+
+* [Published before 2023](/docs/confidential-computing?topic=confidential-computing-blogs-videos#b4-2023)
 
 
 ## Implementing confidential computing solutions
