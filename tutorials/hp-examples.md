@@ -23,7 +23,7 @@ You can refer to this page for all the available tutorials or code examples for 
 
 The following list gives you an overview of the available tutorials when using Hyper Protect products.
 
-- [Run multiple OCI container workloads on IBM Hyper Protect Virtual Servers for VPC - Use Kubernetes Pod descriptors in a Hyper Protect Virtual Servers contract](https://developer.ibm.com/tutorials/awb-run-multiple-oci-container-workloads-on-hpvs-for-vpc/){: external}
+- [Run multiple OCI container workloads on IBM Hyper Protect Virtual Servers for VPC](https://developer.ibm.com/tutorials/awb-run-multiple-oci-container-workloads-on-hpvs-for-vpc/){: external}
 
 - [Deploying the PayNow application on Hyper Protect Virtual Server for VPC](/docs/vpc?topic=vpc-financial-transaction-confidential-computing-on-hyper-protect-virtual-server-for-vpc)
 
