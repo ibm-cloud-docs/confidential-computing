@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-15"
+lastupdated: "2024-05-20"
 
 keywords: 
 
@@ -17,6 +17,10 @@ subcollection: confidential-computing
 
 Use the release notes to learn about the latest changes to the solution guide documentation for the Confidential Computing in IBM.
 {: shortdesc}
+
+## 20 May 2024
+
+A new tutorial about _how to run multiple OCI container workloads on IBM Hyper Protect Virtual Servers for VPC by using pod descriptors_ is added to the [Tutorials and examples](docs/confidential-computing?topic=confidential-computing-tutorial-example).
 
 ## 15 May 2024
 
