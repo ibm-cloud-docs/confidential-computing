@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-14"
+lastupdated: "2024-05-20"
 
 keywords: blogs, videos, chronological
 
@@ -22,6 +22,8 @@ The blogs and videos are listed in the chronological order.
 {: #p-2024}
 
 * 2024-05-09: [Building Aadhaar Data Vault Solution on IBM LinuxONE](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/sandeep-batta/2024/05/09/aadhaar-data-vault-on-linuxone){: external}
+
+* 2024-05-06: [Run multiple OCI container workloads on IBM Hyper Protect Virtual Servers for VPC - Use Kubernetes Pod descriptors in a Hyper Protect Virtual Servers contract](https://developer.ibm.com/tutorials/awb-run-multiple-oci-container-workloads-on-hpvs-for-vpc/){: external}
 
 * 2024-04-29: [IBM Secure Execution for Linux support for Crypto Express adapters](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/nicolas-mding/2024/04/29/ibm-secure-execution-for-linux-crypto-support?communityKey=e7b7d299-8509-4572-8cf1-c1112684644f){: external}
 
