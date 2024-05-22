@@ -2,7 +2,8 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-20"
+
+lastupdated: "2024-05-22"
 
 keywords: 
 
@@ -46,7 +47,15 @@ Confidential Services Platform provides a list of scripts to help you speed up y
 
 The following list gives you an overview of the available samples. See the repo for the latest samples and the readme file of each sample for detailed instructions. 
 
-- `linuxone-vsi-automation-samples` - Ansible and Terraform examples for IBM Cloud LinuxONE and z/OS virtual server instances. 
+- `linuxone-vsi-automation-samples` - Ansible and Terraform examples for IBM Cloud LinuxONE and z/OS virtual server instances. The examples are:   
+  - `create-contract` - creates an encrypted and signed contract.
+  - `create-contract-dynamic-registry` - creates an encrypted and signed contract with a dynamic registry reference.
+  - `hello-world` - deploys the hello-world example as a Hyper Protect Virtual Server for VPC.
+  - `nginx-hello` - deploys the nginx-hello example as a Hyper Protect Virtual Server for VPC.
+  - `mongodb` - deploys three MongoDB instances on Hyper Protect Virtual Servers for VPC in three availability zones.
+  - `postgresql` - deploys a PostgreSQL instance on a Hyper Protect Virtual Server for VPC in a region.
+  - `postgresql-cluster` - deploys a PostgreSQL cluster on Hyper Protect Virtual Servers for VPC in given regions.
+  - `log-encryption` - encrypts selected log messages.
 - `paynow-website` - A node.js Express app serving the PayNow website, and the deployment instructions as a Hyper Protect Virtual Server.
 - `k8s-operator-hpcr` - Custom resources for managing Hyper Protect Virtual Servers in Kubernetes clusters.
 - `terraform-provider-hpcr` -  A terraform provider to support working with IBM Cloud Hyper Protect Virtual Server for IBM Cloud VPC.

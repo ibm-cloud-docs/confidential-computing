@@ -7,7 +7,7 @@ toc:
     audience: solution
     content-type: solution
     href: /docs/confidential-computing?topic=confidential-computing-about
-    product-page: https://www.ibm.com/cloud/confidential-computing
+    product-page: https://www.ibm.com/confidential-computing
     path: confidential-computing
     label: Confidential Computing in IBM
     description: Confidential computing protects applications and data while in use by keeping them encrypted all the time, even in memory, and only decrypting inside the processor.
