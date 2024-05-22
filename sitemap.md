@@ -19,11 +19,6 @@ subcollection: framework-financial-services
 Find what you are looking for in the topics that are available for Confidential Computing on IBM Cloud.
 {: shortdesc}
 
-
-
-
-
-
 ## Getting started with Confidential Computing
 {: #sitemap_getting_started_with_confidential_computing}
 
@@ -32,31 +27,23 @@ Find what you are looking for in the topics that are available for Confidential 
 
 * [IBM confidential computing strategy](/docs/confidential-computing?topic=confidential-computing-about#cc-ibm)
 
-* [Personas in the confidential computing](/docs/confidential-computing?topic=confidential-computing-about#cc-personas)
-
 
 ## Confidential Services Platform on IBM Z or LinuxONE
 {: #sitemap_confidential_services_platform_on_ibm_z_or_linuxone}
 
+[Overview of Confidential Services Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#hyper-protect-overview)
 
-[Hyper Protect Platform on IBM Z and LinuxONE](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#hyper-protect-overview)
+* [Secure Execution](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-se)
 
-* [Protection boundary in Hyper Protect](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#enclave-boundary)
+* [Separation of duties](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#feature-duty-separation)
 
 [Products in Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hyper-protect-products)
 
-* [Hyper Protect Container Runtime](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpcr)
-
-* [Hyper Protect Virtual Servers](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpvs)
-
-* [{{site.data.keyword.hscrypto}}](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpcs)
-
-* [Hyper Protect managed Add-on for Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#ikswhp)
+* [Hyper Protect Crypto Services](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hpcs)
 
 
 ## Release notes
 {: #sitemap_release_notes}
-
 
 [Release notes](/docs/confidential-computing?topic=confidential-computing-release-notes#release-notes)
 
@@ -67,16 +54,15 @@ Find what you are looking for in the topics that are available for Confidential 
 * [21 March 2024](/docs/confidential-computing?topic=confidential-computing-release-notes#21-march-2024)
 
 
-## Reference architecture overview on Hybrid Cloud
-{: #sitemap_reference_architecture_overview_on_hybrid_cloud}
+## Architecture in Hybrid cloud
+{: #sitemap_architecture_in_hybrid_cloud}
 
 
-[Reference architecture overview on Hybrid Cloud](/docs/confidential-computing?topic=confidential-computing-hybrid-cloud#hybrid-cloud)
+[Architecture in Hybrid cloud](/docs/confidential-computing?topic=confidential-computing-hybrid-cloud#hybrid-cloud)
 
 
 ## Use cases
 {: #sitemap_use_cases}
-
 
 [Secure Container Platform](/docs/confidential-computing?topic=confidential-computing-scp#scp)
 
@@ -88,10 +74,9 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Secure workload supply chain](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops)
 
-* [On cloud](/docs/confidential-computing?topic=confidential-computing-devsecops#on-cloud)
+* [Challenges](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-challenge)
 
-* [On-prem](/docs/confidential-computing?topic=confidential-computing-devsecops#on-prem)
-
+* [How can the Confidential Services Platform help?](/docs/confidential-computing?topic=confidential-computing-devsecops#devsecops-hp)
 
 ## Tutorials and examples
 {: #sitemap_tutorials_and_examples}
@@ -121,7 +106,6 @@ Find what you are looking for in the topics that are available for Confidential 
 ## FAQs for Confidential Computing in IBM
 {: #sitemap_faqs_for_confidential_computing_in_ibm}
 
-
 [FAQs for Confidential Computing in IBM](/docs/confidential-computing?topic=confidential-computing-cc#cc)
 
 * [What is IBM Confidential Services Platform?](/docs/confidential-computing?topic=confidential-computing-cc#cc-hps)
@@ -147,6 +131,7 @@ Find what you are looking for in the topics that are available for Confidential 
 * [Is there support for custom application OCI images within Hyper Protect Services?](/docs/confidential-computing?topic=confidential-computing-cc#oci)
 
 * [What considerations should be taken when deploying workloads in HPVS instances?](/docs/confidential-computing?topic=confidential-computing-cc#consideration)
+
 
 
 ## RedBook - Applying Data Protection and Confidentiality in a Hybrid Cloud Environment
