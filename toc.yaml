@@ -7,9 +7,9 @@ toc:
     audience: solution
     content-type: solution
     href: /docs/confidential-computing?topic=confidential-computing-about
-    product-page: https://www.ibm.com/cloud/confidential-computing
+    product-page: https://www.ibm.com/confidential-computing
     path: confidential-computing
-    label: Confidential Computing on IBM Cloud
+    label: Confidential Computing in IBM
     description: Confidential computing protects applications and data while in use by keeping them encrypted all the time, even in memory, and only decrypting inside the processor.
   entries:
   - navgroup:
@@ -17,34 +17,35 @@ toc:
       topics:
       - about.md
       - topicgroup:
-          label: Hyper Protect Platform
+          label: Confidential Services Platform on IBM Z or LinuxONE
           topics: 
           - s390x/hyper-protect-overview.md
-          - s390x/hyper-protect-concepts.md
           - s390x/hyper-protect-products.md
+      - release-notes.md
   - navgroup:
       id: architecture
       topics:
-      - architecture/oncloud.md
       - architecture/onhybrid.md
       - topicgroup:
           label: Use cases
-          topics:   
+          topics:  
+          - architecture/usecase-scp.md 
           - architecture/usecase-digital-assets.md
+          - architecture/usecase-confidential-ai.md
           - architecture/usecase-smpc.md
           - architecture/usecase-devsecops.md
-          - architecture/usecase-confidential-ai.md
-          - architecture/usecase-scp.md
-  - navgroup: 
-      id: tutorial
-      topics:  
-      - topic: tutorials/deploy-transaction-workload.md
-      - topic: tutorials/manage-via-terraform.md
-      - topic: tutorials/orchestrate-workloads.md
+      - tutorials/hp-examples.md
+      - tutorials/hp-blogs-videos.md
   - navgroup:
-      id: reference
+      id: help
       topics: 
       - adopting-cc.md
       - best-practices.md
       - faqs.md
+      - link:
+          label: RedBook - Applying Data Protection and Confidentiality in a Hybrid Cloud Environment
+          href: https://www.redbooks.ibm.com/redpieces/abstracts/sg248555.html
+      - link:
+          label: Whitepaper - The Second Generation of IBM Confidential Services Platform
+          href: https://www.ibm.com/downloads/cas/GPVMWPM3
       - sitemap.md

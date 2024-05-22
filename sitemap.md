@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2023, 2023
-lastupdated: "2023-09-15"
+  years: 2024
+lastupdated: "2024-05-22"
 
 keywords: 
 
@@ -35,21 +35,13 @@ Find what you are looking for in the topics that are available for Confidential 
 * [Personas in the confidential computing](/docs/confidential-computing?topic=confidential-computing-about#cc-personas)
 
 
-## Hyper Protect Platform
-{: #sitemap_hyper_protect_platform}
+## Confidential Services Platform on IBM Z or LinuxONE
+{: #sitemap_confidential_services_platform_on_ibm_z_or_linuxone}
 
 
 [Hyper Protect Platform on IBM Z and LinuxONE](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#hyper-protect-overview)
 
 * [Protection boundary in Hyper Protect](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview#enclave-boundary)
-
-[Concepts in Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-concepts#hyper-protect-concepts)
-
-* [Secure Execution](/docs/confidential-computing?topic=confidential-computing-hyper-protect-concepts#secure-execution)
-
-* [Contract](/docs/confidential-computing?topic=confidential-computing-hyper-protect-concepts#contract)
-
-* [Attestation](/docs/confidential-computing?topic=confidential-computing-hyper-protect-concepts#attestation)
 
 [Products in Hyper Protect Platform](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#hyper-protect-products)
 
@@ -62,11 +54,17 @@ Find what you are looking for in the topics that are available for Confidential 
 * [Hyper Protect managed Add-on for Kubernetes](/docs/confidential-computing?topic=confidential-computing-hyper-protect-products#ikswhp)
 
 
-## Reference architecture overview on IBM Cloud
-{: #sitemap_reference_architecture_overview_on_ibm_cloud}
+## Release notes
+{: #sitemap_release_notes}
 
 
-[Reference architecture overview on IBM Cloud](/docs/confidential-computing?topic=confidential-computing-public-cloud#public-cloud)
+[Release notes](/docs/confidential-computing?topic=confidential-computing-release-notes#release-notes)
+
+* [20 May 2024](/docs/confidential-computing?topic=confidential-computing-release-notes#20-may-2024)
+
+* [15 May 2024](/docs/confidential-computing?topic=confidential-computing-release-notes#15-may-2024)
+
+* [21 March 2024](/docs/confidential-computing?topic=confidential-computing-release-notes#21-march-2024)
 
 
 ## Reference architecture overview on Hybrid Cloud
@@ -80,7 +78,11 @@ Find what you are looking for in the topics that are available for Confidential 
 {: #sitemap_use_cases}
 
 
+[Secure Container Platform](/docs/confidential-computing?topic=confidential-computing-scp#scp)
+
 [Digital assets custody and governance](/docs/confidential-computing?topic=confidential-computing-digital-assets#digital-assets)
+
+[Confidential AI](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai)
 
 [Secure multi-party computation](/docs/confidential-computing?topic=confidential-computing-smpc#smpc)
 
@@ -90,30 +92,16 @@ Find what you are looking for in the topics that are available for Confidential 
 
 * [On-prem](/docs/confidential-computing?topic=confidential-computing-devsecops#on-prem)
 
-[Confidential AI](/docs/confidential-computing?topic=confidential-computing-conf-ai#conf-ai)
 
-[Secure Container Platform](/docs/confidential-computing?topic=confidential-computing-scp#scp)
-
-
-## Deploying transactional workloads with confidential computing capability
-{: #sitemap_deploying_transactional_workloads_with_confidential_computing_capability}
+## Tutorials and examples
+{: #sitemap_tutorials_and_examples}
 
 
-[Deploying transactional workloads with confidential computing capability](/docs/confidential-computing?topic=confidential-computing-deploy-workload#deploy-workload)
+[Tutorials and examples](/docs/confidential-computing?topic=confidential-computing-tutorial-example#tutorial-example)
 
+* [Tutorials](/docs/confidential-computing?topic=confidential-computing-tutorial-example#tutorial)
 
-## Managing confidential computing resources via terraform
-{: #sitemap_managing_confidential_computing_resources_via_terraform}
-
-
-[Managing confidential computing resources via terraform](/docs/confidential-computing?topic=confidential-computing-manage-terraform#manage-terraform)
-
-
-## Orchestrating cloud native workloads with confidential computing
-{: #sitemap_orchestrating_cloud_native_workloads_with_confidential_computing}
-
-
-[Orchestrating cloud native workloads with confidential computing](/docs/confidential-computing?topic=confidential-computing-orchestrate-workload#orchestrate-workload)
+* [Code examples](/docs/confidential-computing?topic=confidential-computing-tutorial-example#examples)
 
 
 ## Implementing Confidential Computing solutions
@@ -130,15 +118,45 @@ Find what you are looking for in the topics that are available for Confidential 
 [Best practices for confidential computing](/docs/confidential-computing?topic=confidential-computing-best-practices#best-practices)
 
 
-## FAQs for Confidential Computing
-{: #sitemap_faqs_for_confidential_computing}
+## FAQs for Confidential Computing in IBM
+{: #sitemap_faqs_for_confidential_computing_in_ibm}
 
 
-[FAQs for Confidential Computing](/docs/confidential-computing?topic=confidential-computing-faqs-cc#faqs-cc)
+[FAQs for Confidential Computing in IBM](/docs/confidential-computing?topic=confidential-computing-cc#cc)
 
-* [What is confidential computing?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#what-is-confidential-computing)
+* [What is IBM Confidential Services Platform?](/docs/confidential-computing?topic=confidential-computing-cc#cc-hps)
 
-* [What is zero trust?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#what-is-zero-trust)
+* [What is Confidential Computing, and how does it relate to Confidential Services Platform?](/docs/confidential-computing?topic=confidential-computing-cc#cc-hpp)
 
-* [What is the difference between Operation Assurance and Technical Assurance?](/docs/confidential-computing?topic=confidential-computing-faqs-cc#what-is-the-difference-between-operation-assurance-and-technical-assurance)
+* [What is Zero-Trust?](/docs/confidential-computing?topic=confidential-computing-cc#cc-zero-trust)
+
+* [What is the difference between Operation Assurance and Technical Assurance?](/docs/confidential-computing?topic=confidential-computing-cc#cc-operation-technical)
+
+* [What kind of technology underlies the Confidential Services Platform?](/docs/confidential-computing?topic=confidential-computing-cc#tech)
+
+* [How does Hyper Protect Crypto Service enhance security?](/docs/confidential-computing?topic=confidential-computing-cc#hpcs)
+
+* [Can Hyper Protect Services be integrated with a hybrid cloud strategy?](/docs/confidential-computing?topic=confidential-computing-cc#hb)
+
+* [What is the Hyper Protect Virtual Server, and what does it offer?](/docs/confidential-computing?topic=confidential-computing-cc#hpvs)
+
+* [How does the Hyper Protect Secure Build process work?](/docs/confidential-computing?topic=confidential-computing-cc#hpsb)
+
+* [What is cryptographic agility, and why is it important in Hyper Protect Services?](/docs/confidential-computing?topic=confidential-computing-cc#ca)
+
+* [Is there support for custom application OCI images within Hyper Protect Services?](/docs/confidential-computing?topic=confidential-computing-cc#oci)
+
+* [What considerations should be taken when deploying workloads in HPVS instances?](/docs/confidential-computing?topic=confidential-computing-cc#consideration)
+
+
+## RedBook - Applying Data Protection and Confidentiality in a Hybrid Cloud Environment
+{: #sitemap_redbook---applying-data-protection-and-confidentiality-in-a-hybrid-cloud-environment}
+
+[RedBook - Applying Data Protection and Confidentiality in a Hybrid Cloud Environment](https://www.redbooks.ibm.com/redpieces/abstracts/sg248555.html){: external}
+
+
+## Whitepaper - The Second Generation of IBM Confidential Services Platform
+{: #sitemap_whitepaper---the-second-generation-of-ibm-confidential-services-platform}
+
+[Whitepaper - The Second Generation of IBM Confidential Services Platform](https://www.ibm.com/downloads/cas/GPVMWPM3){: external}
 
