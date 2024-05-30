@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-20"
+lastupdated: "2024-05-30"
 
 keywords: blogs, videos, chronological
 
@@ -20,6 +20,8 @@ The blogs and videos are listed in the chronological order.
 
 ## Published in 2024
 {: #p-2024}
+
+* 2024-05-28: [Safeguard data confidentiality when implementing AI](https://developer.ibm.com/articles/awb-safeguard-data-confidentiality-when-implementing-ai/){: external}
 
 * 2024-05-09: [Building Aadhaar Data Vault Solution on IBM LinuxONE](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/sandeep-batta/2024/05/09/aadhaar-data-vault-on-linuxone){: external}
 
