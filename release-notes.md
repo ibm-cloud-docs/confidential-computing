@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-23"
+lastupdated: "2024-05-30"
 
 keywords: 
 
@@ -17,6 +17,13 @@ subcollection: confidential-computing
 
 Use the release notes to learn about the latest changes to the solution guide documentation for the Confidential Computing in IBM.
 {: shortdesc}
+
+
+## 28 May 2024
+{: #28-may-2024}
+
+* A new blog about _Safeguard data confidentiality when implementing AI_ is added to the [Blogs and videos](/docs/confidential-computing?topic=confidential-computing-blogs-videos).
+
 
 ## 20 May 2024
 {: #20-may-2024}
