@@ -22,7 +22,7 @@ Use the release notes to learn about the latest changes to the solution guide do
 ## 28 May 2024
 {: #28-may-2024}
 
-* A new blog about _Safeguard data confidentiality when implementing AI and hyper protect your systems with security services for cloud data and digital assets_ is added to the [Blogs and videos](/docs/confidential-computing?topic=confidential-computing-blogs-videos).
+* A new blog about _Safeguard data confidentiality when implementing AI_ is added to the [Blogs and videos](/docs/confidential-computing?topic=confidential-computing-blogs-videos).
 
 
 ## 20 May 2024
