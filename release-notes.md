@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-30"
+lastupdated: "2024-06-26"
 
 keywords: 
 
@@ -17,6 +17,12 @@ subcollection: confidential-computing
 
 Use the release notes to learn about the latest changes to the solution guide documentation for the Confidential Computing in IBM.
 {: shortdesc}
+
+
+## 26 Jun 2024
+{: #26-jun-2024}
+
+* A new blog about _how IBM Hyper Protect Services empowers RegTech Innovation_ and a video about _Confidential Computing with IBM LinuxONE_ are added to the [Blogs and videos](/docs/confidential-computing?topic=confidential-computing-blogs-videos).
 
 
 ## 28 May 2024
