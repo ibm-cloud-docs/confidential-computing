@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-06-25"
+lastupdated: "2024-06-26"
 
 keywords: blogs, videos, chronological
 
@@ -21,7 +21,9 @@ The blogs and videos are listed in the chronological order.
 ## Published in 2024
 {: #p-2024}
 
-* 2024-06-25: [Confidential Computing with IBM LinuxONE](https://mediacenter.ibm.com/media/Confidential%20Computing%20with%20IBM%20LinuxONE/1_atzkvjiq){: external}
+* 2024-06-25: [Video: Confidential Computing with IBM LinuxONE](https://mediacenter.ibm.com/media/Confidential%20Computing%20with%20IBM%20LinuxONE/1_atzkvjiq){: external}
+
+* 2024-06-17: [IBM Hyper Protect Services empowers RegTech Innovation: Know Your Network™](https://schwarzthal.tech/en/research/ibm-hyper-protect-services-empowers-regTech-innovation){: external}
 
 * 2024-05-28: [Safeguard data confidentiality when implementing AI](https://developer.ibm.com/articles/awb-safeguard-data-confidentiality-when-implementing-ai/){: external}
 
