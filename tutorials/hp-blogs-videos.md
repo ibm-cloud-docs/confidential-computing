@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-06-26"
+lastupdated: "2024-07-24"
 
 keywords: blogs, videos, chronological
 
@@ -114,7 +114,7 @@ The blogs and videos are listed in the chronological order.
 
 * 2020-04-20: [IBM Cloud Hyper Protect Crypto Services: Smart Card Support and 30-Day Free Offer](https://www.ibm.com/blog/announcement/ibm-cloud-hyper-protect-crypto-services-smart-card-support-and-30-day-free-offer/?mhsrc=ibmsearch_a&mhq=Hyper%20protect%20crypto%20services){: external}
 
-* 2020-02-20: [Deployment of a Data-Sensitive App on IBM Cloud](https://www.ibm.com/cloud/blog/deployment-of-a-data-sensitive-app-on-ibm-cloud){: external}
+* 2020-02-20: [Deployment of a Data-Sensitive App on IBM Cloud](https://www.ibm.com/blog/deployment-of-a-data-sensitive-app-on-ibm-cloud/){: external}
 
 * 2019-12-11: [Announcing IBM Cloud Hyper Protect Virtual Servers](https://www.ibm.com/blog/announcement/announcing-ibm-cloud-hyper-protect-virtual-servers/){: external}
 

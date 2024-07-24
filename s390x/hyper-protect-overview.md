@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-02-26"
+lastupdated: "2024-07-24"
 
 keywords: hyper protect, hyper protect services, Confidential Services Platform, kvm, s390x, overview, introduction
 
@@ -24,7 +24,7 @@ One of the key advantages of the Confidential Services Platform is its ability t
 ## Secure Execution
 {: #feature-se}
 
-The IBM Confidential Services Platform leverages [IBM Secure Execution for Linux technology](https://www.ibm.com/docs/en/linux-on-systems?topic=virtualization-introducing-secure-execution-linux){: external}, which is a hardware-based security technology and was introduced with the IBM z15® and IBM® LinuxONE III generation systems for Kernel Virtual Machines (KVM). It protects data of workloads that run in a KVM guest from being inspected or modified by the server environment. In particular, no hardware administrator, no KVM code, and no KVM administrator can access the data in a guest that was started as an IBM Secure Execution guest. Only the workload owner can access the workload and data. This means that no hardware administrator, KVM code, or KVM administrator can compromise the sanctity of the data, effectively isolating the workload from any external interference.
+The IBM Confidential Services Platform leverages [IBM Secure Execution for Linux technology](https://www.ibm.com/docs/en/linux-on-systems?topic=linux-introducing-secure-execution){: external}, which is a hardware-based security technology and was introduced with the IBM z15® and IBM® LinuxONE III generation systems for Kernel Virtual Machines (KVM). It protects data of workloads that run in a KVM guest from being inspected or modified by the server environment. In particular, no hardware administrator, no KVM code, and no KVM administrator can access the data in a guest that was started as an IBM Secure Execution guest. Only the workload owner can access the workload and data. This means that no hardware administrator, KVM code, or KVM administrator can compromise the sanctity of the data, effectively isolating the workload from any external interference.
 
 The Secure Execution for Linux is a continuation and expansion of well-known security features of IBM Z and LinuxONE, and is available as part of the following hardwares:
 
