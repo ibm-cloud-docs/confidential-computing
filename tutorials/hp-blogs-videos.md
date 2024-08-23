@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-07-24"
+lastupdated: "2024-08-23"
 
 keywords: blogs, videos, chronological
 
@@ -20,6 +20,8 @@ The blogs and videos are listed in the chronological order.
 
 ## Published in 2024
 {: #p-2024}
+
+* 2024-08-22: [Securing crown-jewel data with Hyper Protect Services and IBM LinuxONE](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/sadie-revercomb/2024/08/20/securing-crown-jewel-data-with-hyper-protect-servi){: external}
 
 * 2024-06-25: [Video: Confidential Computing with IBM LinuxONE](https://mediacenter.ibm.com/media/Confidential%20Computing%20with%20IBM%20LinuxONE/1_atzkvjiq){: external}
 
