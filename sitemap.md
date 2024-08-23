@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-07-24"
+lastupdated: "2024-08-23"
 
 keywords: 
 
@@ -62,7 +62,9 @@ Find what you are looking for in the topics that are available for Confidential 
 
 [Release notes](/docs/confidential-computing?topic=confidential-computing-release-notes#release-notes)
 
-* [26 Jun 2024](/docs/confidential-computing?topic=confidential-computing-release-notes#26-jun-2024)
+* [22 August 2024](/docs/confidential-computing?topic=confidential-computing-release-notes#22-aug-2024)
+
+* [26 June 2024](/docs/confidential-computing?topic=confidential-computing-release-notes#26-jun-2024)
 
 * [28 May 2024](/docs/confidential-computing?topic=confidential-computing-release-notes#28-may-2024)
 
