@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-05-15"
+lastupdated: "2024-10-09"
 
 keywords: confidential computing, what is confidential computing, IBM confidential computing, IBM Cloud confidential computing
 
@@ -18,7 +18,7 @@ subcollection: confidential-computing
 Confidential computing (CC) protects applications and data while in use by keeping them encrypted all the time, even in memory, and only decrypting inside the processor, which is also known as Trusted Execution Environment (TEE). The decryption keys are known only to the application/data owner and the processor. This way, even a compromised operating system or hypervisor can’t peek into the application or steal any sensitive data. Confidential computing is critical for cloud deployments, but also for edge deployments where such devices can be easily compromised or stolen. It’s also important for AI data processing where data needs to be shared (such as federated learning) but the data owners don’t trust the infrastructure where data needs to be jointly processed.
 {: shortdesc}
 
-![What is confidential computing](images/what-is-cc.jpg){: caption="Figure 1. What is confidential computing" caption-side="bottom"}
+![What is confidential computing](../images/what-is-cc.jpg){: caption="What is confidential computing" caption-side="bottom"}
 
 As defined by the [Confidential Computing Consortium](https://confidentialcomputing.io/wp-content/uploads/sites/85/2021/03/confidentialcomputing_outreach_whitepaper-8-5x11-1.pdf){: external}, Confidential Computing has the following key characteristics: 
 
@@ -31,7 +31,7 @@ As defined by the [Confidential Computing Consortium](https://confidentialcomput
 
 IBM confidential computing strategy focuses on providing secure and trusted computing environments that protect sensitive data and workloads throughout their lifecycle. It aims to address concerns related to data privacy, security, and compliance in cloud, hybrid cloud, and edge computing environments with technical assurance rather than operation assurance.
 
-![Technical assurance](images/technical-assurance.png){: caption="Figure 2. Technical assurance vs. Operational assurance" caption-side="bottom"}
+![Technical assurance](../images/technical-assurance.png){: caption="Technical assurance vs. Operational assurance" caption-side="bottom"}
 
 IBM's confidential computing strategy encompasses the following key elements:
 

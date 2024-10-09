@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-02-26"
+lastupdated: "2024-10-09"
 
 keywords: ai, generative ai, ai model, confidential ai
 
@@ -30,7 +30,7 @@ The Confidential Services Platform can protect AI processes, like training, test
 
 The following diagram illustrates an example of a complete end-to-end flow for securely transcribing from a recording source and processing transcription, all within a confidential computing environment with boundaries of protection around all the important components.
 
-![AI use case example](../images/updated-ai-use-case.svg "AI use case example"){: caption="Figure 1. AI use case example" caption-side="bottom"}
+![AI use case example](../images/updated-ai-use-case.svg "AI use case example"){: caption="AI use case example" caption-side="bottom"}
 
 In this example, with Hyper Protect Services, you benefit from the following aspects:
 

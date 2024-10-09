@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-07-24"
+lastupdated: "2024-10-09"
 
 keywords: hyper protect, hyper protect services, Confidential Services Platform, kvm, s390x, overview, introduction
 
@@ -33,11 +33,11 @@ The Secure Execution for Linux is a continuation and expansion of well-known sec
 
 The Ultravisor, a trusted firmware component within the IBM Z and LinuxONE, enforces memory protection and facilitates the secure transfer of sensitive information. It allows the owner of a KVM guest to securely pass secret information to the Ultravisor using the public host key, which is part of the host key document. This document functions similarly to a certificate, with IBM acting as the trusted third party to verify its authenticity.
 
-![Secure Execution for Linux](../images/updated-secure-execution.svg){: caption="Figure 1. IBM Secure Execution for Linux" caption-side="bottom"}
+![Secure Execution for Linux](../images/updated-secure-execution.svg){: caption="IBM Secure Execution for Linux" caption-side="bottom"}
 
 To process the secret information, the Ultravisor uses the matching private host key to run the workload in the secure-execution mode. The following diagram shows a simplified view of the keys that are involved in all stages of securing the workload. The private host key is specific to an IBM Z or LinuxONE server and is hardware protected. 
 
-![Securing the workload](../images/updated-key-flow.svg){: caption="Figure 2. Securing the workload" caption-side="bottom"}
+![Securing the workload](../images/updated-key-flow.svg){: caption="Securing the workload" caption-side="bottom"}
 
 When you start a KVM guest or deploy a workload in IBM Secure Execution mode, the boot image, guest memory, and guest state are all protected against being observed or modified by the hosting environment. Across its entire lifecycle, such a guest has its confidentiality and integrity protected, from the moment the image is built, through the boot process and the running of the virtual server, until its termination.
 
@@ -84,7 +84,7 @@ The contract is essential for the workload lifecycle within the secure execution
 
 Each version of HPCR comes with an intermediate certificates with a defined expiry date, and the interim cetificate acts as a link to ensure the contract's encryption or decryption is backed by a trusted source, providing assurance to all parties involved that the encrypted data can be trusted and is secure.
 
-![Contract mechanism](../images/updated-contract.svg){: caption="Figure 3. Contract mechanism" caption-side="bottom"}
+![Contract mechanism](../images/updated-contract.svg){: caption="Contract mechanism" caption-side="bottom"}
 
 
 The encryption of the contract is carried out using the public X509 certificate associated with the Contract Encryption public key and signed by the interim certificate of the HPCR. This public key is published by IBM, allowing any persona to validate it independently of the system that uses it, ensuring the trustworthiness of the encryption mechanism.
@@ -100,7 +100,7 @@ Attestation is the evidence that the KVM guest runs in secure execution environm
 
 The attestation record is signed using an attestation signing key. This key, in turn, is verified by the intermediate certificate of each version of HPCR to ensure the attestation record is authenticated and trustworthy by the firmware, also known as the Ultravisor.
 
-![Attestation process](../images/updated-attestation-process.svg){: caption="Figure 4. Attestation process" caption-side="bottom"}
+![Attestation process](../images/updated-attestation-process.svg){: caption="Attestation process" caption-side="bottom"}
 
 Reasons for IBM Secure Execution attestation include auditing, image personalization, and aligning with other confidential computing architectures. The following examples illustrate possible uses of attestation:
 

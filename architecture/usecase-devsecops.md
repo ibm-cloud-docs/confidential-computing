@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-02-26"
+lastupdated: "2024-10-09"
 
 keywords: secure build, ci/cd, supply chain
 
@@ -23,7 +23,7 @@ Whether you are building a cloud-native application, or on an application modern
 
 As the workload supply chain comprises multiple stages from produce to deliver, data and code are transferred in each stage. How can you protect them from unauthorized access and malicious tampering during the entire process? 
 
-![Workload supply chain challenge](../images/supply-chain-challenge.png){: caption="Figure 1. Workload supply chain challenge" caption-side="bottom"}
+![Workload supply chain challenge](../images/supply-chain-challenge.png){: caption="Workload supply chain challenge" caption-side="bottom"}
 
 Although [Supply-chain Levels for Software Artifacts (SLSA)](https://slsa.dev/){: external} has established a security framework for enterprises to follow to improve integrity, secure packages, and mitigate threats, there are several areas still outside of SLSA's current framework:
 
@@ -36,19 +36,19 @@ Although [Supply-chain Levels for Software Artifacts (SLSA)](https://slsa.dev/){
 
 By using Hyper Protect Secure Build technology, a trusted container image can be built within a secure enclave that is provided by IBM Hyper Protect Virtual Servers. The enclave is highly isolated, where developers can access the container only by using a specific API, and the cloud administrator cannot access the contents of the container. Therefore, the image that is built can be highly trusted. Specifically, the build server cryptographically signs the image and a manifest (which is a collection of materials that are used during the build, for audit purposes). Since the enclave protects the signing of keys within the enclave, the signatures can be used to verify whether the image and manifest files are from the Hyper Protect Secure Build and not elsewhere. The following diagram illustrates the secure build process:
 
-![Secure build with Hyper Protect](../images/securebuild-workflow.png){: caption="Figure 1. Secure Build with Hyper Protect" caption-side="bottom"}
+![Secure build with Hyper Protect](../images/securebuild-workflow.png){: caption="Secure Build with Hyper Protect" caption-side="bottom"}
 
 You can refer to the following architectures to use Secure Build either on the cloud or premises:
 
 ### On the cloud
 {: #devsecops-hp-on-cloud}
 
-![Secure build on IBM Cloud](../images/updated-sb-cloud.svg){: caption="Figure 1. Secure Build on IBM Cloud" caption-side="bottom"}
+![Secure build on IBM Cloud](../images/updated-sb-cloud.svg){: caption="Secure Build on IBM Cloud" caption-side="bottom"}
 
 ### On-prem
 {: #devsecops-hp-on-prem}
 
-![Secure build for on-premises](../images/updated-sb-prem.svg){: caption="Figure 1. Secure Build for on-premises" caption-side="bottom"}
+![Secure build for on-premises](../images/updated-sb-prem.svg){: caption="Secure Build for on-premises" caption-side="bottom"}
 
 With Hyper Protect Secure Build, you can also benefit from the following aspects:
 

@@ -2,7 +2,7 @@
 
 copyright:
   years: 2024
-lastupdated: "2024-01-22"
+lastupdated: "2024-10-09"
 
 keywords: hyper protect services, hpvs, hpcs, hpsb, hyper protect products
 
@@ -28,7 +28,7 @@ Additionally, cryptographic operations, such as key creation and signing, are pe
 
 The following figure illustrates the products portfolio and the enclave boundary for each product:
 
-![Hyper Protect products](../images/hyper-protect-platform-2.png){: caption="Figure 1. Hyper Protect products" caption-side="bottom"}
+![Hyper Protect products](../images/hyper-protect-platform-2.png){: caption="Hyper Protect products" caption-side="bottom"}
 
 ## Hyper Protect Virtual Servers
 {: #hpvs}
@@ -37,7 +37,7 @@ Hyper Protect Virtual Servers (HPVS) takes advantage of IBM Secure Execution for
 
 The following diagram illustrates the components that make up the Hyper Protect Virtual Server, which includes the Bootloader and Hyper Protect Services to validate the authenticity and trust of the workload.
 
-![Hyper Protect Virtual Server](../images/updated-hpvs-archi.svg){: caption="Figure 1. Hyper Protect Virtual Server" caption-side="bottom"}
+![Hyper Protect Virtual Server](../images/updated-hpvs-archi.svg){: caption="Hyper Protect Virtual Server" caption-side="bottom"}
 
 HPVS offers different distributions so that you can protect your mission-critical workload either on pubic cloud or in your own IBM Z or LinuxONE servers. The following table shows the comparison of key capabilities between the public cloud distribution and the on-premises distribution. For more details, see [IBM Hyper Protect Virtual Servers for VPC on IBM Cloud](/docs/vpc?topic=vpc-about-se){: external} and [IBM Hyper Protect Virtual Services documentation](https://www.ibm.com/docs/en/hpvs/2.1.x){: external}.
 
@@ -53,7 +53,7 @@ HPVS offers different distributions so that you can protect your mission-critica
 | Scalability	| Offers various profile sizes and the ability to grow as needed to protect containerized applications with a pay-as-you-go model. | 	Not explicitly mentioned in the documents provided. | 
 | Managed Service Offering | 	Deployment of services happens automatically as part of the managed-service offering in the IBM Cloud. |	The Infrastructure/System admin must ensure proper system configuration and enablement of Secure Execution. |
 | Resource Provisioning |	Can provision HPVS for VPC from the IBM Cloud portal or using the IBM Cloud CLI, with Secure Execution Profile selection. |	Requires verifying hardware and enabling IBM Secure Execution technology, along with installation and configuration steps for LPAR with KVM. |
-{: caption="Table 1. Comparison of HPVS for VPC and on-premises" caption-side="bottom"}
+{: caption="Comparison of HPVS for VPC and on-premises" caption-side="bottom"}
 
 
 ## Hyper Protect Secure Build
@@ -67,7 +67,7 @@ The HPSB can be used to securely build source code from a GitHub repository, pub
 The following diagram shows how you interact with Hyper Protect Secure Build to build and deploy your container image. For more information, see [IBM Hyper Protect Secure Build](https://github.com/ibm-hyper-protect/secure-build-cli){: external}.
 
 
-![Hyper Protect Secure Build](../images/updated-sb-archi.svg){: caption="Figure 2. Hyper Protect Secure Build" caption-side="bottom"}
+![Hyper Protect Secure Build](../images/updated-sb-archi.svg){: caption="Hyper Protect Secure Build" caption-side="bottom"}
 
 
 ## Hyper Protect Crypto Services
@@ -77,7 +77,7 @@ The following diagram shows how you interact with Hyper Protect Secure Build to 
 
 The following architecture diagram shows how you interact with Hyper Protect Crypto Services components to protect your sensitive data and keys.
 
-![HPCS architecture components](../images/hs-crypto-components-uko.svg "HPCS architecture components"){: caption="Figure 1. Interaction with {{site.data.keyword.hscrypto}} components" caption-side="bottom"}
+![HPCS architecture components](../images/hs-crypto-components-uko.svg "HPCS architecture components"){: caption="Interaction with {{site.data.keyword.hscrypto}} components" caption-side="bottom"}
 
 {{site.data.keyword.uko_full_notm}} mainly provides the following features:
 
@@ -86,4 +86,4 @@ The following architecture diagram shows how you interact with Hyper Protect Cry
 | Key Management Service (KMS) |  Generate and manage encryption keys.   | - [Monitoring the lifecycle of encryption keys](/docs/hs-crypto?topic=hs-crypto-uko-key-states){: external} \n - [Key management service API reference](/apidocs/hs-crypto){: external}   |
 | Universal Key Orchestration (UKO)  |   Manage internal and external keys across multiple clouds from a single pane of glass.  |  - [UKO introduction](/docs/hs-crypto?topic=hs-crypto-uko-overview){: external} \n - [UKO tutorial](/docs/hs-crypto?topic=hs-crypto-tutorial-uko-satellite){: external} \n - [UKO API reference](/apidocs/uko){: external} |
 | Hardware Security Module (HSM) | Perform cryptographic operations with FIPS 140-2 level 4 certified HSMs on cloud. | - [PKCS #11 API reference](/docs/hs-crypto?topic=hs-crypto-pkcs11-api-ref){: external} \n - [GREP 11 API reference](/docs/hs-crypto?topic=hs-crypto-grep11-api-ref){: external}   |
-{: caption="Table 1. Major features in Hyper Protect Crypto Service" caption-side="bottom"}
+{: caption="Major features in Hyper Protect Crypto Service" caption-side="bottom"}
