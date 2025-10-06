@@ -18,7 +18,7 @@ toc:
       - about.md
       - topicgroup:
           label: Confidential Services Platform on IBM Z or LinuxONE
-          topics: 
+          topics:
           - s390x/hyper-protect-overview.md
           - s390x/hyper-protect-products.md
       - release-notes.md
@@ -28,8 +28,8 @@ toc:
       - architecture/onhybrid.md
       - topicgroup:
           label: Use cases
-          topics:  
-          - architecture/usecase-scp.md 
+          topics:
+          - architecture/usecase-scp.md
           - architecture/usecase-digital-assets.md
           - architecture/usecase-confidential-ai.md
           - architecture/usecase-smpc.md
@@ -38,7 +38,7 @@ toc:
       - tutorials/hp-blogs-videos.md
   - navgroup:
       id: help
-      topics: 
+      topics:
       - adopting-cc.md
       - best-practices.md
       - faqs.md

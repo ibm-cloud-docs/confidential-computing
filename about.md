@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-10-09"
+  years: 2025
+lastupdated: "2025-10-06"
 
 keywords: confidential computing, what is confidential computing, IBM confidential computing, IBM Cloud confidential computing
 
@@ -15,7 +15,7 @@ subcollection: confidential-computing
 # Getting started with Confidential Computing
 {: #about}
 
-Confidential computing (CC) protects applications and data while in use by keeping them encrypted all the time, even in memory, and only decrypting inside the processor, which is also known as Trusted Execution Environment (TEE). The decryption keys are known only to the application/data owner and the processor. This way, even a compromised operating system or hypervisor can’t peek into the application or steal any sensitive data. Confidential computing is critical for cloud deployments, but also for edge deployments where such devices can be easily compromised or stolen. It’s also important for AI data processing where data needs to be shared (such as federated learning) but the data owners don’t trust the infrastructure where data needs to be jointly processed.
+Confidential computing (CC) protects applications and data while in use by keeping them encrypted all the time, even in memory, and only decrypting inside the processor, which is also known as Trusted Execution Environment (TEE). The decryption keys are known only to the application/data owner and the processor. This way, even a compromised operating system, or hypervisor can’t peek into the application or steal any sensitive data. Confidential computing is critical for cloud deployments, but also for edge deployments where such devices can be easily compromised or stolen. It’s also important for AI data processing where data needs to be shared (such as federated learning) but the data owners don’t trust the infrastructure where data needs to be jointly processed.
 {: shortdesc}
 
 ![What is confidential computing](../images/what-is-cc.jpg){: caption="What is confidential computing" caption-side="bottom"}
@@ -29,7 +29,7 @@ As defined by the [Confidential Computing Consortium](https://confidentialcomput
 ## IBM confidential computing strategy
 {: #cc-ibm}
 
-IBM confidential computing strategy focuses on providing secure and trusted computing environments that protect sensitive data and workloads throughout their lifecycle. It aims to address concerns related to data privacy, security, and compliance in cloud, hybrid cloud, and edge computing environments with technical assurance rather than operation assurance.
+IBM confidential computing strategy focuses on providing secure and trusted computing environments that protect sensitive data and workloads throughout their lifecycle. It aims to address concerns that are related to data privacy, security, and compliance in cloud, hybrid cloud, and edge computing environments with technical assurance rather than operation assurance.
 
 ![Technical assurance](../images/technical-assurance.png){: caption="Technical assurance vs. Operational assurance" caption-side="bottom"}
 
@@ -45,7 +45,7 @@ IBM's confidential computing strategy encompasses the following key elements:
 
 - **Data Encryption and Protection**
 
-  IBM incorporates strong encryption mechanisms to safeguard data in transit and at rest. It includes solutions such as Confidential Services Platform, which provide encryption and key management capabilities to protect data in cloud environments.
+  IBM incorporates strong encryption mechanisms to safeguard data in transit and at rest. It includes solutions such as Confidential Services Platform, which provides encryption and key management capabilities to protect data in cloud environments.
 
 - **Confidential Containers**
 
@@ -57,7 +57,7 @@ IBM's confidential computing strategy encompasses the following key elements:
 
 - **Compliance and Standards**
 
-  IBM's confidential computing strategy takes into account various regulatory and compliance requirements. IBM aims to provide solutions that help organizations meet industry-specific regulations and standards while maintaining data privacy and security.
+  IBM's confidential computing strategy considers various regulatory and compliance requirements. IBM aims to provide solutions that help organizations meet industry-specific regulations and standards while maintaining data privacy and security.
 
 - **Cloud-Based Confidential Computing**
 
