@@ -48,34 +48,34 @@ The Confidential Services Platform supports separation of duty with predefined p
 
 - **Container Image Provider**
 
-  A workload can consist of one or more container images which in combination deliver an expected solution. To ensure the integrity of the solution we must be able to verify the individual container images which deliver the solution, and ensure supply chain integrity through this.
-  All container images used are expected to be built in a secure manner that reassures the Workload Provider of their supply chain integrity and provides a way to verify the appropriate container images are being deployed. This means a signature is securely established over the generated container image and the signature provides a means for a Workload Deployer Persona to establish trust in the container image being deployed.
+    A workload can consist of one or more container images which in combination deliver an expected solution. To ensure the integrity of the solution we must be able to verify the individual container images which deliver the solution, and ensure supply chain integrity through this.
+    All container images used are expected to be built in a secure manner that reassures the Workload Provider of their supply chain integrity and provides a way to verify the appropriate container images are being deployed. This means a signature is securely established over the generated container image and the signature provides a means for a Workload Deployer Persona to establish trust in the container image being deployed.
 
 - **Workload Provider Persona**
 
-  This may be the same persona as the Container Image Provider, but the workload may also combine container images from different sources. The workload provider persona defines the container(s) and environment requirements for the solution to be deployed. There is no trust given to allow any other persona to change the container images being used to provide the workload or to redefine the environment requirements specified by the workload provider.
+    This may be the same persona as the Container Image Provider, but the workload may also combine container images from different sources. The workload provider persona defines the container(s) and environment requirements for the solution to be deployed. There is no trust given to allow any other persona to change the container images being used to provide the workload or to redefine the environment requirements specified by the workload provider.
 
 - **Workload Deployer Persona**
 
-  This persona is responsible for deploying the workload using the (cloud) infrastructure available. The Workload Provider provides the encrypted workload contract section and identifies and communicates to the Workload Deployer the environment required to provide the workload to an end user. This allows the Workload Deployer to supplement the definition provided by the workload provider with instance/environment specific information (logging, storage, ans so on).
+    This persona is responsible for deploying the workload using the (cloud) infrastructure available. The Workload Provider provides the encrypted workload contract section and identifies and communicates to the Workload Deployer the environment required to provide the workload to an end user. This allows the Workload Deployer to supplement the definition provided by the workload provider with instance/environment specific information (logging, storage, ans so on).
 
-  The workload deployer is responsible for the service availability.  
+    The workload deployer is responsible for the service availability.  
 
-    * The workload deployer can control the networking, compute and storage resources made available to instance - can influence network traffic in and out of a provided workload.
-    * The workload deployer cannot change the workload to be deployed.
-    * The workload deployer cannot change the Workload Provider’ environment expectations.
+      * The workload deployer can control the networking, compute and storage resources made available to instance - can influence network traffic in and out of a provided workload.
+      * The workload deployer cannot change the workload to be deployed.
+      * The workload deployer cannot change the Workload Provider’ environment expectations.
 
-  If they do change the environment expectations, either the workload will not start, or the Auditor will not verify the environment when the workload is deployed.
+    If they do change the environment expectations, either the workload will not start, or the Auditor will not verify the environment when the workload is deployed.
 
 - **Auditor**
 
-  Since there is no “assumed” trust between the Workload Provider and other personas we must ensure at run time that the workload is not deployed in a manner which breaks the Workload Provider’s or the Workload Deployer’s expectations.
+    Since there is no “assumed” trust between the Workload Provider and other personas we must ensure at run time that the workload is not deployed in a manner which breaks the Workload Provider’s or the Workload Deployer’s expectations.
 
-  The Auditor is the persona with responsibility for verifying that a deployed workload is both the workload expected and deployed to the expected environment. They do this by obtaining and verifying a trusted attestation record at run time. The contents of this record can be verified against workload and environment expectations and details are covered in future section of this document.
+   The Auditor is the persona with responsibility for verifying that a deployed workload is both the workload expected and deployed to the expected environment. They do this by obtaining and verifying a trusted attestation record at run time. The contents of this record can be verified against workload and environment expectations and details are covered in future section of this document.
 
 - **Infrastructure/System Admin Persona**
 
-  This role includes the system (cloud) administrator of a compute, storage, and network or support persona of the infrastructure like a Site Reliability Engineer (SRE). They will have responsibility for the underlying hardware but must not be able to use the capabilities this role offers to access confidential data or subvert the workload providers definition of the workload and expected environment. The use of Secure Execution achieves this through protecting the memory used by the workload from all external access at run time, and the use of an encrypted Contract protects the intended workload and environment definitions at deployment time.
+    This role includes the system (cloud) administrator of a compute, storage, and network or support persona of the infrastructure like a Site Reliability Engineer (SRE). They will have responsibility for the underlying hardware but must not be able to use the capabilities this role offers to access confidential data or subvert the workload providers definition of the workload and expected environment. The use of Secure Execution achieves this through protecting the memory used by the workload from all external access at run time, and the use of an encrypted Contract protects the intended workload and environment definitions at deployment time.
 
 ## Contract mechanism
 {: #feature-contract}

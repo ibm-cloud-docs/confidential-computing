@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2024
-lastupdated: "2024-08-23"
+  years: 2025
+lastupdated: "2025-10-06"
 
 keywords: blogs, videos, chronological
 
@@ -124,7 +124,7 @@ The blogs and videos are listed in the chronological order.
 
 * 2019-11-05: [Announcing the Industry’s Highest Certified Data Protection Level for VMware Workloads in the Cloud](https://www.ibm.com/cloud/blog/announcements/highest-certified-data-protection-level-for-vmware-workloads-in-the-cloud){: external}
 
-* 2019-09-30: [Class of 2020: IBM Hyper Protect Accelerator powered by IBM LinuxONE ](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/melissa-sassi1/2019/09/30/class-of-2020-ibm-hyper-protect-accelerator-powere){: external}
+* 2019-09-30: [Class of 2020: IBM Hyper Protect Accelerator powered by IBM LinuxONE](https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/melissa-sassi1/2019/09/30/class-of-2020-ibm-hyper-protect-accelerator-powere){: external}
 
 * 2019-09-06: [IBM Cloud Object Storage Announces Integration with IBM Cloud Hyper Protect Crypto Services](https://www.ibm.com/blog/announcement/ibm-cloud-object-storage-announces-integration-with-ibm-cloud-hyper-protect-crypto-services/){: external}
 

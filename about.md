@@ -37,30 +37,30 @@ IBM's confidential computing strategy encompasses the following key elements:
 
 - **Hardware-Based Security**
 
-  IBM leverages hardware and firmware security features to establish trusted execution environments (TEEs). These TEEs create isolated enclaves where sensitive data and computations can be securely processed, ensuring confidentiality and integrity.
+    IBM leverages hardware and firmware security features to establish trusted execution environments (TEEs). These TEEs create isolated enclaves where sensitive data and computations can be securely processed, ensuring confidentiality and integrity.
 
 - **Secure Enclaves and Isolation**
 
-  IBM employs secure enclaves to isolate sensitive workloads, applications, and data from the underlying infrastructure and other untrusted components. This isolation prevents unauthorized access and tampering, even by privileged users or compromised systems.
+    IBM employs secure enclaves to isolate sensitive workloads, applications, and data from the underlying infrastructure and other untrusted components. This isolation prevents unauthorized access and tampering, even by privileged users or compromised systems.
 
 - **Data Encryption and Protection**
 
-  IBM incorporates strong encryption mechanisms to safeguard data in transit and at rest. It includes solutions such as Confidential Services Platform, which provides encryption and key management capabilities to protect data in cloud environments.
+   IBM incorporates strong encryption mechanisms to safeguard data in transit and at rest. It includes solutions such as Confidential Services Platform, which provides encryption and key management capabilities to protect data in cloud environments.
 
 - **Confidential Containers**
 
-  IBM offers technologies such as Hyper Protect Container Runtime to enable the secure execution of containerized applications. By leveraging hardware-based security features, confidential containers protect sensitive workloads and data within containers, even in shared or untrusted environments.
+   IBM offers technologies such as Hyper Protect Container Runtime to enable the secure execution of containerized applications. By leveraging hardware-based security features, confidential containers protect sensitive workloads and data within containers, even in shared or untrusted environments.
 
 - **Trusted Execution and Attestation**
 
-  IBM incorporates mechanisms for attestation and verification of trusted execution environments. This ensures the integrity of the enclave and verifies that it hasn't been compromised, establishing trust between different components in the system.
+    IBM incorporates mechanisms for attestation and verification of trusted execution environments. This ensures the integrity of the enclave and verifies that it hasn't been compromised, establishing trust between different components in the system.
 
 - **Compliance and Standards**
 
-  IBM's confidential computing strategy considers various regulatory and compliance requirements. IBM aims to provide solutions that help organizations meet industry-specific regulations and standards while maintaining data privacy and security.
+    IBM's confidential computing strategy considers various regulatory and compliance   requirements. IBM aims to provide solutions that help organizations meet industry-specific regulations and standards while maintaining data privacy and security.
 
 - **Cloud-Based Confidential Computing**
 
-  IBM provides confidential computing capabilities in its [Hyper Protect services](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview). These services enable organizations to leverage secure enclaves and confidential computing technologies in the cloud, providing a secure and compliant platform for sensitive workloads.
+    IBM provides confidential computing capabilities in its [Hyper Protect services](/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview). These services enable organizations to leverage secure enclaves and confidential computing technologies in the cloud, providing a secure and compliant platform for sensitive workloads.
 
 In a nut shell, IBM confidential computing strategy emphasizes the use of hardware-based security, secure enclaves, encryption, and isolation mechanisms to protect sensitive data and workloads with zero trust and technical assurance. By incorporating these elements into their offerings, IBM aims to provide organizations with secure and trusted environments that safeguard their data and maintain compliance in various computing scenarios.
