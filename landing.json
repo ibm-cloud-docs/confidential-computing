@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "title": "Confidential Computing in IBM",
+  "introduction": "Confidential computing (CC) protects applications and data while in use by keeping them encrypted all the time, even in memory, and only decrypting inside the processor, which is also known as Trusted Execution Environment (TEE).",
+  "product_page": "https://www.ibm.com/think/topics/confidential-computing?mhsrc=ibmsearch_a&mhq=confidential%20computing",
+  "console_page": "/infrastructure/overview",
+  "section_topics": {
+    "links": [
+      {
+        "title": "Getting started with Confidential Computing",
+        "href": "/docs/confidential-computing?topic=confidential-computing-about"
+      },
+      {
+        "title": "Overview of Confidential Services Platform",
+        "href": "/docs/confidential-computing?topic=confidential-computing-hyper-protect-overview"
+      },
+      {
+        "title": "Products in Confidential Services Platform",
+        "href": "/docs/confidential-computing?topic=confidential-computing-hyper-protect-products"
+      },
+      {
+        "title": "Architecture in Hybrid cloud",
+        "href": "/docs/confidential-computing?topic=confidential-computing-hybrid-cloud"
+      },
+      {
+        "title": "FAQs for Confidential Computing in IBM",
+        "href": "/docs/confidential-computing?topic=confidential-computing-cc"
+      }
+    ]
+  }
+}
