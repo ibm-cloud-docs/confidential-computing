@@ -2,7 +2,7 @@
 
 copyright:
   years: 2023, 2024
-lastupdated: "2024-02-26"
+lastupdated: "2024-10-09"
 
 keywords: digital asset, digital wallet, nft
 
@@ -32,7 +32,7 @@ To securely provide a Digital Assets Infrastructure, you can leverage features o
 
 The following diagram illustrates a common architecture to use Hyper Protect Services for digital asset solutions:
 
-![Hyper Protect Services for Digital Assets](../images/da.png){: caption="Figure 1. Using Hyper Protect Services for digital assets" caption-side="bottom"}
+![Hyper Protect Services for Digital Assets](../images/da.png){: caption="Using Hyper Protect Services for digital assets" caption-side="bottom"}
 
 - Key creation, key derivation, and further cryptographic operations like encryption and signing are processed by using Hyper Protect Crypto Services backed by IBM LinuxONE and FIPS 140-2 Level 4 certified hardware.
 - Cryptographic keys, access tokens, and digital wallets are kept inside the Hyper Protect Virtual Server instance and cannot be accessed even by privileged actors.
